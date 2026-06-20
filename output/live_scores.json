@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T18:52:37.435188+00:00",
+  "updated_at": "2026-06-20T19:23:12.840720+00:00",
   "match_count": 74,
   "matches": [
     {
@@ -14338,15 +14338,469 @@
       "away_flag": "https://flagcdn.com/w80/se.png",
       "home_score": "5",
       "away_score": "1",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "status": "FINISHED",
+      "minute": null,
       "date": "06/20/2026 12:00",
       "group": "F",
       "matchday": "2",
       "type": "group",
       "stadium": "NRG Stadium",
       "stadium_city": "Houston",
-      "stadium_id": "5"
+      "stadium_id": "5",
+      "stats": {
+        "possession": {
+          "home": 57,
+          "away": 43
+        },
+        "shots": {
+          "home": 7,
+          "away": 2
+        },
+        "shots_on_target": {
+          "home": 7,
+          "away": 1
+        },
+        "passes": {
+          "home": 358,
+          "away": 227
+        },
+        "pass_accuracy": {
+          "home": 81,
+          "away": 79
+        },
+        "xG": {
+          "home": 3.38,
+          "away": 0.58
+        },
+        "yellow_cards": {
+          "home": 3,
+          "away": 4
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 8,
+          "away": 18
+        },
+        "corners": {
+          "home": 7,
+          "away": 5
+        },
+        "offsides": {
+          "home": 2,
+          "away": 2
+        },
+        "tackles": {
+          "home": 20,
+          "away": 28
+        },
+        "interceptions": {
+          "home": 7,
+          "away": 6
+        }
+      },
+      "events": [
+        {
+          "minute": 14,
+          "type": "goal",
+          "team": "Netherlands",
+          "player": "Steven Bergwijn"
+        },
+        {
+          "minute": 22,
+          "type": "goal",
+          "team": "Netherlands",
+          "player": "Memphis Depay"
+        },
+        {
+          "minute": 33,
+          "type": "yellow_card",
+          "team": "Netherlands",
+          "player": "Cody Gakpo"
+        },
+        {
+          "minute": 34,
+          "type": "yellow_card",
+          "team": "Netherlands",
+          "player": "Frenkie de Jong"
+        },
+        {
+          "minute": 35,
+          "type": "goal",
+          "team": "Sweden",
+          "player": "Emil Forsberg"
+        },
+        {
+          "minute": 41,
+          "type": "yellow_card",
+          "team": "Netherlands",
+          "player": "Steven Bergwijn"
+        },
+        {
+          "minute": 41,
+          "type": "yellow_card",
+          "team": "Sweden",
+          "player": "Robin Olsen"
+        },
+        {
+          "minute": 51,
+          "type": "goal",
+          "team": "Netherlands",
+          "player": "Memphis Depay"
+        },
+        {
+          "minute": 53,
+          "type": "goal",
+          "team": "Netherlands",
+          "player": "Davy Klaassen"
+        },
+        {
+          "minute": 68,
+          "type": "goal",
+          "team": "Netherlands",
+          "player": "Davy Klaassen"
+        },
+        {
+          "minute": 90,
+          "type": "yellow_card",
+          "team": "Sweden",
+          "player": "Filip Helander"
+        }
+      ],
+      "players": [
+        {
+          "team": "Netherlands",
+          "number": 1,
+          "name": "Justin Bijlow",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 22,
+          "pass_accuracy": 92,
+          "tackles": 1,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Netherlands",
+          "number": 2,
+          "name": "Daley Blind",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 1,
+          "passes": 26,
+          "pass_accuracy": 80,
+          "tackles": 3,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Netherlands",
+          "number": 3,
+          "name": "Virgil van Dijk",
+          "position": "CB",
+          "minutes": 80,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 56,
+          "pass_accuracy": 78,
+          "tackles": 0,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Netherlands",
+          "number": 4,
+          "name": "Nathan Aké",
+          "position": "CB",
+          "minutes": 80,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 51,
+          "pass_accuracy": 91,
+          "tackles": 3,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Netherlands",
+          "number": 5,
+          "name": "Denzel Dumfries",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 50,
+          "pass_accuracy": 89,
+          "tackles": 4,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Netherlands",
+          "number": 6,
+          "name": "Frenkie de Jong",
+          "position": "CM",
+          "minutes": 70,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 53,
+          "pass_accuracy": 78,
+          "tackles": 5,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Netherlands",
+          "number": 7,
+          "name": "Davy Klaassen",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 42,
+          "pass_accuracy": 75,
+          "tackles": 5,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Netherlands",
+          "number": 8,
+          "name": "Cody Gakpo",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 3,
+          "passes": 43,
+          "pass_accuracy": 89,
+          "tackles": 1,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Netherlands",
+          "number": 9,
+          "name": "Memphis Depay",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 23,
+          "pass_accuracy": 88,
+          "tackles": 1,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Netherlands",
+          "number": 10,
+          "name": "Steven Bergwijn",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 3,
+          "passes": 39,
+          "pass_accuracy": 75,
+          "tackles": 2,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "Netherlands",
+          "number": 11,
+          "name": "Wout Weghorst",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 0,
+          "passes": 41,
+          "pass_accuracy": 70,
+          "tackles": 2,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Sweden",
+          "number": 1,
+          "name": "Robin Olsen",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 14,
+          "pass_accuracy": 77,
+          "tackles": 1,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Sweden",
+          "number": 2,
+          "name": "Victor Lindelöf",
+          "position": "LB",
+          "minutes": 86,
+          "goals": 0,
+          "assists": 1,
+          "shots": 3,
+          "passes": 45,
+          "pass_accuracy": 79,
+          "tackles": 1,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Sweden",
+          "number": 3,
+          "name": "Marcus Danielson",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 24,
+          "pass_accuracy": 80,
+          "tackles": 4,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Sweden",
+          "number": 4,
+          "name": "Filip Helander",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 26,
+          "pass_accuracy": 74,
+          "tackles": 0,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Sweden",
+          "number": 5,
+          "name": "Ludwig Augustinsson",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 33,
+          "pass_accuracy": 87,
+          "tackles": 1,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Sweden",
+          "number": 6,
+          "name": "Sebastian Larsson",
+          "position": "CM",
+          "minutes": 82,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 35,
+          "pass_accuracy": 74,
+          "tackles": 4,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Sweden",
+          "number": 7,
+          "name": "Albin Ekdal",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 0,
+          "passes": 46,
+          "pass_accuracy": 76,
+          "tackles": 0,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Sweden",
+          "number": 8,
+          "name": "Emil Forsberg",
+          "position": "LW",
+          "minutes": 67,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 57,
+          "pass_accuracy": 85,
+          "tackles": 1,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Sweden",
+          "number": 9,
+          "name": "Alexander Isak",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 32,
+          "pass_accuracy": 94,
+          "tackles": 1,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Sweden",
+          "number": 10,
+          "name": "Robin Quaison",
+          "position": "ST",
+          "minutes": 75,
+          "goals": 1,
+          "assists": 0,
+          "shots": 1,
+          "passes": 27,
+          "pass_accuracy": 87,
+          "tackles": 0,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Sweden",
+          "number": 11,
+          "name": "Viktor Gyökeres",
+          "position": "ST",
+          "minutes": 66,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 25,
+          "pass_accuracy": 78,
+          "tackles": 1,
+          "rating": 7.2,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "36",
