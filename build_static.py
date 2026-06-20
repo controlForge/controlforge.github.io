@@ -280,7 +280,9 @@ if _css_match:
 def page(title, body, page_id="home"):
     return f"""<!DOCTYPE html><html lang="en"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{esc(title)}</title><style>{CSS}</style></head><body>
+<title>{esc(title)}</title>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3664033881184517" crossorigin="anonymous"></script>
+<style>{CSS}</style></head><body>
 <div class="topbar"><div class="topbar-in">
   <a href="/" class="logo">WC26</a>
   <button class="hamburger" id="hamburger" onclick="var n=document.querySelector('.nav');n.classList.toggle('open');this.classList.toggle('open')"><span></span><span></span><span></button>
@@ -322,7 +324,7 @@ def match_card(m):
 
 def adsense(slot_id, css_class=""):
     return f'''<div class="ad-slot {css_class}" id="{slot_id}">
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3664033881184517"
        data-ad-slot="YYYYYYYYYY" data-ad-format="auto" data-full-width-responsive="true"></ins>
   <script>(adsbygoogle=window.adsbygoogle||[]).push({{}});</script>
 </div>'''
