@@ -1,0 +1,250 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WC26 Hub — World Cup 2026 Live Scores, Standings &amp; Stats</title><style>
+:root{--bg:#0a0a0a;--bg2:#111;--card:#1a1a1a;--border:#333;--text:#eee;--text2:#888;--ng:#39ff14;--np:#ff00ff;--nb:#00f0ff;--ny:#ffee00;--nr:#ff3333}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Courier New',Courier,monospace;background:var(--bg);color:var(--text);line-height:1.5;cursor:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'><text y='18' font-size='18'>⚽</text></svg>") 12 12,auto}
+a{color:inherit;text-decoration:none}
+::selection{background:var(--ng);color:#000}
+::-webkit-scrollbar{width:8px}::-webkit-scrollbar-track{background:var(--bg)}::-webkit-scrollbar-thumb{background:var(--ng);border-radius:4px}
+.shell{max-width:1200px;margin:0 auto;padding:0 20px}
+.topbar{position:sticky;top:0;z-index:50;background:rgba(10,10,10,.95);border-bottom:2px dashed var(--border)}
+.topbar-in{display:flex;align-items:center;justify-content:space-between;height:52px;max-width:1200px;margin:0 auto;padding:0 20px}
+.logo{font-size:.75rem;color:var(--ng);text-shadow:0 0 8px var(--ng),0 0 20px rgba(57,255,20,.3);animation:lp 2s ease-in-out infinite}
+@keyframes lp{0%,100%{text-shadow:0 0 8px var(--ng),0 0 20px rgba(57,255,20,.3)}50%{text-shadow:0 0 16px var(--ng),0 0 40px rgba(57,255,20,.5),0 0 60px rgba(57,255,20,.2)}}
+.nav{display:flex;gap:4px}.nav a{padding:6px 12px;border-radius:4px;font-size:.65rem;font-weight:700;color:var(--text2);border:1px solid transparent;transition:all .15s}
+.nav a:hover{border-color:var(--ng);color:var(--ng)}.nav a.on{background:var(--ng);color:#000;box-shadow:0 0 10px var(--ng)}
+.pitch-hero{margin:20px auto;border-radius:12px;overflow:hidden;position:relative;border:2px dashed var(--border);width:100%;max-height:360px;aspect-ratio:2.2/1}
+.pitch-hero canvas{width:100%;height:100%;display:block}
+.pitch-overlay{position:absolute;top:0;left:0;right:0;bottom:0;background:linear-gradient(180deg,rgba(0,0,0,.4) 0%,transparent 35%,transparent 65%,rgba(0,0,0,.6) 100%);display:flex;flex-direction:column;justify-content:flex-end;padding:20px 24px;pointer-events:none}
+.pitch-overlay h1{font-size:1rem;color:#fff;text-shadow:0 0 10px rgba(57,255,20,.5),2px 2px 0 #000;margin-bottom:6px}
+.pitch-overlay h1 span{color:var(--ng)}
+.pitch-overlay p{font-size:.75rem;color:rgba(255,255,255,.8);text-shadow:1px 1px 4px rgba(0,0,0,.8);max-width:400px}
+.pitch-badges{display:flex;gap:6px;margin-bottom:8px;flex-wrap:wrap}
+.pitch-badge{padding:3px 10px;border-radius:4px;font-size:.55rem;font-weight:700;text-transform:uppercase}
+.pitch-badge.g{background:var(--ng);color:#000}.pitch-badge.w{background:#fff;color:#000}
+.ticker{border:2px dashed var(--border);border-radius:8px;overflow:hidden;margin-bottom:20px;background:var(--bg2)}
+.ticker-label{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;background:var(--ng);color:#000;font-size:.55rem}
+.pulse{width:6px;height:6px;background:#000;border-radius:50%;animation:pulse 1s infinite}@keyframes pulse{0%,100%{opacity:1}50%{opacity:.2}}
+.ticker-track{display:flex;white-space:nowrap;font-size:.7rem;padding:8px 0;animation:ticker 30s linear infinite}.ticker-track:hover{animation-play-state:paused}
+@keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.ticker-item{padding:0 20px;color:var(--text2)}.ticker-item strong{color:var(--text)}.ticker-score{color:var(--ng);font-weight:700}
+.sect{font-size:.6rem;color:var(--nb);margin:24px 0 10px;display:flex;align-items:center;gap:8px}
+.sect::after{content:'';flex:1;height:1px;background:repeating-linear-gradient(90deg,var(--border) 0,var(--border) 4px,transparent 4px,transparent 8px)}
+.quick-nav{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:20px}
+.quick-nav a{background:var(--card);border:2px dashed var(--border);border-radius:8px;padding:14px;text-align:center;transition:all .15s}
+.quick-nav a:hover{border-color:var(--ng);box-shadow:0 0 15px rgba(57,255,20,.15);transform:translateY(-2px)}
+.quick-nav .icon{font-size:1.3rem;margin-bottom:4px}.quick-nav .lbl{font-size:.65rem;font-weight:700}
+.match-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:10px;margin-bottom:20px}
+.match-card{background:var(--card);border:2px dashed var(--border);border-radius:10px;padding:16px;transition:all .15s;position:relative;display:block;text-decoration:none;color:inherit}
+.match-card:hover{border-color:var(--ng);box-shadow:0 0 20px rgba(57,255,20,.1);transform:translateY(-2px)}
+.match-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.match-tag{display:inline-flex;align-items:center;gap:4px;padding:3px 8px;border-radius:4px;font-size:.55rem;font-weight:700;text-transform:uppercase}
+.tag-ft{background:rgba(57,255,20,.15);color:var(--ng)}.tag-live{background:rgba(255,51,51,.15);color:var(--nr);animation:lb 1s infinite}@keyframes lb{0%,100%{opacity:1}50%{opacity:.5}}
+.tag-sc{background:rgba(0,240,255,.1);color:var(--nb)}
+.match-meta{font-size:.6rem;color:var(--text2)}.match-teams{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:10px}
+.team-name{font-weight:700;font-size:.85rem}.match-score{font-size:1.1rem;text-align:center;min-width:60px}
+.match-foot{margin-top:8px;display:flex;gap:6px;flex-wrap:wrap}.stat-pill{font-size:.55rem;color:var(--text2);background:var(--bg2);border:1px solid var(--border);padding:2px 8px;border-radius:4px}
+.two-col{display:grid;grid-template-columns:2fr 1fr;gap:16px;margin-bottom:20px}
+.groups-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px}
+.group-card{background:var(--card);border:2px dashed var(--border);border-radius:8px;overflow:hidden}
+.group-head{padding:8px 12px;border-bottom:1px dashed var(--border);font-size:.5rem;color:var(--ng);display:flex;justify-content:space-between}
+.group-head span:last-child{color:var(--text2);font-size:.6rem}
+.group-table{width:100%}.group-table td{padding:7px 10px;font-size:.7rem;border-bottom:1px dashed rgba(51,51,51,.5)}.group-table tr:last-child td{border-bottom:0}
+.pos{display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;border-radius:3px;font-size:.55rem;font-weight:700}
+.pos-q{background:rgba(57,255,20,.15);color:var(--ng)}.pos-n{background:rgba(136,136,136,.1);color:var(--text2)}.pts{font-weight:700}
+.scorers{display:flex;flex-direction:column;gap:4px}
+.scorer{display:flex;align-items:center;gap:8px;background:var(--card);border:1px dashed var(--border);border-radius:6px;padding:8px 12px;transition:all .15s}
+.scorer:hover{border-color:var(--ny);transform:translateX(4px)}
+.scorer-rank{font-size:.5rem;color:var(--text2);min-width:18px}.scorer-rank.top{color:var(--ny)}
+.scorer-name{flex:1;font-size:.75rem;font-weight:700}.scorer-team{font-size:.6rem;color:var(--text2)}.scorer-goals{font-size:.65rem;color:var(--ng)}
+.stat-row{display:flex;align-items:center;gap:8px;margin-bottom:6px}
+.stat-val{font-size:.75rem;font-weight:700;min-width:30px;text-align:center}.stat-val.h{color:var(--ng)}.stat-val.a{color:var(--nb)}
+.stat-lbl{font-size:.55rem;color:var(--text2);text-transform:uppercase;text-align:center;flex:1}
+.stat-bar-row{display:flex;height:4px;gap:0;margin-bottom:10px}.stat-bar-h{height:100%;background:var(--ng);border-radius:2px 0 0 2px}.stat-bar-a{height:100%;background:var(--nb);border-radius:0 2px 2px 0}
+.match-detail{background:var(--card);border:2px dashed var(--border);border-radius:12px;padding:20px;margin-bottom:20px}
+.match-detail-header{text-align:center;padding-bottom:16px;border-bottom:1px dashed var(--border);margin-bottom:16px}
+.match-detail-header .teams{display:flex;align-items:center;justify-content:center;gap:20px}
+.match-detail-header .team-name{font-size:.8rem}
+.filter{display:flex;gap:6px;margin-bottom:12px;overflow-x:auto;padding-bottom:4px}
+.filter-btn{padding:5px 14px;border-radius:6px;border:1px solid var(--border);background:transparent;color:var(--text2);font-size:.65rem;font-weight:600;cursor:pointer;white-space:nowrap}
+.filter-btn.on{background:var(--ng);border-color:var(--ng);color:#000}
+.tabs{display:flex;gap:2px;margin-bottom:12px}
+.tab{padding:8px 16px;border-radius:6px 6px 0 0;font-size:.6rem;font-weight:700;color:var(--text2);cursor:pointer;border-bottom:2px solid transparent}
+.tab:hover{color:var(--text)}.tab.on{color:var(--ng);border-bottom-color:var(--ng)}
+.tab-body{display:none}.tab-body.active,.tab-body.open{display:block}
+.timeline{position:relative;padding-left:20px}.timeline::before{content:'';position:absolute;left:6px;top:0;bottom:0;width:2px;background:repeating-linear-gradient(180deg,var(--border) 0,var(--border) 4px,transparent 4px,transparent 8px)}
+.event{position:relative;margin-bottom:10px;display:flex;align-items:center;gap:8px}
+.event-dot{position:absolute;left:-18px;top:3px;width:10px;height:10px;border-radius:50%}
+.event-dot.goal{background:var(--ng);box-shadow:0 0 8px var(--ng)}.event-dot.yellow{background:var(--ny);box-shadow:0 0 8px var(--ny)}.event-dot.red{background:var(--nr);box-shadow:0 0 8px var(--nr)}
+.event-time{font-size:.65rem;font-weight:700;min-width:28px}.event-time.goal{color:var(--ng)}.event-time.yellow{color:var(--ny)}.event-time.red{color:var(--nr)}
+.event-player{font-size:.75rem;font-weight:600}.event-team{font-size:.6rem;color:var(--text2)}
+.player-table{width:100%}.player-table th{text-align:left;padding:5px 8px;font-size:.55rem;color:var(--text2);text-transform:uppercase;border-bottom:1px dashed var(--border)}
+.player-table td{padding:6px 8px;font-size:.7rem;border-bottom:1px dashed rgba(51,51,51,.3)}
+.rating{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:4px;font-size:.65rem;font-weight:700}
+.r-e{background:rgba(57,255,20,.15);color:var(--ng)}.r-g{background:rgba(255,238,0,.12);color:var(--ny)}.r-a{background:rgba(136,136,136,.1);color:var(--text2)}.r-p{background:rgba(255,51,51,.12);color:var(--nr)}
+.footer{border-top:2px dashed var(--border);padding:20px 0;text-align:center;font-size:.65rem;color:var(--text2);margin-top:40px}
+.hamburger{display:none;background:none;border:1px solid var(--border);border-radius:4px;padding:6px 10px;cursor:pointer;position:relative;width:36px;height:32px}
+.hamburger span{display:block;width:16px;height:2px;background:var(--text);position:absolute;left:9px;transition:all .25s ease}
+.hamburger span:nth-child(1){top:9px}.hamburger span:nth-child(2){top:15px}.hamburger span:nth-child(3){top:21px}
+.hamburger.open span:nth-child(1){top:15px;transform:rotate(45deg)}.hamburger.open span:nth-child(2){opacity:0}.hamburger.open span:nth-child(3){top:15px;transform:rotate(-45deg)}
+.ad-slot{margin:16px auto;border:2px dashed var(--border);border-radius:8px;padding:8px;text-align:center;min-height:90px;display:flex;align-items:center;justify-content:center;background:var(--bg2);position:relative;overflow:hidden}
+.ad-slot::before{content:'AD';position:absolute;top:4px;left:6px;font-size:.5rem;color:var(--text2);font-weight:700;letter-spacing:1px}
+.ad-slot::after{content:'AdSense Placeholder';font-size:.65rem;color:var(--text2);font-style:italic}
+.ad-slot iframe{width:100%;border:0}
+.ad-top{max-width:728px;min-height:90px}
+.ad-side{max-width:300px;min-height:250px;margin:0 auto}
+.ad-inline{max-width:468px;min-height:60px}
+.affiliate-rail{margin:16px auto;border:2px dashed var(--border);border-radius:10px;padding:14px;background:var(--bg2);position:relative;overflow:hidden}
+.affiliate-rail::before{content:'🛒 SHOP';position:absolute;top:4px;left:6px;font-size:.5rem;color:var(--ny);font-weight:700;letter-spacing:1px}
+.affiliate-rail .aff-title{font-size:.65rem;font-weight:700;color:var(--text);margin-bottom:10px;margin-top:2px}
+.affiliate-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:8px}
+.aff-card{background:var(--card);border:1px dashed var(--border);border-radius:8px;padding:10px;text-align:center;transition:all .15s;display:block;text-decoration:none;color:inherit}
+.aff-card:hover{border-color:var(--ny);box-shadow:0 0 12px rgba(255,238,0,.1);transform:translateY(-2px)}
+.aff-card .aff-icon{font-size:1.4rem;margin-bottom:4px}
+.aff-card .aff-name{font-size:.6rem;font-weight:700;margin-bottom:2px;line-height:1.2}
+.aff-card .aff-price{font-size:.65rem;color:var(--ny);font-weight:700}
+.aff-card .aff-badge{display:inline-block;padding:1px 6px;border-radius:3px;font-size:.45rem;font-weight:700;background:rgba(255,238,0,.12);color:var(--ny);margin-top:3px}
+.live-banner{display:block;margin:12px auto;border:2px solid var(--nr);border-radius:10px;overflow:hidden;text-decoration:none;color:inherit;animation:live-pulse 2s ease-in-out infinite}
+.live-banner:hover{box-shadow:0 0 20px rgba(255,51,51,.2)}
+@keyframes live-pulse{0%,100%{border-color:var(--nr)}50%{border-color:rgba(255,51,51,.4)}}
+.live-banner-in{display:flex;align-items:center;gap:12px;padding:12px 16px;background:linear-gradient(135deg,rgba(255,51,51,.08) 0%,transparent 60%)}
+.live-badge{display:inline-flex;align-items:center;gap:6px;padding:4px 12px;border-radius:4px;background:var(--nr);color:#fff;font-size:.6rem;font-weight:700;text-transform:uppercase;white-space:nowrap}
+.live-badge .pulse{width:6px;height:6px;background:#fff;border-radius:50%;animation:pulse 1s infinite}
+.live-teams{font-size:.85rem;font-weight:700;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.live-score{color:var(--nr);font-size:1rem}
+@media(max-width:768px){.ad-top{max-width:320px;min-height:50px}.ad-side{max-width:300px;minheight:100px}.affiliate-grid{grid-template-columns:repeat(2,1fr)}.live-banner-in{flex-direction:column;align-items:flex-start;gap:6px}.live-teams{font-size:.75rem}}
+</style></head><body>
+<div class="topbar"><div class="topbar-in">
+  <a href="/" class="logo">WC26</a>
+  <button class="hamburger" id="hamburger" onclick="var n=document.querySelector('.nav');n.classList.toggle('open');this.classList.toggle('open')"><span></span><span></span><span></button>
+  <nav class="nav">
+    <a href="/" class="on">▶ HOME</a>
+    <a href="/live.html" class="">▶ LIVE</a>
+    <a href="/standings.html" class="">▶ STANDINGS</a>
+    <a href="/stats.html" class="">▶ STATS</a>
+  </nav>
+</div></div>
+<div class="shell"><div class="pitch-hero">
+  <canvas id="pitch"></canvas>
+  <div class="pitch-overlay">
+    <div class="pitch-badges"><span class="pitch-badge g">FIFA WORLD CUP 2026</span><span class="pitch-badge w">USA · CANADA · MEXICO</span></div>
+    <h1>Turkey <span style="color:#fff">vs</span> Paraguay</h1>
+    <p><span class="match-time" data-utc="2026-06-20T03:00:00Z" title="Kickoff: Jun 20 · 07:00 GST">Jun 20 · 07:00 GST</span> · Live from the pitch — watch the teams pass and move in their zones.</p>
+  </div></div>
+<script>
+(function(){var c=document.getElementById('pitch'),ctx=c.getContext('2d');
+function resize(){c.width=c.offsetWidth*2;c.height=c.offsetHeight*2;ctx.scale(2,2);}
+resize();window.addEventListener('resize',resize);
+var W,H,ball={x:0,y:0,trail:[]},passT=0,lastTime=0,players=[],target=5,passCooldown=0,globalDashLock=0;
+var homeShirt='#e30a17',awayShirt='#d52b1e';
+function build(){W=c.offsetWidth;H=c.offsetHeight;var m=20;var halfW=(W-m*2)/2;var usableH=H-m*2;var colW=halfW/3;var rowH=usableH/2;
+function makePlayer(num,name,team,shirt,st,zxMin,zyMin,zxMax,zyMax,role){var cx=(zxMin+zxMax)/2,cy=(zyMin+zyMax)/2;return{zone:{xMin:zxMin,xMax:zxMax,yMin:zyMin,yMax:zyMax},x:cx,y:cy,r:10,shirt:shirt,text:st,num:num,name:name,team:team,role:role,seed:Math.random()*6,dash:0,dashTx:0,dashTy:0};}
+players=[];
+players.push(makePlayer(1,'Uğurcan Çakır','h',homeShirt,'#fff',m,m,m+colW*0.6,m+usableH,'GK'));
+players.push(makePlayer(2,'Zeki Çelik','h',homeShirt,'#fff',m+colW*0.5,m,m+colW*1.5,m+rowH,'DEF'));
+players.push(makePlayer(3,'Merih Demiral','h',homeShirt,'#fff',m+colW*0.5,m+rowH,m+colW*1.5,m+usableH,'DEF'));
+players.push(makePlayer(4,'Çağlar Söyüncü','h',homeShirt,'#fff',m+colW*1.5,m,m+colW*2.5,m+rowH,'MID'));
+players.push(makePlayer(5,'Ferdi Kadıoğlu','h',homeShirt,'#fff',m+colW*1.5,m+rowH,m+colW*2.5,m+usableH,'MID'));
+players.push(makePlayer(6,'Hakan Çalhanoğlu','h',homeShirt,'#fff',m+colW*1.2,m+rowH*0.3,m+colW*2.8,m+rowH*1.7,'FWD'));
+var ax=m+halfW;
+players.push(makePlayer(1,'Antony Silva','a',awayShirt,'#fff',ax+halfW-colW*0.6,m,ax+halfW,m+usableH,'GK'));
+players.push(makePlayer(2,'Alberto Espínola','a',awayShirt,'#fff',ax+halfW-colW*1.5,m,ax+halfW-colW*0.5,m+rowH,'DEF'));
+players.push(makePlayer(3,'Gustavo Gómez','a',awayShirt,'#fff',ax+halfW-colW*1.5,m+rowH,ax+halfW-colW*0.5,m+usableH,'DEF'));
+players.push(makePlayer(4,'Junior Alonso','a',awayShirt,'#fff',ax+colW*0.5,m,ax+colW*1.5,m+rowH,'MID'));
+players.push(makePlayer(5,'Santiago Arzamendia','a',awayShirt,'#fff',ax+colW*0.5,m+rowH,ax+colW*1.5,m+usableH,'MID'));
+players.push(makePlayer(6,'Mathías Villasanti','a',awayShirt,'#fff',ax+colW*0.2,m+rowH*0.3,ax+colW*1.8,m+rowH*1.7,'FWD'));
+ball.x=players[5].x;ball.y=players[5].y;ball.trail=[];}
+build();window.addEventListener('resize',build);
+function drawPitch(){ctx.fillStyle='#1a5c2a';ctx.fillRect(0,0,W,H);for(var i=0;i<W;i+=36){ctx.fillStyle=i%72===0?'#1c6b32':'#1a5c2a';ctx.fillRect(i,0,36,H);}ctx.strokeStyle='rgba(255,255,255,.1)';ctx.lineWidth=1.5;ctx.strokeRect(10,10,W-20,H-20);ctx.beginPath();ctx.moveTo(W/2,10);ctx.lineTo(W/2,H-10);ctx.stroke();ctx.beginPath();ctx.arc(W/2,H/2,40,0,Math.PI*2);ctx.stroke();ctx.fillStyle='rgba(255,255,250,.08)';ctx.beginPath();ctx.arc(W/2,H/2,3,0,Math.PI*2);ctx.fill();ctx.strokeRect(10,H/2-50,55,100);ctx.strokeRect(W-65,H/2-50,55,100);ctx.strokeStyle='rgba(255,255,255,.03)';ctx.lineWidth=1;ctx.setLineDash([3,6]);var m=20,halfW=(W-m*2)/2,usableH=H-m*2,colW=halfW/3,rowH=usableH/2;ctx.beginPath();ctx.moveTo(m+colW,m);ctx.lineTo(m+colW,m+usableH);ctx.stroke();ctx.beginPath();ctx.moveTo(m+colW*2,m);ctx.lineTo(m+colW*2,m+usableH);ctx.stroke();ctx.beginPath();ctx.moveTo(m,m+rowH);ctx.lineTo(m+halfW,m+rowH);ctx.stroke();ctx.beginPath();ctx.moveTo(m+halfW+colW,m);ctx.lineTo(m+halfW+colW,m+usableH);ctx.stroke();ctx.beginPath();ctx.moveTo(m+halfW+colW*2,m);ctx.lineTo(m+halfW+colW*2,m+usableH);ctx.stroke();ctx.beginPath();ctx.moveTo(m+halfW,m+rowH);ctx.lineTo(W-m,m+rowH);ctx.stroke();ctx.setLineDash([]);}
+function drawPlayer(p){if(p.dash>0){ctx.fillStyle=p.shirt;ctx.globalAlpha=.2;ctx.beginPath();ctx.arc(p.x-(p.dashTx-p.x)*.1,p.y-(p.dashTy-p.y)*.1,p.r*.85,0,Math.PI*2);ctx.fill();ctx.globalAlpha=1;}ctx.fillStyle='rgba(0,0,0,.15)';ctx.beginPath();ctx.ellipse(p.x,p.y+8,p.r*.5,3,0,0,Math.PI*2);ctx.fill();ctx.fillStyle=p.shirt;ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,Math.PI*2);ctx.fill();ctx.strokeStyle='rgba(255,255,250,.12)';ctx.lineWidth=.5;ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,Math.PI*2);ctx.stroke();ctx.fillStyle=p.text;ctx.font='bold 7px monospace';ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText(p.num,p.x,p.y);ctx.fillStyle='rgba(255,255,250,.4)';ctx.font='5.5px monospace';ctx.fillText(p.name,p.x,p.y+p.r+7);}
+function drawBall(){for(var i=0;i<ball.trail.length;i++){var a=i/ball.trail.length;ctx.fillStyle='rgba(255,255,250,'+a*.25+')';ctx.beginPath();ctx.arc(ball.trail[i].x,ball.trail[i].y,2.5*a,0,Math.PI*2);ctx.fill();}ctx.fillStyle='#fff';ctx.beginPath();ctx.arc(ball.x,ball.y,3.5,0,Math.PI*2);ctx.fill();ctx.strokeStyle='#222';ctx.lineWidth=.5;ctx.beginPath();ctx.arc(ball.x,ball.y,3.5,0,Math.PI*2);ctx.stroke();ctx.fillStyle='rgba(255,255,250,.06)';ctx.beginPath();ctx.arc(ball.x,ball.y,8,0,Math.PI*2);ctx.fill();}
+function update(dt){var frameMul=dt/16.67;passT+=frameMul;passCooldown=Math.max(0,passCooldown-frameMul);globalDashLock=Math.max(0,globalDashLock-frameMul);
+var tp=players[target];var bdx=tp.x-ball.x,bdy=tp.y-ball.y;var dist=Math.sqrt(bdx*bdx+bdy*bdy);
+var baseSpeed=W*0.0022*frameMul;var speedMul=dist<40?dist/40:1;var ballSpeed=baseSpeed*(.7+speedMul*.6);if(dist>3){ball.x+=bdx/dist*ballSpeed;ball.y+=bdy/dist*ballSpeed;}ball.trail.push({x:ball.x,y:ball.y});if(ball.trail.length>18)ball.trail.shift();
+if(dist<12&&passCooldown<=0){var currentTeam=tp.team;var passToSame=Math.random()<.5;var candidates;if(passToSame){candidates=players.filter(function(p){return p.team===currentTeam&&p!==tp;});}else{var other=currentTeam==='h'?'a':'h';candidates=players.filter(function(p){return p.team===other;});}if(candidates.length>0){candidates.sort(function(a,b){var da=Math.sqrt((a.x-ball.x)*(a.x-ball.x)+(a.y-ball.y)*(a.y-ball.y));var db=Math.sqrt((b.x-ball.x)*(b.x-ball.x)+(b.y-ball.y)*(b.y-ball.y));return passToSame?da-db:db-da;});var pool=candidates.slice(0,Math.min(3,candidates.length));var nt=pool[Math.floor(Math.random()*pool.length)];target=players.indexOf(nt);}passCooldown=passToSame?30+Math.random()*20:50+Math.random()*30;}
+for(var i=0;i<players.length;i++){var p=players[i],z=p.zone;if(p===target&&p.dash<=0&&globalDashLock<=0&&dist>50&&dist<W*.4){p.dash=15+Math.random()*10;p.dashTx=ball.x;p.dashTy=ball.y;globalDashLock=80;}if(p.dash>0){p.dash-=frameMul;var ddx=p.dashTx-p.x,ddy=p.dashTy-p.y;var dd=Math.sqrt(ddx*ddx+ddy*ddy);if(dd>2){p.x+=ddx/dd*1.8*frameMul;p.y+=ddy/dd*1.8*frameMul;}if(p.dash<=0){p.dash=-15;}}else if(p.dash<0){p.dash+=frameMul;var cx=(z.xMin+z.xMax)/2,cy=(z.yMin+z.yMax)/2;p.x+=(cx-p.x)*.04*frameMul;p.y+=(cy-p.y)*.04*frameMul;}else if(p.role==='GK'){var ballInHome=ball.x<W/2;if((p.team==='h'&&ballInHome)||(p.team==='a'&&!ballInHome)){var ty=Math.max(z.yMin+8,Math.min(z.yMax-8,ball.y));p.y+=(ty-p.y)*.06*frameMul;}else{var cy=(z.yMin+z.yMax)/2;p.y+=(cy-p.y)*.03*frameMul;}var cx=(z.xMin+z.xMax)/2;p.x+=(cx-p.x)*.03*frameMul;}else{var dx=(z.xMax-z.xMin)*.12;var dy=(z.yMax-z.yMin)*.12;var cx=(z.xMin+z.xMax)/2;var cy=(z.yMin+z.yMax)/2;p.x=cx+Math.sin(passT*.006+p.seed)*dx;p.y=cy+Math.cos(passT*.005+p.seed*.8)*dy;}var pad=p.dash>0?0:4;p.x=Math.max(z.xMin+pad,Math.min(z.xMax-pad,p.x));p.y=Math.max(z.yMin+pad,Math.min(z.yMax-pad,p.y));}}
+function loop(now){var dt=lastTime?now-lastTime:16.67;lastTime=now;if(dt>100)dt=16.67;update(dt);drawPitch();drawBall();for(var i=0;i<players.length;i++)drawPlayer(players[i]);requestAnimationFrame(loop);}
+requestAnimationFrame(loop);})();
+</script><div class="affiliate-rail"><div class="aff-title">World Cup Gear</div><div class="affiliate-grid"><a href="#" class="aff-card" rel="sponsored nofollow" target="_blank"><div class="aff-icon">⚽</div><div class="aff-name">FIFA 24 PS5</div><div class="aff-price">$59.99</div><span class="aff-badge">Best Seller</span></a><a href="#" class="aff-card" rel="sponsored nofollow" target="_blank"><div class="aff-icon">👟</div><div class="aff-name">Mercurial Vapor 15</div><div class="aff-price">$129.99</div><span class="aff-badge">Top Rated</span></a><a href="#" class="aff-card" rel="sponsored nofollow" target="_blank"><div class="aff-icon">🧤</div><div class="aff-name">Predator Edge Gloves</div><div class="aff-price">$44.99</div><span class="aff-badge">New</span></a><a href="#" class="aff-card" rel="sponsored nofollow" target="_blank"><div class="aff-icon">🏆</div><div class="aff-name">WC26 Official Ball</div><div class="aff-price">$34.99</div><span class="aff-badge">Hot</span></a><a href="#" class="aff-card" rel="sponsored nofollow" target="_blank"><div class="aff-icon">👕</div><div class="aff-name">Argentina Jersey 23/24</div><div class="aff-price">$89.99</div><span class="aff-badge">Popular</span></a><a href="#" class="aff-card" rel="sponsored nofollow" target="_blank"><div class="aff-icon">🎒</div><div class="aff-name">Nike Strike Backpack</div><div class="aff-price">$39.99</div><span class="aff-badge">Deal</span></a></div></div><div class="ad-slot ad-top" id="ad-home-hero">
+  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+       data-ad-slot="YYYYYYYYYY" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+</div><div class="ticker"><div style="display:flex;align-items:center"><div class="ticker-label"><span class="pulse"></span>LIVE RESULTS</div><div style="overflow:hidden;flex:1;padding:8px 0"><div class="ticker-track"><span class="ticker-item"><strong>Turkey</strong> <span class="ticker-score">0-1</span> <strong>Paraguay</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Brazil</strong> <span class="ticker-score">3-0</span> <strong>Haiti</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Scotland</strong> <span class="ticker-score">0-1</span> <strong>Morocco</strong> <sup>FT</sup></span><span class="ticker-item"><strong>United States</strong> <span class="ticker-score">2-0</span> <strong>Australia</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Mexico</strong> <span class="ticker-score">1-0</span> <strong>South Korea</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Canada</strong> <span class="ticker-score">6-0</span> <strong>Qatar</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Turkey</strong> <span class="ticker-score">0-1</span> <strong>Paraguay</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Brazil</strong> <span class="ticker-score">3-0</span> <strong>Haiti</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Scotland</strong> <span class="ticker-score">0-1</span> <strong>Morocco</strong> <sup>FT</sup></span><span class="ticker-item"><strong>United States</strong> <span class="ticker-score">2-0</span> <strong>Australia</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Mexico</strong> <span class="ticker-score">1-0</span> <strong>South Korea</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Canada</strong> <span class="ticker-score">6-0</span> <strong>Qatar</strong> <sup>FT</sup></span></div></div></div></div><div class="quick-nav"><a href="/live.html"><div class="icon">🔴</div><div class="lbl">LIVE CENTER</div></a><a href="/standings.html"><div class="icon">📊</div><div class="lbl">STANDINGS</div></a><a href="/stats.html"><div class="icon">📈</div><div class="lbl">STATS</div></a><a href="/"><div class="icon">👟</div><div class="lbl">BEST BOOTS</div></a></div><div class="ad-slot ad-inline" id="ad-home-nav">
+  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+       data-ad-slot="YYYYYYYYYY" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+</div><div class="sect">▸▸ RECENT & UPCOMING</div><div class="match-grid"><a href="/match/35.html" class="match-card">
+  <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
+    <span class="match-meta">Grp F · MD2</span></div>
+  <div class="match-teams">
+    <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/nl.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Netherlands</span></div>
+    <div class="match-score">0—0</div>
+    <div style="text-align:left"><span class="team-name">Sweden <img src="https://flagcdn.com/w80/se.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-20T17:00:00Z" title="Kickoff: Jun 20 · 21:00 GST">📅 <span class="time-display">Jun 20 · 21:00 GST</span></span><span class="stat-pill">📍 NRG Stadium</span></div></a><a href="/match/33.html" class="match-card">
+  <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
+    <span class="match-meta">Grp E · MD2</span></div>
+  <div class="match-teams">
+    <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/de.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Germany</span></div>
+    <div class="match-score">0—0</div>
+    <div style="text-align:left"><span class="team-name">Ivory Coast <img src="https://flagcdn.com/w80/ci.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-20T20:00:00Z" title="Kickoff: Jun 21 · 00:00 GST">📅 <span class="time-display">Jun 21 · 00:00 GST</span></span><span class="stat-pill">📍 BMO Field</span></div></a><a href="/match/32.html" class="match-card">
+  <div class="match-top"><span class="match-tag tag-ft">● FT</span>
+    <span class="match-meta">Grp D · MD2</span></div>
+  <div class="match-teams">
+    <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/tr.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Turkey</span></div>
+    <div class="match-score">0—1</div>
+    <div style="text-align:left"><span class="team-name">Paraguay <img src="https://flagcdn.com/w80/py.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-20T03:00:00Z" title="Kickoff: Jun 20 · 07:00 GST">📅 <span class="time-display">Jun 20 · 07:00 GST</span></span><span class="stat-pill">📍 Levi's Stadium</span></div></a><a href="/match/29.html" class="match-card">
+  <div class="match-top"><span class="match-tag tag-ft">● FT</span>
+    <span class="match-meta">Grp C · MD2</span></div>
+  <div class="match-teams">
+    <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/br.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Brazil</span></div>
+    <div class="match-score">3—0</div>
+    <div style="text-align:left"><span class="team-name">Haiti <img src="https://flagcdn.com/w80/ht.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-20T01:00:00Z" title="Kickoff: Jun 20 · 05:00 GST">📅 <span class="time-display">Jun 20 · 05:00 GST</span></span><span class="stat-pill">📍 Lincoln Financial Field</span></div></a><a href="/match/30.html" class="match-card">
+  <div class="match-top"><span class="match-tag tag-ft">● FT</span>
+    <span class="match-meta">Grp C · MD2</span></div>
+  <div class="match-teams">
+    <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/gb-sct.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Scotland</span></div>
+    <div class="match-score">0—1</div>
+    <div style="text-align:left"><span class="team-name">Morocco <img src="https://flagcdn.com/w80/ma.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-19T22:00:00Z" title="Kickoff: Jun 20 · 02:00 GST">📅 <span class="time-display">Jun 20 · 02:00 GST</span></span><span class="stat-pill">📍 Gillette Stadium</span></div></a><a href="/match/31.html" class="match-card">
+  <div class="match-top"><span class="match-tag tag-ft">● FT</span>
+    <span class="match-meta">Grp D · MD2</span></div>
+  <div class="match-teams">
+    <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/us.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> United States</span></div>
+    <div class="match-score">2—0</div>
+    <div style="text-align:left"><span class="team-name">Australia <img src="https://flagcdn.com/w80/au.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-19T19:00:00Z" title="Kickoff: Jun 19 · 23:00 GST">📅 <span class="time-display">Jun 19 · 23:00 GST</span></span><span class="stat-pill">📍 Lumen Field</span></div></a></div><div class="ad-slot ad-top" id="ad-home-matches">
+  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+       data-ad-slot="YYYYYYYYYY" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+</div><div class="two-col"><div><div class="sect">▸▸ GROUP STANDINGS</div><div class="groups-grid"><div class="group-card"><div class="group-head"><span>GROUP A</span><span>2/3 played</span></div><table class="group-table"><tr><td><span class="pos pos-q">1</span></td><td>Mexico</td><td>2</td><td style="color:var(--ng)">+3</td><td class="pts">6</td></tr><tr><td><span class="pos pos-q">2</span></td><td>South Korea</td><td>2</td><td >0</td><td class="pts">3</td></tr><tr><td><span class="pos pos-n">3</span></td><td>Czech Republic</td><td>2</td><td style="color:var(--nr)">-1</td><td class="pts">1</td></tr><tr><td><span class="pos pos-n">4</span></td><td>South Africa</td><td>2</td><td style="color:var(--nr)">-2</td><td class="pts">1</td></tr></table></div><div class="group-card"><div class="group-head"><span>GROUP B</span><span>2/3 played</span></div><table class="group-table"><tr><td><span class="pos pos-q">1</span></td><td>Canada</td><td>2</td><td style="color:var(--ng)">+6</td><td class="pts">4</td></tr><tr><td><span class="pos pos-q">2</span></td><td>Switzerland</td><td>2</td><td style="color:var(--ng)">+3</td><td class="pts">4</td></tr><tr><td><span class="pos pos-n">3</span></td><td>Bosnia and Herzegovina</td><td>2</td><td style="color:var(--nr)">-3</td><td class="pts">1</td></tr><tr><td><span class="pos pos-n">4</span></td><td>Qatar</td><td>2</td><td style="color:var(--nr)">-6</td><td class="pts">1</td></tr></table></div><div class="group-card"><div class="group-head"><span>GROUP C</span><span>2/3 played</span></div><table class="group-table"><tr><td><span class="pos pos-q">1</span></td><td>Brazil</td><td>2</td><td style="color:var(--ng)">+3</td><td class="pts">4</td></tr><tr><td><span class="pos pos-q">2</span></td><td>Morocco</td><td>2</td><td style="color:var(--ng)">+1</td><td class="pts">4</td></tr><tr><td><span class="pos pos-n">3</span></td><td>Scotland</td><td>2</td><td >0</td><td class="pts">3</td></tr><tr><td><span class="pos pos-n">4</span></td><td>Haiti</td><td>2</td><td style="color:var(--nr)">-4</td><td class="pts">0</td></tr></table></div><div class="group-card"><div class="group-head"><span>GROUP D</span><span>2/3 played</span></div><table class="group-table"><tr><td><span class="pos pos-q">1</span></td><td>United States</td><td>2</td><td style="color:var(--ng)">+5</td><td class="pts">6</td></tr><tr><td><span class="pos pos-q">2</span></td><td>Australia</td><td>2</td><td >0</td><td class="pts">3</td></tr><tr><td><span class="pos pos-n">3</span></td><td>Paraguay</td><td>2</td><td style="color:var(--nr)">-2</td><td class="pts">3</td></tr><tr><td><span class="pos pos-n">4</span></td><td>Turkey</td><td>2</td><td style="color:var(--nr)">-3</td><td class="pts">0</td></tr></table></div></div></div><div><div class="sect">▸▸ TOP SCORERS</div><div class="scorers"><div class="scorer"><span class="scorer-rank top">🥇</span><span class="scorer-name">Saeid Ezatolahi</span><span class="scorer-team">Iran</span><span class="scorer-goals">1</span></div><div class="scorer"><span class="scorer-rank top">🥈</span><span class="scorer-name">Salman Al-Faraj</span><span class="scorer-team">Saudi Arabia</span><span class="scorer-goals">1</span></div><div class="scorer"><span class="scorer-rank top">🥉</span><span class="scorer-name">Stefan Ilsanker</span><span class="scorer-team">Austria</span><span class="scorer-goals">1</span></div><div class="scorer"><span class="scorer-rank ">4</span><span class="scorer-name">Raheem Sterling</span><span class="scorer-team">England</span><span class="scorer-goals">1</span></div><div class="scorer"><span class="scorer-rank ">5</span><span class="scorer-name">Neymar</span><span class="scorer-team">Brazil</span><span class="scorer-goals">1</span></div><div class="scorer"><span class="scorer-rank ">6</span><span class="scorer-name">Sofyan Amrabat</span><span class="scorer-team">Morocco</span><span class="scorer-goals">1</span></div><div class="scorer"><span class="scorer-rank ">7</span><span class="scorer-name">Carlos Rodríguez</span><span class="scorer-team">Mexico</span><span class="scorer-goals">1</span></div><div class="scorer"><span class="scorer-rank ">8</span><span class="scorer-name">Raúl Jiménez</span><span class="scorer-team">Mexico</span><span class="scorer-goals">1</span></div><div class="scorer"><span class="scorer-rank ">9</span><span class="scorer-name">Jo Hyeon-woo</span><span class="scorer-team">South Korea</span><span class="scorer-goals">1</span></div><div class="scorer"><span class="scorer-rank ">10</span><span class="scorer-name">Patrik Schick</span><span class="scorer-team">Czech Republic</span><span class="scorer-goals">1</span></div><div class="scorer"><span class="scorer-rank ">11</span><span class="scorer-name">Alphonso Davies</span><span class="scorer-team">Canada</span><span class="scorer-goals">1</span></div><div class="scorer"><span class="scorer-rank ">12</span><span class="scorer-name">Amar Dedić</span><span class="scorer-team">Bosnia and Herzegovina</span><span class="scorer-goals">1</span></div><div class="scorer"><span class="scorer-rank ">13</span><span class="scorer-name">Weston McKennie</span><span class="scorer-team">United States</span><span class="scorer-goals">1</span></div><div class="scorer"><span class="scorer-rank ">14</span><span class="scorer-name">Antonio Sanabria</span><span class="scorer-team">Paraguay</span><span class="scorer-goals">1</span></div><div class="scorer"><span class="scorer-rank ">15</span><span class="scorer-name">Ché Adams</span><span class="scorer-team">Scotland</span><span class="scorer-goals">1</span></div><div class="scorer"><span class="scorer-rank ">16</span><span class="scorer-name">Awer Mabil</span><span class="scorer-team">Australia</span><span class="scorer-goals">1</span></div><div class="scorer"><span class="scorer-rank ">17</span><span class="scorer-name">Martin Boyle</span><span class="scorer-team">Australia</span><span class="scorer-goals">1</span></div><div class="scorer"><span class="scorer-rank ">18</span><span class="scorer-name">Homam Ahmed</span><span class="scorer-team">Qatar</span><span class="scorer-goals">1</span></div><div class="scorer"><span class="scorer-rank ">19</span><span class="scorer-name">Granit Xhaka</span><span class="scorer-team">Switzerland</span><span class="scorer-goals">1</span></div><div class="scorer"><span class="scorer-rank ">20</span><span class="scorer-name">Max Gradel</span><span class="scorer-team">Ivory Coast</span><span class="scorer-goals">1</span></div></div></div></div><div class="ad-slot ad-top" id="ad-home-bottom">
+  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+       data-ad-slot="YYYYYYYYYY" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+</div><div style="text-align:center;font-size:.65rem;color:var(--text2);margin-top:16px">74 matches · Updated 2026-06-20T13:13:19.498913+00:00</div></div>
+<div class="footer">WC26 HUB · DATA: WORLDUP26.IR · NOT AFFILIATED WITH FIFA · BUILT WITH ⚽ AND ☕</div>
+
+<script>
+document.querySelectorAll('.match-time[data-utc]').forEach(function(el){
+  var utc=el.getAttribute('data-utc');
+  if(!utc)return;
+  var d=new Date(utc);
+  if(isNaN(d))return;
+  var parts=new Intl.DateTimeFormat('en-US',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit',hour12:false,timeZoneName:'short'}).formatToParts(d);
+  var localStr='';
+  var tzAbbr='';
+  for(var i=0;i<parts.length;i++){
+    if(parts[i].type==='month') localStr+=parts[i].value+' ';
+    else if(parts[i].type==='day') localStr+=parts[i].value+' \u00b7 ';
+    else if(parts[i].type==='hour') localStr+=parts[i].value;
+    else if(parts[i].type==='minute') localStr+=':'+parts[i].value;
+    else if(parts[i].type==='timeZoneName') tzAbbr=parts[i].value;
+  }
+  el.textContent=localStr+' '+tzAbbr;
+  el.title='Original: '+el.title;
+});
+</script>
+</body></html>
