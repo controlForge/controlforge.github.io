@@ -26,6 +26,7 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add docs/ output/
+          git add docs/ || true
+          git add output/ || true
           git diff --cached --quiet || git commit -m "Auto-refresh: $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
