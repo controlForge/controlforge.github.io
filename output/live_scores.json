@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-21T10:46:39.234831+00:00",
-  "match_count": 74,
+  "updated_at": "2026-06-21T13:04:36.091989+00:00",
+  "match_count": 75,
   "matches": [
     {
       "id": "1",
@@ -16825,6 +16825,26 @@
       "stadium": "Mercedes-Benz Stadium",
       "stadium_city": "Atlanta",
       "stadium_id": "7"
+    },
+    {
+      "id": "74",
+      "home": "Germany",
+      "away": "TBD",
+      "home_id": "17",
+      "away_id": "0",
+      "home_flag": "https://flagcdn.com/w80/de.png",
+      "away_flag": "",
+      "home_score": "0",
+      "away_score": "0",
+      "status": "SCHEDULED",
+      "minute": null,
+      "date": "06/29/2026 16:30",
+      "group": "R32",
+      "matchday": "4",
+      "type": "r32",
+      "stadium": "Gillette Stadium",
+      "stadium_city": "Boston (Foxborough)",
+      "stadium_id": "9"
     },
     {
       "id": "79",
