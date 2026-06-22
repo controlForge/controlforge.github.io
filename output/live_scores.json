@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T21:53:23.753682+00:00",
+  "updated_at": "2026-06-22T01:41:23.070955+00:00",
   "match_count": 75,
   "matches": [
     {
@@ -16528,10 +16528,10 @@
       "away_id": "26",
       "home_flag": "https://flagcdn.com/w80/nz.png",
       "away_flag": "https://flagcdn.com/w80/eg.png",
-      "home_score": null,
-      "away_score": null,
-      "status": "SCHEDULED",
-      "minute": null,
+      "home_score": "1",
+      "away_score": "0",
+      "status": "IN_PLAY",
+      "minute": "live",
       "date": "06/21/2026 18:00",
       "group": "G",
       "matchday": "2",
@@ -17004,9 +17004,9 @@
       "away_id": "30",
       "home_flag": "https://flagcdn.com/w80/uy.png",
       "away_flag": "https://flagcdn.com/w80/cv.png",
-      "home_score": null,
-      "away_score": null,
-      "status": "SCHEDULED",
+      "home_score": "2",
+      "away_score": "2",
+      "status": "FINISHED",
       "minute": null,
       "date": "06/21/2026 18:00",
       "group": "H",
@@ -17014,7 +17014,449 @@
       "type": "group",
       "stadium": "Hard Rock Stadium",
       "stadium_city": "Miami (Miami Gardens)",
-      "stadium_id": "8"
+      "stadium_id": "8",
+      "stats": {
+        "possession": {
+          "home": 54,
+          "away": 46
+        },
+        "shots": {
+          "home": 8,
+          "away": 5
+        },
+        "shots_on_target": {
+          "home": 2,
+          "away": 4
+        },
+        "passes": {
+          "home": 306,
+          "away": 247
+        },
+        "pass_accuracy": {
+          "home": 92,
+          "away": 83
+        },
+        "xG": {
+          "home": 0.95,
+          "away": 1.67
+        },
+        "yellow_cards": {
+          "home": 0,
+          "away": 3
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 17,
+          "away": 10
+        },
+        "corners": {
+          "home": 2,
+          "away": 4
+        },
+        "offsides": {
+          "home": 2,
+          "away": 4
+        },
+        "tackles": {
+          "home": 28,
+          "away": 15
+        },
+        "interceptions": {
+          "home": 15,
+          "away": 14
+        }
+      },
+      "events": [
+        {
+          "minute": 3,
+          "type": "yellow_card",
+          "team": "Uruguay",
+          "player": "Federico Valverde"
+        },
+        {
+          "minute": 16,
+          "type": "goal",
+          "team": "Uruguay",
+          "player": "Lucas Torreira"
+        },
+        {
+          "minute": 18,
+          "type": "goal",
+          "team": "Uruguay",
+          "player": "Darwin Núñez"
+        },
+        {
+          "minute": 33,
+          "type": "goal",
+          "team": "Cape Verde",
+          "player": "Willy Semedo"
+        },
+        {
+          "minute": 34,
+          "type": "yellow_card",
+          "team": "Cape Verde",
+          "player": "Márcio Rosa"
+        },
+        {
+          "minute": 37,
+          "type": "goal",
+          "team": "Cape Verde",
+          "player": "Patrick Andrade"
+        },
+        {
+          "minute": 48,
+          "type": "yellow_card",
+          "team": "Cape Verde",
+          "player": "Júlio Tavares"
+        },
+        {
+          "minute": 64,
+          "type": "yellow_card",
+          "team": "Cape Verde",
+          "player": "Ponck"
+        },
+        {
+          "minute": 70,
+          "type": "yellow_card",
+          "team": "Uruguay",
+          "player": "José María Giménez"
+        }
+      ],
+      "players": [
+        {
+          "team": "Uruguay",
+          "number": 1,
+          "name": "Fernando Muslera",
+          "position": "GK",
+          "minutes": 87,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 11,
+          "pass_accuracy": 74,
+          "tackles": 1,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Uruguay",
+          "number": 2,
+          "name": "José María Giménez",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 59,
+          "pass_accuracy": 78,
+          "tackles": 1,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Uruguay",
+          "number": 3,
+          "name": "Diego Godín",
+          "position": "CB",
+          "minutes": 81,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 31,
+          "pass_accuracy": 91,
+          "tackles": 0,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Uruguay",
+          "number": 4,
+          "name": "Ronald Araújo",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 45,
+          "pass_accuracy": 75,
+          "tackles": 3,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Uruguay",
+          "number": 5,
+          "name": "Matías Viña",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 31,
+          "pass_accuracy": 90,
+          "tackles": 3,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Uruguay",
+          "number": 6,
+          "name": "Lucas Torreira",
+          "position": "CM",
+          "minutes": 70,
+          "goals": 1,
+          "assists": 0,
+          "shots": 3,
+          "passes": 27,
+          "pass_accuracy": 92,
+          "tackles": 1,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Uruguay",
+          "number": 7,
+          "name": "Rodrigo Bentancur",
+          "position": "CM",
+          "minutes": 79,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 38,
+          "pass_accuracy": 70,
+          "tackles": 2,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Uruguay",
+          "number": 8,
+          "name": "Federico Valverde",
+          "position": "LW",
+          "minutes": 67,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 57,
+          "pass_accuracy": 95,
+          "tackles": 2,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Uruguay",
+          "number": 9,
+          "name": "Luis Suárez",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 31,
+          "pass_accuracy": 93,
+          "tackles": 0,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Uruguay",
+          "number": 10,
+          "name": "Darwin Núñez",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 27,
+          "pass_accuracy": 74,
+          "tackles": 1,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Uruguay",
+          "number": 11,
+          "name": "Edinson Cavani",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 49,
+          "pass_accuracy": 78,
+          "tackles": 0,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "Cape Verde",
+          "number": 1,
+          "name": "Márcio Rosa",
+          "position": "GK",
+          "minutes": 66,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 16,
+          "pass_accuracy": 88,
+          "tackles": 1,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Cape Verde",
+          "number": 2,
+          "name": "Stopira",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 28,
+          "pass_accuracy": 80,
+          "tackles": 1,
+          "rating": 5.5,
+          "is_sub": false
+        },
+        {
+          "team": "Cape Verde",
+          "number": 3,
+          "name": "Diney",
+          "position": "CB",
+          "minutes": 72,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 56,
+          "pass_accuracy": 95,
+          "tackles": 3,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Cape Verde",
+          "number": 4,
+          "name": "Ponck",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 51,
+          "pass_accuracy": 93,
+          "tackles": 0,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Cape Verde",
+          "number": 5,
+          "name": "Dylan Tavares",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 53,
+          "pass_accuracy": 80,
+          "tackles": 3,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Cape Verde",
+          "number": 6,
+          "name": "Patrick Andrade",
+          "position": "CM",
+          "minutes": 84,
+          "goals": 1,
+          "assists": 0,
+          "shots": 4,
+          "passes": 36,
+          "pass_accuracy": 88,
+          "tackles": 0,
+          "rating": 8.1,
+          "is_sub": false
+        },
+        {
+          "team": "Cape Verde",
+          "number": 7,
+          "name": "Garry Rodrigues",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 1,
+          "passes": 22,
+          "pass_accuracy": 91,
+          "tackles": 4,
+          "rating": 7.7,
+          "is_sub": false
+        },
+        {
+          "team": "Cape Verde",
+          "number": 8,
+          "name": "Ryan Mendes",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 47,
+          "pass_accuracy": 94,
+          "tackles": 1,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Cape Verde",
+          "number": 9,
+          "name": "Willy Semedo",
+          "position": "RW",
+          "minutes": 68,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 21,
+          "pass_accuracy": 84,
+          "tackles": 2,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Cape Verde",
+          "number": 10,
+          "name": "Júlio Tavares",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 43,
+          "pass_accuracy": 88,
+          "tackles": 2,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Cape Verde",
+          "number": 11,
+          "name": "Héldon Ramos",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 52,
+          "pass_accuracy": 79,
+          "tackles": 1,
+          "rating": 7.1,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "41",
