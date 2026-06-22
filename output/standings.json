@@ -483,25 +483,25 @@
         {
           "name": "Argentina",
           "flag": "https://flagcdn.com/w80/ar.png",
-          "mp": 1,
-          "w": 1,
+          "mp": 2,
+          "w": 2,
           "d": 0,
           "l": 0,
-          "gf": 3,
+          "gf": 5,
           "ga": 0,
-          "gd": 3,
-          "pts": 3
+          "gd": 5,
+          "pts": 6
         },
         {
           "name": "Austria",
           "flag": "https://flagcdn.com/w80/at.png",
-          "mp": 1,
+          "mp": 2,
           "w": 1,
           "d": 0,
-          "l": 0,
+          "l": 1,
           "gf": 3,
-          "ga": 1,
-          "gd": 2,
+          "ga": 3,
+          "gd": 0,
           "pts": 3
         },
         {
