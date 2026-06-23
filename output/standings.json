@@ -505,26 +505,26 @@
           "pts": 3
         },
         {
-          "name": "Jordan",
-          "flag": "https://flagcdn.com/w80/jo.png",
-          "mp": 1,
-          "w": 0,
-          "d": 0,
-          "l": 1,
-          "gf": 1,
-          "ga": 3,
-          "gd": -2,
-          "pts": 0
-        },
-        {
           "name": "Algeria",
           "flag": "https://flagcdn.com/w80/dz.png",
-          "mp": 1,
-          "w": 0,
+          "mp": 2,
+          "w": 1,
           "d": 0,
           "l": 1,
-          "gf": 0,
-          "ga": 3,
+          "gf": 2,
+          "ga": 4,
+          "gd": -2,
+          "pts": 3
+        },
+        {
+          "name": "Jordan",
+          "flag": "https://flagcdn.com/w80/jo.png",
+          "mp": 2,
+          "w": 0,
+          "d": 0,
+          "l": 2,
+          "gf": 2,
+          "ga": 5,
           "gd": -3,
           "pts": 0
         }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T02:58:35.365823+00:00",
+  "updated_at": "2026-06-23T06:56:16.785098+00:00",
   "match_count": 75,
   "matches": [
     {
@@ -19222,9 +19222,9 @@
       "away_id": "38",
       "home_flag": "https://flagcdn.com/w80/jo.png",
       "away_flag": "https://flagcdn.com/w80/dz.png",
-      "home_score": null,
-      "away_score": null,
-      "status": "SCHEDULED",
+      "home_score": "1",
+      "away_score": "2",
+      "status": "FINISHED",
       "minute": null,
       "date": "06/22/2026 20:00",
       "group": "J",
@@ -19232,7 +19232,437 @@
       "type": "group",
       "stadium": "Levi's Stadium",
       "stadium_city": "San Francisco Bay Area (Santa Clara)",
-      "stadium_id": "15"
+      "stadium_id": "15",
+      "stats": {
+        "possession": {
+          "home": 42,
+          "away": 58
+        },
+        "shots": {
+          "home": 7,
+          "away": 8
+        },
+        "shots_on_target": {
+          "home": 2,
+          "away": 2
+        },
+        "passes": {
+          "home": 195,
+          "away": 275
+        },
+        "pass_accuracy": {
+          "home": 84,
+          "away": 87
+        },
+        "xG": {
+          "home": 0.67,
+          "away": 1.33
+        },
+        "yellow_cards": {
+          "home": 3,
+          "away": 4
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 18,
+          "away": 16
+        },
+        "corners": {
+          "home": 8,
+          "away": 3
+        },
+        "offsides": {
+          "home": 2,
+          "away": 2
+        },
+        "tackles": {
+          "home": 19,
+          "away": 14
+        },
+        "interceptions": {
+          "home": 10,
+          "away": 7
+        }
+      },
+      "events": [
+        {
+          "minute": 13,
+          "type": "yellow_card",
+          "team": "Algeria",
+          "player": "Yacine Brahimi"
+        },
+        {
+          "minute": 28,
+          "type": "goal",
+          "team": "Jordan",
+          "player": "Baha' Faisal"
+        },
+        {
+          "minute": 41,
+          "type": "yellow_card",
+          "team": "Algeria",
+          "player": "Islam Slimani"
+        },
+        {
+          "minute": 44,
+          "type": "goal",
+          "team": "Algeria",
+          "player": "Islam Slimani"
+        },
+        {
+          "minute": 44,
+          "type": "yellow_card",
+          "team": "Jordan",
+          "player": "Rajaei Ayed"
+        },
+        {
+          "minute": 48,
+          "type": "goal",
+          "team": "Algeria",
+          "player": "Sofiane Feghouli"
+        },
+        {
+          "minute": 67,
+          "type": "yellow_card",
+          "team": "Algeria",
+          "player": "Ramy Bensebaini"
+        }
+      ],
+      "players": [
+        {
+          "team": "Jordan",
+          "number": 1,
+          "name": "Amer Shafi",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 14,
+          "pass_accuracy": 70,
+          "tackles": 0,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Jordan",
+          "number": 2,
+          "name": "Baha' Abdel-Rahman",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 20,
+          "pass_accuracy": 78,
+          "tackles": 0,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Jordan",
+          "number": 3,
+          "name": "Tareq Khattab",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 51,
+          "pass_accuracy": 72,
+          "tackles": 4,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Jordan",
+          "number": 4,
+          "name": "Ihsan Haddad",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 31,
+          "pass_accuracy": 70,
+          "tackles": 4,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Jordan",
+          "number": 5,
+          "name": "Bara' Marei",
+          "position": "RB",
+          "minutes": 89,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 40,
+          "pass_accuracy": 89,
+          "tackles": 0,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Jordan",
+          "number": 6,
+          "name": "Baha' Faisal",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 2,
+          "passes": 49,
+          "pass_accuracy": 75,
+          "tackles": 5,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Jordan",
+          "number": 7,
+          "name": "Yaseen Al-Bakhit",
+          "position": "CM",
+          "minutes": 69,
+          "goals": 0,
+          "assists": 1,
+          "shots": 0,
+          "passes": 57,
+          "pass_accuracy": 91,
+          "tackles": 4,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Jordan",
+          "number": 8,
+          "name": "Musa Al-Taamari",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 53,
+          "pass_accuracy": 90,
+          "tackles": 0,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Jordan",
+          "number": 9,
+          "name": "Hamza Al-Dardour",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 25,
+          "pass_accuracy": 75,
+          "tackles": 0,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Jordan",
+          "number": 10,
+          "name": "Yazan Al-Naimat",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 59,
+          "pass_accuracy": 83,
+          "tackles": 1,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Jordan",
+          "number": 11,
+          "name": "Rajaei Ayed",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 45,
+          "pass_accuracy": 94,
+          "tackles": 2,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Algeria",
+          "number": 1,
+          "name": "Raïs M'Bolhi",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 23,
+          "pass_accuracy": 72,
+          "tackles": 0,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Algeria",
+          "number": 2,
+          "name": "Youcef Atal",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 32,
+          "pass_accuracy": 80,
+          "tackles": 1,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Algeria",
+          "number": 3,
+          "name": "Aïssa Mandi",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 21,
+          "pass_accuracy": 79,
+          "tackles": 0,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Algeria",
+          "number": 4,
+          "name": "Djamel Benlamri",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 20,
+          "pass_accuracy": 74,
+          "tackles": 4,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Algeria",
+          "number": 5,
+          "name": "Ramy Bensebaini",
+          "position": "RB",
+          "minutes": 80,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 37,
+          "pass_accuracy": 77,
+          "tackles": 4,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Algeria",
+          "number": 6,
+          "name": "Sofiane Feghouli",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 0,
+          "passes": 20,
+          "pass_accuracy": 94,
+          "tackles": 2,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "Algeria",
+          "number": 7,
+          "name": "Ismaël Bennacer",
+          "position": "CM",
+          "minutes": 83,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 46,
+          "pass_accuracy": 70,
+          "tackles": 3,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Algeria",
+          "number": 8,
+          "name": "Yacine Brahimi",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 48,
+          "pass_accuracy": 76,
+          "tackles": 2,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Algeria",
+          "number": 9,
+          "name": "Riyad Mahrez",
+          "position": "RW",
+          "minutes": 60,
+          "goals": 1,
+          "assists": 0,
+          "shots": 0,
+          "passes": 57,
+          "pass_accuracy": 91,
+          "tackles": 0,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Algeria",
+          "number": 10,
+          "name": "Islam Slimani",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 37,
+          "pass_accuracy": 83,
+          "tackles": 1,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Algeria",
+          "number": 11,
+          "name": "Baghdad Bounedjah",
+          "position": "ST",
+          "minutes": 73,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 34,
+          "pass_accuracy": 70,
+          "tackles": 1,
+          "rating": 6.7,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "45",
@@ -19869,6 +20299,12 @@
       "assists": 0
     },
     {
+      "team": "Jordan",
+      "name": "Baha' Faisal",
+      "goals": 2,
+      "assists": 0
+    },
+    {
       "team": "Iran",
       "name": "Saeid Ezatolahi",
       "goals": 1,
@@ -19967,12 +20403,6 @@
     {
       "team": "Australia",
       "name": "Martin Boyle",
-      "goals": 1,
-      "assists": 0
-    },
-    {
-      "team": "Qatar",
-      "name": "Homam Ahmed",
       "goals": 1,
       "assists": 0
     }
