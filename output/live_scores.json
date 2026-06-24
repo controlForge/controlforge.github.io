@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T20:16:59.813636+00:00",
+  "updated_at": "2026-06-24T21:53:18.853098+00:00",
   "match_count": 75,
   "matches": [
     {
@@ -12262,17 +12262,435 @@
       "away_id": "7",
       "home_flag": "https://flagcdn.com/w80/ba.png",
       "away_flag": "https://flagcdn.com/w80/qa.png",
-      "home_score": "2",
+      "home_score": "3",
       "away_score": "1",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "status": "FINISHED",
+      "minute": null,
       "date": "06/24/2026 12:00",
       "group": "B",
       "matchday": "3",
       "type": "group",
       "stadium": "Lumen Field",
       "stadium_city": "Seattle",
-      "stadium_id": "14"
+      "stadium_id": "14",
+      "stats": {
+        "possession": {
+          "home": 56,
+          "away": 44
+        },
+        "shots": {
+          "home": 11,
+          "away": 2
+        },
+        "shots_on_target": {
+          "home": 6,
+          "away": 1
+        },
+        "passes": {
+          "home": 301,
+          "away": 222
+        },
+        "pass_accuracy": {
+          "home": 79,
+          "away": 86
+        },
+        "xG": {
+          "home": 1.91,
+          "away": 0.67
+        },
+        "yellow_cards": {
+          "home": 1,
+          "away": 2
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 14,
+          "away": 18
+        },
+        "corners": {
+          "home": 7,
+          "away": 2
+        },
+        "offsides": {
+          "home": 1,
+          "away": 4
+        },
+        "tackles": {
+          "home": 23,
+          "away": 22
+        },
+        "interceptions": {
+          "home": 12,
+          "away": 10
+        }
+      },
+      "events": [
+        {
+          "minute": 12,
+          "type": "yellow_card",
+          "team": "Bosnia and Herzegovina",
+          "player": "Ibrahim Šehić"
+        },
+        {
+          "minute": 19,
+          "type": "goal",
+          "team": "Qatar",
+          "player": "Meshaal Barsham"
+        },
+        {
+          "minute": 40,
+          "type": "goal",
+          "team": "Bosnia and Herzegovina",
+          "player": "Edin Višća"
+        },
+        {
+          "minute": 54,
+          "type": "goal",
+          "team": "Bosnia and Herzegovina",
+          "player": "Edin Džeko"
+        },
+        {
+          "minute": 77,
+          "type": "goal",
+          "team": "Bosnia and Herzegovina",
+          "player": "Amar Dedić"
+        }
+      ],
+      "players": [
+        {
+          "team": "Bosnia and Herzegovina",
+          "number": 1,
+          "name": "Ibrahim Šehić",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 19,
+          "pass_accuracy": 94,
+          "tackles": 2,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Bosnia and Herzegovina",
+          "number": 2,
+          "name": "Miroslav Stevanović",
+          "position": "LB",
+          "minutes": 85,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 44,
+          "pass_accuracy": 72,
+          "tackles": 3,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Bosnia and Herzegovina",
+          "number": 3,
+          "name": "Ermedin Demirović",
+          "position": "CB",
+          "minutes": 69,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 31,
+          "pass_accuracy": 90,
+          "tackles": 3,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Bosnia and Herzegovina",
+          "number": 4,
+          "name": "Amir Hadžiahmetović",
+          "position": "CB",
+          "minutes": 83,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 55,
+          "pass_accuracy": 76,
+          "tackles": 3,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Bosnia and Herzegovina",
+          "number": 5,
+          "name": "Dennis Hadžikadunić",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 57,
+          "pass_accuracy": 72,
+          "tackles": 2,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Bosnia and Herzegovina",
+          "number": 6,
+          "name": "Rade Krunić",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 1,
+          "shots": 3,
+          "passes": 58,
+          "pass_accuracy": 83,
+          "tackles": 1,
+          "rating": 8.3,
+          "is_sub": false
+        },
+        {
+          "team": "Bosnia and Herzegovina",
+          "number": 7,
+          "name": "Miralem Pjanić",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 0,
+          "passes": 49,
+          "pass_accuracy": 83,
+          "tackles": 0,
+          "rating": 7.9,
+          "is_sub": false
+        },
+        {
+          "team": "Bosnia and Herzegovina",
+          "number": 8,
+          "name": "Edin Višća",
+          "position": "LW",
+          "minutes": 75,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 44,
+          "pass_accuracy": 85,
+          "tackles": 1,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Bosnia and Herzegovina",
+          "number": 9,
+          "name": "Edin Džeko",
+          "position": "RW",
+          "minutes": 68,
+          "goals": 0,
+          "assists": 1,
+          "shots": 4,
+          "passes": 32,
+          "pass_accuracy": 81,
+          "tackles": 0,
+          "rating": 7.9,
+          "is_sub": false
+        },
+        {
+          "team": "Bosnia and Herzegovina",
+          "number": 10,
+          "name": "Amar Dedić",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 44,
+          "pass_accuracy": 86,
+          "tackles": 1,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Bosnia and Herzegovina",
+          "number": 11,
+          "name": "Haris Tabaković",
+          "position": "ST",
+          "minutes": 67,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 28,
+          "pass_accuracy": 72,
+          "tackles": 1,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Qatar",
+          "number": 1,
+          "name": "Saad Al-Sheeb",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 22,
+          "pass_accuracy": 81,
+          "tackles": 2,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Qatar",
+          "number": 2,
+          "name": "Pedro Miguel",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 32,
+          "pass_accuracy": 84,
+          "tackles": 0,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Qatar",
+          "number": 3,
+          "name": "Boualem Khoukhi",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 30,
+          "pass_accuracy": 86,
+          "tackles": 4,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Qatar",
+          "number": 4,
+          "name": "Tarek Salman",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 43,
+          "pass_accuracy": 93,
+          "tackles": 4,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Qatar",
+          "number": 5,
+          "name": "Hassan Al-Haydos",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 40,
+          "pass_accuracy": 80,
+          "tackles": 3,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Qatar",
+          "number": 6,
+          "name": "Karim Boudiaf",
+          "position": "CM",
+          "minutes": 70,
+          "goals": 0,
+          "assists": 1,
+          "shots": 0,
+          "passes": 20,
+          "pass_accuracy": 83,
+          "tackles": 2,
+          "rating": 7.6,
+          "is_sub": false
+        },
+        {
+          "team": "Qatar",
+          "number": 7,
+          "name": "Akram Afif",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 0,
+          "passes": 48,
+          "pass_accuracy": 70,
+          "tackles": 1,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Qatar",
+          "number": 8,
+          "name": "Assim Madibo",
+          "position": "LW",
+          "minutes": 67,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 30,
+          "pass_accuracy": 76,
+          "tackles": 0,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Qatar",
+          "number": 9,
+          "name": "Almoez Ali",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 33,
+          "pass_accuracy": 76,
+          "tackles": 2,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Qatar",
+          "number": 10,
+          "name": "Meshaal Barsham",
+          "position": "ST",
+          "minutes": 68,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 26,
+          "pass_accuracy": 70,
+          "tackles": 2,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Qatar",
+          "number": 11,
+          "name": "Homam Ahmed",
+          "position": "ST",
+          "minutes": 69,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 36,
+          "pass_accuracy": 78,
+          "tackles": 0,
+          "rating": 6.8,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "58",
@@ -21866,17 +22284,441 @@
       "away_id": "5",
       "home_flag": "https://flagcdn.com/w80/ch.png",
       "away_flag": "https://flagcdn.com/w80/ca.png",
-      "home_score": "1",
-      "away_score": "0",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "home_score": "2",
+      "away_score": "1",
+      "status": "FINISHED",
+      "minute": null,
       "date": "06/24/2026 12:00",
       "group": "B",
       "matchday": "3",
       "type": "group",
       "stadium": "BC Place",
       "stadium_city": "Vancouver",
-      "stadium_id": "13"
+      "stadium_id": "13",
+      "stats": {
+        "possession": {
+          "home": 55,
+          "away": 45
+        },
+        "shots": {
+          "home": 5,
+          "away": 3
+        },
+        "shots_on_target": {
+          "home": 3,
+          "away": 2
+        },
+        "passes": {
+          "home": 301,
+          "away": 286
+        },
+        "pass_accuracy": {
+          "home": 78,
+          "away": 91
+        },
+        "xG": {
+          "home": 1.3,
+          "away": 0.79
+        },
+        "yellow_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 8,
+          "away": 9
+        },
+        "corners": {
+          "home": 8,
+          "away": 7
+        },
+        "offsides": {
+          "home": 2,
+          "away": 1
+        },
+        "tackles": {
+          "home": 13,
+          "away": 20
+        },
+        "interceptions": {
+          "home": 12,
+          "away": 9
+        }
+      },
+      "events": [
+        {
+          "minute": 6,
+          "type": "goal",
+          "team": "Switzerland",
+          "player": "Remo Freuler"
+        },
+        {
+          "minute": 6,
+          "type": "goal",
+          "team": "Canada",
+          "player": "Cyle Larin"
+        },
+        {
+          "minute": 28,
+          "type": "goal",
+          "team": "Switzerland",
+          "player": "Breel Embolo"
+        },
+        {
+          "minute": 68,
+          "type": "yellow_card",
+          "team": "Canada",
+          "player": "Cyle Larin"
+        },
+        {
+          "minute": 75,
+          "type": "yellow_card",
+          "team": "Canada",
+          "player": "Kamal Miller"
+        },
+        {
+          "minute": 76,
+          "type": "yellow_card",
+          "team": "Canada",
+          "player": "Stephen Eustáquio"
+        }
+      ],
+      "players": [
+        {
+          "team": "Switzerland",
+          "number": 1,
+          "name": "Yann Sommer",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 11,
+          "pass_accuracy": 80,
+          "tackles": 2,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 2,
+          "name": "Silvan Widmer",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 28,
+          "pass_accuracy": 72,
+          "tackles": 0,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 3,
+          "name": "Nico Elvedi",
+          "position": "CB",
+          "minutes": 84,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 21,
+          "pass_accuracy": 90,
+          "tackles": 1,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 4,
+          "name": "Manuel Akanji",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 41,
+          "pass_accuracy": 88,
+          "tackles": 2,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 5,
+          "name": "Ricardo Rodriguez",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 2,
+          "passes": 20,
+          "pass_accuracy": 91,
+          "tackles": 0,
+          "rating": 8.0,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 6,
+          "name": "Granit Xhaka",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 4,
+          "passes": 29,
+          "pass_accuracy": 87,
+          "tackles": 1,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 7,
+          "name": "Remo Freuler",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 58,
+          "pass_accuracy": 71,
+          "tackles": 0,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 8,
+          "name": "Steven Zuber",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 0,
+          "passes": 50,
+          "pass_accuracy": 72,
+          "tackles": 0,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 9,
+          "name": "Breel Embolo",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 0,
+          "passes": 29,
+          "pass_accuracy": 72,
+          "tackles": 1,
+          "rating": 8.1,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 10,
+          "name": "Haris Seferović",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 21,
+          "pass_accuracy": 80,
+          "tackles": 2,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 11,
+          "name": "Ruben Vargas",
+          "position": "ST",
+          "minutes": 74,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 39,
+          "pass_accuracy": 92,
+          "tackles": 0,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Canada",
+          "number": 1,
+          "name": "Milan Borjan",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 16,
+          "pass_accuracy": 95,
+          "tackles": 2,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Canada",
+          "number": 2,
+          "name": "Alistair Johnston",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 45,
+          "pass_accuracy": 94,
+          "tackles": 2,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Canada",
+          "number": 3,
+          "name": "Kamal Miller",
+          "position": "CB",
+          "minutes": 65,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 48,
+          "pass_accuracy": 91,
+          "tackles": 2,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Canada",
+          "number": 4,
+          "name": "Steven Vitória",
+          "position": "CB",
+          "minutes": 84,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 50,
+          "pass_accuracy": 75,
+          "tackles": 2,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Canada",
+          "number": 5,
+          "name": "Sam Adekugbe",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 45,
+          "pass_accuracy": 71,
+          "tackles": 5,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Canada",
+          "number": 6,
+          "name": "Stephen Eustáquio",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 0,
+          "passes": 51,
+          "pass_accuracy": 79,
+          "tackles": 0,
+          "rating": 8.3,
+          "is_sub": false
+        },
+        {
+          "team": "Canada",
+          "number": 7,
+          "name": "Mark-Anthony Kaye",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 1,
+          "passes": 52,
+          "pass_accuracy": 70,
+          "tackles": 1,
+          "rating": 7.7,
+          "is_sub": false
+        },
+        {
+          "team": "Canada",
+          "number": 8,
+          "name": "Alphonso Davies",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 20,
+          "pass_accuracy": 94,
+          "tackles": 1,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Canada",
+          "number": 9,
+          "name": "Jonathan David",
+          "position": "RW",
+          "minutes": 70,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 38,
+          "pass_accuracy": 93,
+          "tackles": 2,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Canada",
+          "number": 10,
+          "name": "Cyle Larin",
+          "position": "ST",
+          "minutes": 76,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 52,
+          "pass_accuracy": 95,
+          "tackles": 1,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Canada",
+          "number": 11,
+          "name": "Tajon Buchanan",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 35,
+          "pass_accuracy": 76,
+          "tackles": 1,
+          "rating": 6.8,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "57",
@@ -21945,6 +22787,18 @@
       "name": "Martin Ødegaard",
       "goals": 2,
       "assists": 1
+    },
+    {
+      "team": "Bosnia and Herzegovina",
+      "name": "Rade Krunić",
+      "goals": 2,
+      "assists": 1
+    },
+    {
+      "team": "Switzerland",
+      "name": "Granit Xhaka",
+      "goals": 2,
+      "assists": 0
     },
     {
       "team": "Jordan",
@@ -22019,12 +22873,6 @@
       "assists": 0
     },
     {
-      "team": "Switzerland",
-      "name": "Granit Xhaka",
-      "goals": 1,
-      "assists": 0
-    },
-    {
       "team": "United States",
       "name": "Yunus Musah",
       "goals": 1,
@@ -22051,12 +22899,6 @@
     {
       "team": "Netherlands",
       "name": "Steven Bergwijn",
-      "goals": 1,
-      "assists": 0
-    },
-    {
-      "team": "Netherlands",
-      "name": "Wout Weghorst",
       "goals": 1,
       "assists": 0
     }
