@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T23:21:11.821373+00:00",
+  "updated_at": "2026-06-24T01:24:59.142363+00:00",
   "match_count": 75,
   "matches": [
     {
@@ -20123,16 +20123,434 @@
       "home_flag": "https://flagcdn.com/w80/pa.png",
       "away_flag": "https://flagcdn.com/w80/hr.png",
       "home_score": "0",
-      "away_score": "0",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "away_score": "1",
+      "status": "FINISHED",
+      "minute": null,
       "date": "06/23/2026 19:00",
       "group": "L",
       "matchday": "2",
       "type": "group",
       "stadium": "BMO Field",
       "stadium_city": "Toronto",
-      "stadium_id": "12"
+      "stadium_id": "12",
+      "stats": {
+        "possession": {
+          "home": 43,
+          "away": 57
+        },
+        "shots": {
+          "home": 2,
+          "away": 5
+        },
+        "shots_on_target": {
+          "home": 0,
+          "away": 2
+        },
+        "passes": {
+          "home": 238,
+          "away": 324
+        },
+        "pass_accuracy": {
+          "home": 85,
+          "away": 79
+        },
+        "xG": {
+          "home": 0.0,
+          "away": 0.89
+        },
+        "yellow_cards": {
+          "home": 2,
+          "away": 0
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 11,
+          "away": 14
+        },
+        "corners": {
+          "home": 4,
+          "away": 3
+        },
+        "offsides": {
+          "home": 2,
+          "away": 3
+        },
+        "tackles": {
+          "home": 25,
+          "away": 24
+        },
+        "interceptions": {
+          "home": 11,
+          "away": 9
+        }
+      },
+      "events": [
+        {
+          "minute": 30,
+          "type": "yellow_card",
+          "team": "Croatia",
+          "player": "Josip Juranović"
+        },
+        {
+          "minute": 45,
+          "type": "yellow_card",
+          "team": "Croatia",
+          "player": "Ante Rebić"
+        },
+        {
+          "minute": 81,
+          "type": "yellow_card",
+          "team": "Croatia",
+          "player": "Dominik Livaković"
+        },
+        {
+          "minute": 84,
+          "type": "yellow_card",
+          "team": "Panama",
+          "player": "Abdiel Arroyo"
+        },
+        {
+          "minute": 90,
+          "type": "goal",
+          "team": "Croatia",
+          "player": "Luka Modrić"
+        }
+      ],
+      "players": [
+        {
+          "team": "Panama",
+          "number": 1,
+          "name": "Luis Mejía",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 17,
+          "pass_accuracy": 93,
+          "tackles": 2,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "Panama",
+          "number": 2,
+          "name": "Michael Amir Murillo",
+          "position": "LB",
+          "minutes": 77,
+          "goals": 0,
+          "assists": 1,
+          "shots": 3,
+          "passes": 46,
+          "pass_accuracy": 95,
+          "tackles": 3,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "Panama",
+          "number": 3,
+          "name": "Harold Cummings",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 43,
+          "pass_accuracy": 89,
+          "tackles": 4,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Panama",
+          "number": 4,
+          "name": "Fidel Escobar",
+          "position": "CB",
+          "minutes": 71,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 58,
+          "pass_accuracy": 84,
+          "tackles": 5,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Panama",
+          "number": 5,
+          "name": "Eric Davis",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 2,
+          "passes": 41,
+          "pass_accuracy": 70,
+          "tackles": 2,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Panama",
+          "number": 6,
+          "name": "Aníbal Godoy",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 20,
+          "pass_accuracy": 92,
+          "tackles": 0,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Panama",
+          "number": 7,
+          "name": "Alberto Quintero",
+          "position": "CM",
+          "minutes": 67,
+          "goals": 0,
+          "assists": 1,
+          "shots": 2,
+          "passes": 23,
+          "pass_accuracy": 83,
+          "tackles": 3,
+          "rating": 7.9,
+          "is_sub": false
+        },
+        {
+          "team": "Panama",
+          "number": 8,
+          "name": "Gabriel Torres",
+          "position": "LW",
+          "minutes": 86,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 28,
+          "pass_accuracy": 88,
+          "tackles": 0,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Panama",
+          "number": 9,
+          "name": "Abdiel Arroyo",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 46,
+          "pass_accuracy": 77,
+          "tackles": 1,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Panama",
+          "number": 10,
+          "name": "Yoel Bárcenas",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 33,
+          "pass_accuracy": 91,
+          "tackles": 0,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Panama",
+          "number": 11,
+          "name": "José Luis Rodríguez",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 21,
+          "pass_accuracy": 91,
+          "tackles": 1,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Croatia",
+          "number": 1,
+          "name": "Dominik Livaković",
+          "position": "GK",
+          "minutes": 80,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 15,
+          "pass_accuracy": 88,
+          "tackles": 1,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Croatia",
+          "number": 2,
+          "name": "Josip Juranović",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 35,
+          "pass_accuracy": 87,
+          "tackles": 4,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Croatia",
+          "number": 3,
+          "name": "Duje Ćaleta-Car",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 53,
+          "pass_accuracy": 70,
+          "tackles": 1,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Croatia",
+          "number": 4,
+          "name": "Dejan Lovren",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 36,
+          "pass_accuracy": 74,
+          "tackles": 3,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Croatia",
+          "number": 5,
+          "name": "Borna Sosa",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 50,
+          "pass_accuracy": 75,
+          "tackles": 0,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Croatia",
+          "number": 6,
+          "name": "Marcelo Brozović",
+          "position": "CM",
+          "minutes": 87,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 35,
+          "pass_accuracy": 87,
+          "tackles": 3,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Croatia",
+          "number": 7,
+          "name": "Luka Modrić",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 21,
+          "pass_accuracy": 87,
+          "tackles": 1,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Croatia",
+          "number": 8,
+          "name": "Ivan Perišić",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 58,
+          "pass_accuracy": 76,
+          "tackles": 0,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Croatia",
+          "number": 9,
+          "name": "Andrej Kramarić",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 46,
+          "pass_accuracy": 87,
+          "tackles": 0,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Croatia",
+          "number": 10,
+          "name": "Mario Pašalić",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 3,
+          "passes": 43,
+          "pass_accuracy": 88,
+          "tackles": 2,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Croatia",
+          "number": 11,
+          "name": "Ante Rebić",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 27,
+          "pass_accuracy": 91,
+          "tackles": 1,
+          "rating": 7.4,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "47",

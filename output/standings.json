@@ -611,26 +611,26 @@
           "pts": 4
         },
         {
-          "name": "Panama",
-          "flag": "https://flagcdn.com/w80/pa.png",
-          "mp": 1,
-          "w": 0,
-          "d": 0,
-          "l": 1,
-          "gf": 0,
-          "ga": 1,
-          "gd": -1,
-          "pts": 0
-        },
-        {
           "name": "Croatia",
           "flag": "https://flagcdn.com/w80/hr.png",
-          "mp": 1,
-          "w": 0,
+          "mp": 2,
+          "w": 1,
           "d": 0,
           "l": 1,
-          "gf": 2,
+          "gf": 3,
           "ga": 4,
+          "gd": -1,
+          "pts": 3
+        },
+        {
+          "name": "Panama",
+          "flag": "https://flagcdn.com/w80/pa.png",
+          "mp": 2,
+          "w": 0,
+          "d": 0,
+          "l": 2,
+          "gf": 0,
+          "ga": 2,
           "gd": -2,
           "pts": 0
         }
