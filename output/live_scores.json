@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-25T05:42:39.565001+00:00",
-  "match_count": 78,
+  "updated_at": "2026-06-25T08:38:57.176886+00:00",
+  "match_count": 80,
   "matches": [
     {
       "id": "6",
@@ -14535,6 +14535,26 @@
       "stadium_id": "4"
     },
     {
+      "id": "76",
+      "home": "Brazil",
+      "away": "TBD",
+      "home_id": "9",
+      "away_id": "0",
+      "home_flag": "https://flagcdn.com/w80/br.png",
+      "away_flag": "",
+      "home_score": "0",
+      "away_score": "0",
+      "status": "SCHEDULED",
+      "minute": null,
+      "date": "06/29/2026 12:00",
+      "group": "R32",
+      "matchday": "4",
+      "type": "r32",
+      "stadium": "NRG Stadium",
+      "stadium_city": "Houston",
+      "stadium_id": "5"
+    },
+    {
       "id": "85",
       "home": "Switzerland",
       "away": "TBD",
@@ -18638,11 +18658,11 @@
     },
     {
       "id": "73",
-      "home": "TBD",
+      "home": "South Africa",
       "away": "Canada",
-      "home_id": "0",
+      "home_id": "2",
       "away_id": "5",
-      "home_flag": "",
+      "home_flag": "https://flagcdn.com/w80/za.png",
       "away_flag": "https://flagcdn.com/w80/ca.png",
       "home_score": "0",
       "away_score": "0",
@@ -24521,6 +24541,26 @@
       "stadium": "BC Place",
       "stadium_city": "Vancouver",
       "stadium_id": "13"
+    },
+    {
+      "id": "75",
+      "home": "TBD",
+      "away": "Morocco",
+      "home_id": "0",
+      "away_id": "10",
+      "home_flag": "",
+      "away_flag": "https://flagcdn.com/w80/ma.png",
+      "home_score": "0",
+      "away_score": "0",
+      "status": "SCHEDULED",
+      "minute": null,
+      "date": "06/29/2026 19:00",
+      "group": "R32",
+      "matchday": "4",
+      "type": "r32",
+      "stadium": "Estadio BBVA",
+      "stadium_city": "Monterrey (Guadalupe)",
+      "stadium_id": "3"
     },
     {
       "id": "79",
