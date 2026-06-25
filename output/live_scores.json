@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T20:31:10.805030+00:00",
+  "updated_at": "2026-06-25T22:10:26.657750+00:00",
   "match_count": 80,
   "matches": [
     {
@@ -3148,8 +3148,8 @@
       "away_id": "23",
       "home_flag": "https://flagcdn.com/w80/jp.png",
       "away_flag": "https://flagcdn.com/w80/se.png",
-      "home_score": "0",
-      "away_score": "0",
+      "home_score": null,
+      "away_score": null,
       "status": "SCHEDULED",
       "minute": null,
       "date": "06/25/2026 18:00",
@@ -6324,8 +6324,8 @@
       "away_id": "21",
       "home_flag": "https://flagcdn.com/w80/tn.png",
       "away_flag": "https://flagcdn.com/w80/nl.png",
-      "home_score": "0",
-      "away_score": "0",
+      "home_score": null,
+      "away_score": null,
       "status": "SCHEDULED",
       "minute": null,
       "date": "06/25/2026 18:00",
@@ -14422,8 +14422,8 @@
       "away_id": "13",
       "home_flag": "https://flagcdn.com/w80/tr.png",
       "away_flag": "https://flagcdn.com/w80/us.png",
-      "home_score": "0",
-      "away_score": "0",
+      "home_score": null,
+      "away_score": null,
       "status": "SCHEDULED",
       "minute": null,
       "date": "06/25/2026 19:00",
@@ -23071,16 +23071,446 @@
       "home_flag": "https://flagcdn.com/w80/cw.png",
       "away_flag": "https://flagcdn.com/w80/ci.png",
       "home_score": "0",
-      "away_score": "1",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "away_score": "2",
+      "status": "FINISHED",
+      "minute": null,
       "date": "06/25/2026 16:00",
       "group": "E",
       "matchday": "3",
       "type": "group",
       "stadium": "Lincoln Financial Field",
       "stadium_city": "Philadelphia",
-      "stadium_id": "10"
+      "stadium_id": "10",
+      "stats": {
+        "possession": {
+          "home": 42,
+          "away": 58
+        },
+        "shots": {
+          "home": 4,
+          "away": 9
+        },
+        "shots_on_target": {
+          "home": 3,
+          "away": 4
+        },
+        "passes": {
+          "home": 210,
+          "away": 285
+        },
+        "pass_accuracy": {
+          "home": 88,
+          "away": 76
+        },
+        "xG": {
+          "home": 0.37,
+          "away": 1.31
+        },
+        "yellow_cards": {
+          "home": 2,
+          "away": 1
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 18,
+          "away": 8
+        },
+        "corners": {
+          "home": 8,
+          "away": 6
+        },
+        "offsides": {
+          "home": 1,
+          "away": 1
+        },
+        "tackles": {
+          "home": 13,
+          "away": 21
+        },
+        "interceptions": {
+          "home": 6,
+          "away": 8
+        }
+      },
+      "events": [
+        {
+          "minute": 13,
+          "type": "yellow_card",
+          "team": "Curaçao",
+          "player": "Shermar Martina"
+        },
+        {
+          "minute": 15,
+          "type": "goal",
+          "team": "Ivory Coast",
+          "player": "Max Gradel"
+        },
+        {
+          "minute": 24,
+          "type": "goal",
+          "team": "Ivory Coast",
+          "player": "Franck Kessié"
+        },
+        {
+          "minute": 25,
+          "type": "yellow_card",
+          "team": "Ivory Coast",
+          "player": "Eric Bailly"
+        },
+        {
+          "minute": 42,
+          "type": "yellow_card",
+          "team": "Curaçao",
+          "player": "Rangelo Janga"
+        },
+        {
+          "minute": 45,
+          "type": "yellow_card",
+          "team": "Ivory Coast",
+          "player": "Yahia Fofana"
+        },
+        {
+          "minute": 58,
+          "type": "yellow_card",
+          "team": "Curaçao",
+          "player": "Shermar Martina"
+        }
+      ],
+      "players": [
+        {
+          "team": "Curaçao",
+          "number": 1,
+          "name": "Eloy Room",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 19,
+          "pass_accuracy": 84,
+          "tackles": 1,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Curaçao",
+          "number": 2,
+          "name": "Cuco Martina",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 0,
+          "passes": 46,
+          "pass_accuracy": 81,
+          "tackles": 3,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "Curaçao",
+          "number": 3,
+          "name": "Darryl Lachman",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 53,
+          "pass_accuracy": 72,
+          "tackles": 0,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "Curaçao",
+          "number": 4,
+          "name": "Shermar Martina",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 20,
+          "pass_accuracy": 82,
+          "tackles": 2,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "Curaçao",
+          "number": 5,
+          "name": "Juriën Gaari",
+          "position": "RB",
+          "minutes": 66,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 22,
+          "pass_accuracy": 79,
+          "tackles": 1,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Curaçao",
+          "number": 6,
+          "name": "Leandro Bacuna",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 52,
+          "pass_accuracy": 78,
+          "tackles": 5,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Curaçao",
+          "number": 7,
+          "name": "Gevaro Nepomuceno",
+          "position": "CM",
+          "minutes": 85,
+          "goals": 0,
+          "assists": 1,
+          "shots": 2,
+          "passes": 52,
+          "pass_accuracy": 88,
+          "tackles": 5,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Curaçao",
+          "number": 8,
+          "name": "Gino van Kessel",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 21,
+          "pass_accuracy": 79,
+          "tackles": 2,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Curaçao",
+          "number": 9,
+          "name": "Rangelo Janga",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 44,
+          "pass_accuracy": 71,
+          "tackles": 1,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Curaçao",
+          "number": 10,
+          "name": "Elson Hooi",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 60,
+          "pass_accuracy": 85,
+          "tackles": 2,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Curaçao",
+          "number": 11,
+          "name": "Gervane Kastaneer",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 60,
+          "pass_accuracy": 78,
+          "tackles": 0,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Ivory Coast",
+          "number": 1,
+          "name": "Yahia Fofana",
+          "position": "GK",
+          "minutes": 86,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 25,
+          "pass_accuracy": 93,
+          "tackles": 1,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Ivory Coast",
+          "number": 2,
+          "name": "Serge Aurier",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 54,
+          "pass_accuracy": 79,
+          "tackles": 5,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Ivory Coast",
+          "number": 3,
+          "name": "Eric Bailly",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 53,
+          "pass_accuracy": 95,
+          "tackles": 1,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Ivory Coast",
+          "number": 4,
+          "name": "Wilfried Singo",
+          "position": "CB",
+          "minutes": 73,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 35,
+          "pass_accuracy": 70,
+          "tackles": 3,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Ivory Coast",
+          "number": 5,
+          "name": "Willy Boly",
+          "position": "RB",
+          "minutes": 88,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 33,
+          "pass_accuracy": 79,
+          "tackles": 1,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Ivory Coast",
+          "number": 6,
+          "name": "Seko Fofana",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 56,
+          "pass_accuracy": 95,
+          "tackles": 3,
+          "rating": 5.5,
+          "is_sub": false
+        },
+        {
+          "team": "Ivory Coast",
+          "number": 7,
+          "name": "Franck Kessié",
+          "position": "CM",
+          "minutes": 74,
+          "goals": 1,
+          "assists": 0,
+          "shots": 0,
+          "passes": 29,
+          "pass_accuracy": 85,
+          "tackles": 5,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Ivory Coast",
+          "number": 8,
+          "name": "Max Gradel",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 49,
+          "pass_accuracy": 83,
+          "tackles": 0,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Ivory Coast",
+          "number": 9,
+          "name": "Sébastien Haller",
+          "position": "RW",
+          "minutes": 70,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 59,
+          "pass_accuracy": 72,
+          "tackles": 0,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Ivory Coast",
+          "number": 10,
+          "name": "Nicolas Pépé",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 51,
+          "pass_accuracy": 86,
+          "tackles": 2,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Ivory Coast",
+          "number": 11,
+          "name": "Christian Kouamé",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 3,
+          "passes": 31,
+          "pass_accuracy": 83,
+          "tackles": 0,
+          "rating": 6.5,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "56",
@@ -23090,17 +23520,429 @@
       "away_id": "17",
       "home_flag": "https://flagcdn.com/w80/ec.png",
       "away_flag": "https://flagcdn.com/w80/de.png",
-      "home_score": "1",
+      "home_score": "2",
       "away_score": "1",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "status": "FINISHED",
+      "minute": null,
       "date": "06/25/2026 16:00",
       "group": "E",
       "matchday": "3",
       "type": "group",
       "stadium": "MetLife Stadium",
       "stadium_city": "New York/New Jersey (East Rutherford)",
-      "stadium_id": "11"
+      "stadium_id": "11",
+      "stats": {
+        "possession": {
+          "home": 54,
+          "away": 46
+        },
+        "shots": {
+          "home": 10,
+          "away": 7
+        },
+        "shots_on_target": {
+          "home": 3,
+          "away": 1
+        },
+        "passes": {
+          "home": 340,
+          "away": 276
+        },
+        "pass_accuracy": {
+          "home": 80,
+          "away": 81
+        },
+        "xG": {
+          "home": 1.1,
+          "away": 0.52
+        },
+        "yellow_cards": {
+          "home": 2,
+          "away": 2
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 13,
+          "away": 16
+        },
+        "corners": {
+          "home": 6,
+          "away": 2
+        },
+        "offsides": {
+          "home": 4,
+          "away": 2
+        },
+        "tackles": {
+          "home": 15,
+          "away": 21
+        },
+        "interceptions": {
+          "home": 16,
+          "away": 12
+        }
+      },
+      "events": [
+        {
+          "minute": 24,
+          "type": "goal",
+          "team": "Ecuador",
+          "player": "Enner Valencia"
+        },
+        {
+          "minute": 60,
+          "type": "yellow_card",
+          "team": "Germany",
+          "player": "Leon Goretzka"
+        },
+        {
+          "minute": 78,
+          "type": "goal",
+          "team": "Germany",
+          "player": "Kai Havertz"
+        },
+        {
+          "minute": 90,
+          "type": "goal",
+          "team": "Ecuador",
+          "player": "Enner Valencia"
+        }
+      ],
+      "players": [
+        {
+          "team": "Ecuador",
+          "number": 1,
+          "name": "Alexander Domínguez",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 10,
+          "pass_accuracy": 83,
+          "tackles": 1,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Ecuador",
+          "number": 2,
+          "name": "Piero Hincapié",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 24,
+          "pass_accuracy": 80,
+          "tackles": 5,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Ecuador",
+          "number": 3,
+          "name": "Robert Arboleda",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 20,
+          "pass_accuracy": 76,
+          "tackles": 2,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Ecuador",
+          "number": 4,
+          "name": "Pervis Estupiñán",
+          "position": "CB",
+          "minutes": 72,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 25,
+          "pass_accuracy": 84,
+          "tackles": 1,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Ecuador",
+          "number": 5,
+          "name": "Ángelo Preciado",
+          "position": "RB",
+          "minutes": 76,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 26,
+          "pass_accuracy": 89,
+          "tackles": 3,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Ecuador",
+          "number": 6,
+          "name": "Moisés Caicedo",
+          "position": "CM",
+          "minutes": 81,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 57,
+          "pass_accuracy": 84,
+          "tackles": 2,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Ecuador",
+          "number": 7,
+          "name": "Alan Franco",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 52,
+          "pass_accuracy": 95,
+          "tackles": 5,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Ecuador",
+          "number": 8,
+          "name": "Michael Estrada",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 24,
+          "pass_accuracy": 94,
+          "tackles": 1,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Ecuador",
+          "number": 9,
+          "name": "Enner Valencia",
+          "position": "RW",
+          "minutes": 89,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 23,
+          "pass_accuracy": 73,
+          "tackles": 0,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Ecuador",
+          "number": 10,
+          "name": "Gonzalo Plata",
+          "position": "ST",
+          "minutes": 76,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 40,
+          "pass_accuracy": 78,
+          "tackles": 1,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Ecuador",
+          "number": 11,
+          "name": "Jordy Caicedo",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 1,
+          "passes": 50,
+          "pass_accuracy": 82,
+          "tackles": 2,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Germany",
+          "number": 1,
+          "name": "Manuel Neuer",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 16,
+          "pass_accuracy": 84,
+          "tackles": 0,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Germany",
+          "number": 2,
+          "name": "Antonio Rüdiger",
+          "position": "LB",
+          "minutes": 73,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 30,
+          "pass_accuracy": 77,
+          "tackles": 2,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Germany",
+          "number": 3,
+          "name": "David Raum",
+          "position": "CB",
+          "minutes": 63,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 28,
+          "pass_accuracy": 86,
+          "tackles": 3,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Germany",
+          "number": 4,
+          "name": "Matthias Ginter",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 26,
+          "pass_accuracy": 83,
+          "tackles": 3,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Germany",
+          "number": 5,
+          "name": "Joshua Kimmich",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 33,
+          "pass_accuracy": 90,
+          "tackles": 0,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Germany",
+          "number": 6,
+          "name": "Leon Goretzka",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 1,
+          "passes": 47,
+          "pass_accuracy": 90,
+          "tackles": 2,
+          "rating": 8.3,
+          "is_sub": false
+        },
+        {
+          "team": "Germany",
+          "number": 7,
+          "name": "Serge Gnabry",
+          "position": "CM",
+          "minutes": 82,
+          "goals": 0,
+          "assists": 1,
+          "shots": 4,
+          "passes": 22,
+          "pass_accuracy": 70,
+          "tackles": 2,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Germany",
+          "number": 8,
+          "name": "Thomas Müller",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 44,
+          "pass_accuracy": 84,
+          "tackles": 1,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Germany",
+          "number": 9,
+          "name": "Kai Havertz",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 48,
+          "pass_accuracy": 79,
+          "tackles": 0,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Germany",
+          "number": 10,
+          "name": "Timo Werner",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 53,
+          "pass_accuracy": 94,
+          "tackles": 0,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Germany",
+          "number": 11,
+          "name": "Leroy Sané",
+          "position": "ST",
+          "minutes": 63,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 34,
+          "pass_accuracy": 92,
+          "tackles": 0,
+          "rating": 5.6,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "68",
@@ -24510,8 +25352,8 @@
       "away_id": "15",
       "home_flag": "https://flagcdn.com/w80/py.png",
       "away_flag": "https://flagcdn.com/w80/au.png",
-      "home_score": "0",
-      "away_score": "0",
+      "home_score": null,
+      "away_score": null,
       "status": "SCHEDULED",
       "minute": null,
       "date": "06/25/2026 19:00",
@@ -24609,6 +25451,18 @@
       "assists": 0
     },
     {
+      "team": "Germany",
+      "name": "Leon Goretzka",
+      "goals": 2,
+      "assists": 0
+    },
+    {
+      "team": "Ivory Coast",
+      "name": "Franck Kessié",
+      "goals": 2,
+      "assists": 0
+    },
+    {
       "team": "Jordan",
       "name": "Baha' Faisal",
       "goals": 2,
@@ -24683,18 +25537,6 @@
     {
       "team": "United States",
       "name": "Giovanni Reyna",
-      "goals": 1,
-      "assists": 0
-    },
-    {
-      "team": "Germany",
-      "name": "Leon Goretzka",
-      "goals": 1,
-      "assists": 0
-    },
-    {
-      "team": "Ivory Coast",
-      "name": "Franck Kessié",
       "goals": 1,
       "assists": 0
     },
