@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-26T20:49:02.340229+00:00",
-  "match_count": 82,
+  "updated_at": "2026-06-26T23:35:02.591776+00:00",
+  "match_count": 83,
   "matches": [
     {
       "id": "6",
@@ -7186,17 +7186,459 @@
       "away_id": "35",
       "home_flag": "https://flagcdn.com/w80/sn.png",
       "away_flag": "https://flagcdn.com/w80/iq.png",
-      "home_score": "4",
+      "home_score": "5",
       "away_score": "0",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "status": "FINISHED",
+      "minute": null,
       "date": "06/26/2026 15:00",
       "group": "I",
       "matchday": "3",
       "type": "group",
       "stadium": "BMO Field",
       "stadium_city": "Toronto",
-      "stadium_id": "12"
+      "stadium_id": "12",
+      "stats": {
+        "possession": {
+          "home": 54,
+          "away": 46
+        },
+        "shots": {
+          "home": 13,
+          "away": 2
+        },
+        "shots_on_target": {
+          "home": 8,
+          "away": 2
+        },
+        "passes": {
+          "home": 250,
+          "away": 295
+        },
+        "pass_accuracy": {
+          "home": 79,
+          "away": 83
+        },
+        "xG": {
+          "home": 3.92,
+          "away": 0.15
+        },
+        "yellow_cards": {
+          "home": 3,
+          "away": 3
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 8,
+          "away": 15
+        },
+        "corners": {
+          "home": 5,
+          "away": 8
+        },
+        "offsides": {
+          "home": 1,
+          "away": 1
+        },
+        "tackles": {
+          "home": 12,
+          "away": 15
+        },
+        "interceptions": {
+          "home": 6,
+          "away": 6
+        }
+      },
+      "events": [
+        {
+          "minute": 27,
+          "type": "yellow_card",
+          "team": "Senegal",
+          "player": "Keita Baldé"
+        },
+        {
+          "minute": 38,
+          "type": "yellow_card",
+          "team": "Senegal",
+          "player": "Nampalys Mendy"
+        },
+        {
+          "minute": 47,
+          "type": "goal",
+          "team": "Senegal",
+          "player": "Ismaïla Sarr"
+        },
+        {
+          "minute": 47,
+          "type": "yellow_card",
+          "team": "Senegal",
+          "player": "Abdou Diallo"
+        },
+        {
+          "minute": 61,
+          "type": "yellow_card",
+          "team": "Senegal",
+          "player": "Nampalys Mendy"
+        },
+        {
+          "minute": 64,
+          "type": "goal",
+          "team": "Senegal",
+          "player": "Nampalys Mendy"
+        },
+        {
+          "minute": 85,
+          "type": "goal",
+          "team": "Senegal",
+          "player": "Nampalys Mendy"
+        },
+        {
+          "minute": 86,
+          "type": "goal",
+          "team": "Senegal",
+          "player": "Nampalys Mendy"
+        },
+        {
+          "minute": 87,
+          "type": "goal",
+          "team": "Senegal",
+          "player": "Boulaye Dia"
+        }
+      ],
+      "players": [
+        {
+          "team": "Senegal",
+          "number": 1,
+          "name": "Édouard Mendy",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 20,
+          "pass_accuracy": 86,
+          "tackles": 0,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Senegal",
+          "number": 2,
+          "name": "Kalidou Koulibaly",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 31,
+          "pass_accuracy": 85,
+          "tackles": 0,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Senegal",
+          "number": 3,
+          "name": "Abdou Diallo",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 52,
+          "pass_accuracy": 76,
+          "tackles": 3,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Senegal",
+          "number": 4,
+          "name": "Idrissa Gueye",
+          "position": "CB",
+          "minutes": 87,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 26,
+          "pass_accuracy": 82,
+          "tackles": 2,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Senegal",
+          "number": 5,
+          "name": "Bouna Sarr",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 20,
+          "pass_accuracy": 86,
+          "tackles": 5,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Senegal",
+          "number": 6,
+          "name": "Nampalys Mendy",
+          "position": "CM",
+          "minutes": 80,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 29,
+          "pass_accuracy": 80,
+          "tackles": 1,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Senegal",
+          "number": 7,
+          "name": "Sadio Mané",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 2,
+          "passes": 26,
+          "pass_accuracy": 74,
+          "tackles": 1,
+          "rating": 7.9,
+          "is_sub": false
+        },
+        {
+          "team": "Senegal",
+          "number": 8,
+          "name": "Boulaye Dia",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 59,
+          "pass_accuracy": 85,
+          "tackles": 1,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Senegal",
+          "number": 9,
+          "name": "Ismaïla Sarr",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 39,
+          "pass_accuracy": 80,
+          "tackles": 1,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Senegal",
+          "number": 10,
+          "name": "Keita Baldé",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 53,
+          "pass_accuracy": 79,
+          "tackles": 2,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Senegal",
+          "number": 11,
+          "name": "Fodé Ballo-Touré",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 2,
+          "passes": 30,
+          "pass_accuracy": 87,
+          "tackles": 0,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Iraq",
+          "number": 1,
+          "name": "Jalal Hassan",
+          "position": "GK",
+          "minutes": 67,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 12,
+          "pass_accuracy": 91,
+          "tackles": 2,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Iraq",
+          "number": 2,
+          "name": "Ahmed Ibrahim",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 1,
+          "passes": 54,
+          "pass_accuracy": 95,
+          "tackles": 2,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Iraq",
+          "number": 3,
+          "name": "Ali Adnan",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 29,
+          "pass_accuracy": 74,
+          "tackles": 0,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Iraq",
+          "number": 4,
+          "name": "Rebin Sulaka",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 49,
+          "pass_accuracy": 72,
+          "tackles": 2,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Iraq",
+          "number": 5,
+          "name": "Dhurgham Ismail",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 21,
+          "pass_accuracy": 87,
+          "tackles": 5,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Iraq",
+          "number": 6,
+          "name": "Safaa Hadi",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 49,
+          "pass_accuracy": 74,
+          "tackles": 1,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Iraq",
+          "number": 7,
+          "name": "Hussein Ali",
+          "position": "CM",
+          "minutes": 80,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 45,
+          "pass_accuracy": 84,
+          "tackles": 4,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Iraq",
+          "number": 8,
+          "name": "Amjad Attwan",
+          "position": "LW",
+          "minutes": 88,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 26,
+          "pass_accuracy": 85,
+          "tackles": 2,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Iraq",
+          "number": 9,
+          "name": "Mohannad Abdul-Raheem",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 26,
+          "pass_accuracy": 91,
+          "tackles": 2,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Iraq",
+          "number": 10,
+          "name": "Alaa Abbas",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 56,
+          "pass_accuracy": 87,
+          "tackles": 0,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Iraq",
+          "number": 11,
+          "name": "Mohanad Ali",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 25,
+          "pass_accuracy": 91,
+          "tackles": 1,
+          "rating": 6.4,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "67",
@@ -15747,16 +16189,458 @@
       "home_flag": "https://flagcdn.com/w80/no.png",
       "away_flag": "https://flagcdn.com/w80/fr.png",
       "home_score": "1",
-      "away_score": "3",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "away_score": "4",
+      "status": "FINISHED",
+      "minute": null,
       "date": "06/26/2026 15:00",
       "group": "I",
       "matchday": "3",
       "type": "group",
       "stadium": "Gillette Stadium",
       "stadium_city": "Boston (Foxborough)",
-      "stadium_id": "9"
+      "stadium_id": "9",
+      "stats": {
+        "possession": {
+          "home": 40,
+          "away": 60
+        },
+        "shots": {
+          "home": 7,
+          "away": 10
+        },
+        "shots_on_target": {
+          "home": 4,
+          "away": 5
+        },
+        "passes": {
+          "home": 198,
+          "away": 289
+        },
+        "pass_accuracy": {
+          "home": 91,
+          "away": 89
+        },
+        "xG": {
+          "home": 0.91,
+          "away": 2.97
+        },
+        "yellow_cards": {
+          "home": 3,
+          "away": 4
+        },
+        "red_cards": {
+          "home": 1,
+          "away": 0
+        },
+        "fouls": {
+          "home": 9,
+          "away": 12
+        },
+        "corners": {
+          "home": 9,
+          "away": 5
+        },
+        "offsides": {
+          "home": 4,
+          "away": 0
+        },
+        "tackles": {
+          "home": 24,
+          "away": 21
+        },
+        "interceptions": {
+          "home": 8,
+          "away": 16
+        }
+      },
+      "events": [
+        {
+          "minute": 2,
+          "type": "goal",
+          "team": "France",
+          "player": "Karim Benzema"
+        },
+        {
+          "minute": 37,
+          "type": "goal",
+          "team": "France",
+          "player": "Kylian Mbappé"
+        },
+        {
+          "minute": 42,
+          "type": "yellow_card",
+          "team": "France",
+          "player": "Jules Koundé"
+        },
+        {
+          "minute": 49,
+          "type": "goal",
+          "team": "France",
+          "player": "Karim Benzema"
+        },
+        {
+          "minute": 49,
+          "type": "yellow_card",
+          "team": "France",
+          "player": "Kylian Mbappé"
+        },
+        {
+          "minute": 74,
+          "type": "goal",
+          "team": "Norway",
+          "player": "Alexander Sørloth"
+        },
+        {
+          "minute": 75,
+          "type": "goal",
+          "team": "France",
+          "player": "Ousmane Dembélé"
+        },
+        {
+          "minute": 81,
+          "type": "yellow_card",
+          "team": "Norway",
+          "player": "Birger Meling"
+        },
+        {
+          "minute": 83,
+          "type": "yellow_card",
+          "team": "France",
+          "player": "Kingsley Coman"
+        }
+      ],
+      "players": [
+        {
+          "team": "Norway",
+          "number": 1,
+          "name": "André Hansen",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 15,
+          "pass_accuracy": 92,
+          "tackles": 0,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Norway",
+          "number": 2,
+          "name": "Stefan Strandberg",
+          "position": "LB",
+          "minutes": 83,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 57,
+          "pass_accuracy": 86,
+          "tackles": 0,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Norway",
+          "number": 3,
+          "name": "Kristoffer Ajer",
+          "position": "CB",
+          "minutes": 74,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 44,
+          "pass_accuracy": 95,
+          "tackles": 5,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Norway",
+          "number": 4,
+          "name": "Morten Thorsby",
+          "position": "CB",
+          "minutes": 84,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 39,
+          "pass_accuracy": 70,
+          "tackles": 1,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Norway",
+          "number": 5,
+          "name": "Birger Meling",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 44,
+          "pass_accuracy": 85,
+          "tackles": 1,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Norway",
+          "number": 6,
+          "name": "Morten Hjulmand",
+          "position": "CM",
+          "minutes": 70,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 58,
+          "pass_accuracy": 84,
+          "tackles": 3,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Norway",
+          "number": 7,
+          "name": "Martin Ødegaard",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 1,
+          "passes": 57,
+          "pass_accuracy": 86,
+          "tackles": 0,
+          "rating": 8.1,
+          "is_sub": false
+        },
+        {
+          "team": "Norway",
+          "number": 8,
+          "name": "Joshua King",
+          "position": "LW",
+          "minutes": 75,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 60,
+          "pass_accuracy": 73,
+          "tackles": 2,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Norway",
+          "number": 9,
+          "name": "Erling Haaland",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 32,
+          "pass_accuracy": 85,
+          "tackles": 1,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Norway",
+          "number": 10,
+          "name": "Alexander Sørloth",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 27,
+          "pass_accuracy": 81,
+          "tackles": 0,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Norway",
+          "number": 11,
+          "name": "Jens Petter Hauge",
+          "position": "ST",
+          "minutes": 65,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 60,
+          "pass_accuracy": 78,
+          "tackles": 0,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 1,
+          "name": "Hugo Lloris",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 13,
+          "pass_accuracy": 88,
+          "tackles": 2,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 2,
+          "name": "Jules Koundé",
+          "position": "LB",
+          "minutes": 87,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 24,
+          "pass_accuracy": 92,
+          "tackles": 1,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 3,
+          "name": "Raphaël Varane",
+          "position": "CB",
+          "minutes": 63,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 36,
+          "pass_accuracy": 87,
+          "tackles": 5,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 4,
+          "name": "Theo Hernández",
+          "position": "CB",
+          "minutes": 79,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 39,
+          "pass_accuracy": 85,
+          "tackles": 1,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 5,
+          "name": "Aurélien Tchouaméni",
+          "position": "RB",
+          "minutes": 87,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 60,
+          "pass_accuracy": 71,
+          "tackles": 0,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 6,
+          "name": "Antoine Griezmann",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 4,
+          "passes": 44,
+          "pass_accuracy": 92,
+          "tackles": 1,
+          "rating": 8.1,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 7,
+          "name": "Ousmane Dembélé",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 3,
+          "passes": 37,
+          "pass_accuracy": 71,
+          "tackles": 5,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 8,
+          "name": "Kylian Mbappé",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 22,
+          "pass_accuracy": 86,
+          "tackles": 1,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 9,
+          "name": "Karim Benzema",
+          "position": "RW",
+          "minutes": 69,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 43,
+          "pass_accuracy": 87,
+          "tackles": 2,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 10,
+          "name": "Kingsley Coman",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 60,
+          "pass_accuracy": 73,
+          "tackles": 0,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 11,
+          "name": "Mike Maignan",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 28,
+          "pass_accuracy": 78,
+          "tackles": 1,
+          "rating": 6.8,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "63",
@@ -19979,6 +20863,26 @@
       "stadium": "SoFi Stadium",
       "stadium_city": "Los Angeles (Inglewood)",
       "stadium_id": "16"
+    },
+    {
+      "id": "77",
+      "home": "France",
+      "away": "TBD",
+      "home_id": "33",
+      "away_id": "0",
+      "home_flag": "https://flagcdn.com/w80/fr.png",
+      "away_flag": "",
+      "home_score": "0",
+      "away_score": "0",
+      "status": "SCHEDULED",
+      "minute": null,
+      "date": "06/30/2026 17:00",
+      "group": "R32",
+      "matchday": "4",
+      "type": "r32",
+      "stadium": "MetLife Stadium",
+      "stadium_city": "New York/New Jersey (East Rutherford)",
+      "stadium_id": "11"
     },
     {
       "id": "14",
@@ -27105,11 +28009,11 @@
     {
       "id": "78",
       "home": "Ivory Coast",
-      "away": "TBD",
+      "away": "Norway",
       "home_id": "19",
-      "away_id": "0",
+      "away_id": "36",
       "home_flag": "https://flagcdn.com/w80/ci.png",
-      "away_flag": "",
+      "away_flag": "https://flagcdn.com/w80/no.png",
       "home_score": "0",
       "away_score": "0",
       "status": "SCHEDULED",
@@ -27147,7 +28051,7 @@
     {
       "team": "Norway",
       "name": "Martin Ødegaard",
-      "goals": 2,
+      "goals": 3,
       "assists": 1
     },
     {
