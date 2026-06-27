@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T21:45:29.516665+00:00",
+  "updated_at": "2026-06-27T23:00:08.853385+00:00",
   "match_count": 84,
   "matches": [
     {
@@ -7649,16 +7649,422 @@
       "home_flag": "https://flagcdn.com/w80/pa.png",
       "away_flag": "https://flagcdn.com/w80/gb-eng.png",
       "home_score": "0",
-      "away_score": "0",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "away_score": "2",
+      "status": "FINISHED",
+      "minute": null,
       "date": "06/27/2026 17:00",
       "group": "L",
       "matchday": "3",
       "type": "group",
       "stadium": "MetLife Stadium",
       "stadium_city": "New York/New Jersey (East Rutherford)",
-      "stadium_id": "11"
+      "stadium_id": "11",
+      "stats": {
+        "possession": {
+          "home": 43,
+          "away": 57
+        },
+        "shots": {
+          "home": 2,
+          "away": 6
+        },
+        "shots_on_target": {
+          "home": 2,
+          "away": 2
+        },
+        "passes": {
+          "home": 249,
+          "away": 363
+        },
+        "pass_accuracy": {
+          "home": 92,
+          "away": 78
+        },
+        "xG": {
+          "home": 0.33,
+          "away": 1.09
+        },
+        "yellow_cards": {
+          "home": 4,
+          "away": 2
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 10,
+          "away": 10
+        },
+        "corners": {
+          "home": 7,
+          "away": 8
+        },
+        "offsides": {
+          "home": 4,
+          "away": 2
+        },
+        "tackles": {
+          "home": 21,
+          "away": 22
+        },
+        "interceptions": {
+          "home": 14,
+          "away": 15
+        }
+      },
+      "events": [
+        {
+          "minute": 31,
+          "type": "goal",
+          "team": "England",
+          "player": "Phil Foden"
+        },
+        {
+          "minute": 75,
+          "type": "goal",
+          "team": "England",
+          "player": "Jude Bellingham"
+        },
+        {
+          "minute": 81,
+          "type": "yellow_card",
+          "team": "England",
+          "player": "Jack Grealish"
+        }
+      ],
+      "players": [
+        {
+          "team": "Panama",
+          "number": 1,
+          "name": "Luis Mejía",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 23,
+          "pass_accuracy": 91,
+          "tackles": 2,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Panama",
+          "number": 2,
+          "name": "Michael Amir Murillo",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 24,
+          "pass_accuracy": 82,
+          "tackles": 4,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Panama",
+          "number": 3,
+          "name": "Harold Cummings",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 32,
+          "pass_accuracy": 77,
+          "tackles": 3,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Panama",
+          "number": 4,
+          "name": "Fidel Escobar",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 48,
+          "pass_accuracy": 86,
+          "tackles": 0,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Panama",
+          "number": 5,
+          "name": "Eric Davis",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 28,
+          "pass_accuracy": 74,
+          "tackles": 5,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Panama",
+          "number": 6,
+          "name": "Aníbal Godoy",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 35,
+          "pass_accuracy": 90,
+          "tackles": 0,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Panama",
+          "number": 7,
+          "name": "Alberto Quintero",
+          "position": "CM",
+          "minutes": 64,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 48,
+          "pass_accuracy": 72,
+          "tackles": 2,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Panama",
+          "number": 8,
+          "name": "Gabriel Torres",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 39,
+          "pass_accuracy": 70,
+          "tackles": 2,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Panama",
+          "number": 9,
+          "name": "Abdiel Arroyo",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 24,
+          "pass_accuracy": 95,
+          "tackles": 0,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "Panama",
+          "number": 10,
+          "name": "Yoel Bárcenas",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 24,
+          "pass_accuracy": 74,
+          "tackles": 1,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Panama",
+          "number": 11,
+          "name": "José Luis Rodríguez",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 51,
+          "pass_accuracy": 91,
+          "tackles": 1,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 1,
+          "name": "Jordan Pickford",
+          "position": "GK",
+          "minutes": 79,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 13,
+          "pass_accuracy": 83,
+          "tackles": 2,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 2,
+          "name": "Kyle Walker",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 31,
+          "pass_accuracy": 82,
+          "tackles": 0,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 3,
+          "name": "John Stones",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 50,
+          "pass_accuracy": 89,
+          "tackles": 3,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 4,
+          "name": "Harry Maguire",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 48,
+          "pass_accuracy": 93,
+          "tackles": 3,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 5,
+          "name": "Luke Shaw",
+          "position": "RB",
+          "minutes": 87,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 53,
+          "pass_accuracy": 95,
+          "tackles": 2,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 6,
+          "name": "Declan Rice",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 21,
+          "pass_accuracy": 88,
+          "tackles": 4,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 7,
+          "name": "Jude Bellingham",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 2,
+          "passes": 51,
+          "pass_accuracy": 80,
+          "tackles": 2,
+          "rating": 8.1,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 8,
+          "name": "Raheem Sterling",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 43,
+          "pass_accuracy": 76,
+          "tackles": 1,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 9,
+          "name": "Harry Kane",
+          "position": "RW",
+          "minutes": 82,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 22,
+          "pass_accuracy": 77,
+          "tackles": 0,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 10,
+          "name": "Phil Foden",
+          "position": "ST",
+          "minutes": 75,
+          "goals": 1,
+          "assists": 0,
+          "shots": 0,
+          "passes": 46,
+          "pass_accuracy": 80,
+          "tackles": 1,
+          "rating": 7.8,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 11,
+          "name": "Jack Grealish",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 27,
+          "pass_accuracy": 78,
+          "tackles": 1,
+          "rating": 5.7,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "72",
@@ -27360,8 +27766,8 @@
       "away_id": "47",
       "home_flag": "https://flagcdn.com/w80/hr.png",
       "away_flag": "https://flagcdn.com/w80/gh.png",
-      "home_score": "1",
-      "away_score": "0",
+      "home_score": "2",
+      "away_score": "1",
       "status": "IN_PLAY",
       "minute": "live",
       "date": "06/27/2026 17:00",

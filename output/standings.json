@@ -589,14 +589,14 @@
         {
           "name": "England",
           "flag": "https://flagcdn.com/w80/gb-eng.png",
-          "mp": 2,
-          "w": 1,
+          "mp": 3,
+          "w": 2,
           "d": 1,
           "l": 0,
-          "gf": 4,
+          "gf": 6,
           "ga": 2,
-          "gd": 2,
-          "pts": 4
+          "gd": 4,
+          "pts": 7
         },
         {
           "name": "Ghana",
@@ -625,13 +625,13 @@
         {
           "name": "Panama",
           "flag": "https://flagcdn.com/w80/pa.png",
-          "mp": 2,
+          "mp": 3,
           "w": 0,
           "d": 0,
-          "l": 2,
+          "l": 3,
           "gf": 0,
-          "ga": 2,
-          "gd": -2,
+          "ga": 4,
+          "gd": -4,
           "pts": 0
         }
       ]
