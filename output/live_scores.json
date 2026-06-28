@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T18:17:19.988783+00:00",
+  "updated_at": "2026-06-28T19:53:35.772692+00:00",
   "match_count": 88,
   "matches": [
     {
@@ -23764,10 +23764,10 @@
       "away_id": "5",
       "home_flag": "https://flagcdn.com/w80/za.png",
       "away_flag": "https://flagcdn.com/w80/ca.png",
-      "home_score": null,
-      "away_score": null,
-      "status": "SCHEDULED",
-      "minute": null,
+      "home_score": "0",
+      "away_score": "0",
+      "status": "IN_PLAY",
+      "minute": "live",
       "date": "06/28/2026 12:00",
       "group": "R32",
       "matchday": "4",
