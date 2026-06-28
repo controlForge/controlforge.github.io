@@ -483,49 +483,49 @@
         {
           "name": "Argentina",
           "flag": "https://flagcdn.com/w80/ar.png",
-          "mp": 2,
-          "w": 2,
+          "mp": 3,
+          "w": 3,
           "d": 0,
           "l": 0,
-          "gf": 5,
-          "ga": 0,
-          "gd": 5,
-          "pts": 6
+          "gf": 8,
+          "ga": 1,
+          "gd": 7,
+          "pts": 9
         },
         {
           "name": "Austria",
           "flag": "https://flagcdn.com/w80/at.png",
-          "mp": 2,
+          "mp": 3,
           "w": 1,
-          "d": 0,
+          "d": 1,
           "l": 1,
-          "gf": 3,
-          "ga": 3,
+          "gf": 6,
+          "ga": 6,
           "gd": 0,
-          "pts": 3
+          "pts": 4
         },
         {
           "name": "Algeria",
           "flag": "https://flagcdn.com/w80/dz.png",
-          "mp": 2,
+          "mp": 3,
           "w": 1,
-          "d": 0,
+          "d": 1,
           "l": 1,
-          "gf": 2,
-          "ga": 4,
+          "gf": 5,
+          "ga": 7,
           "gd": -2,
-          "pts": 3
+          "pts": 4
         },
         {
           "name": "Jordan",
           "flag": "https://flagcdn.com/w80/jo.png",
-          "mp": 2,
+          "mp": 3,
           "w": 0,
           "d": 0,
-          "l": 2,
-          "gf": 2,
-          "ga": 5,
-          "gd": -3,
+          "l": 3,
+          "gf": 3,
+          "ga": 8,
+          "gd": -5,
           "pts": 0
         }
       ]
@@ -536,49 +536,49 @@
         {
           "name": "Colombia",
           "flag": "https://flagcdn.com/w80/co.png",
-          "mp": 2,
+          "mp": 3,
           "w": 2,
-          "d": 0,
+          "d": 1,
           "l": 0,
           "gf": 4,
           "ga": 1,
           "gd": 3,
-          "pts": 6
+          "pts": 7
         },
         {
           "name": "Portugal",
           "flag": "https://flagcdn.com/w80/pt.png",
-          "mp": 2,
+          "mp": 3,
           "w": 1,
-          "d": 1,
+          "d": 2,
           "l": 0,
           "gf": 6,
           "ga": 1,
           "gd": 5,
-          "pts": 4
+          "pts": 5
         },
         {
           "name": "Democratic Republic of the Congo",
           "flag": "https://flagcdn.com/w80/cd.png",
-          "mp": 2,
-          "w": 0,
+          "mp": 3,
+          "w": 1,
           "d": 1,
           "l": 1,
-          "gf": 1,
-          "ga": 2,
-          "gd": -1,
-          "pts": 1
+          "gf": 4,
+          "ga": 3,
+          "gd": 1,
+          "pts": 4
         },
         {
           "name": "Uzbekistan",
           "flag": "https://flagcdn.com/w80/uz.png",
-          "mp": 2,
+          "mp": 3,
           "w": 0,
           "d": 0,
-          "l": 2,
-          "gf": 1,
-          "ga": 8,
-          "gd": -7,
+          "l": 3,
+          "gf": 2,
+          "ga": 11,
+          "gd": -9,
           "pts": 0
         }
       ]

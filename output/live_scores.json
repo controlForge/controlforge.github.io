@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T00:11:16.542552+00:00",
+  "updated_at": "2026-06-28T04:51:12.645259+00:00",
   "match_count": 84,
   "matches": [
     {
@@ -8074,17 +8074,447 @@
       "away_id": "43",
       "home_flag": "https://flagcdn.com/w80/cd.png",
       "away_flag": "https://flagcdn.com/w80/uz.png",
-      "home_score": "0",
+      "home_score": "3",
       "away_score": "1",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "status": "FINISHED",
+      "minute": null,
       "date": "06/27/2026 19:30",
       "group": "K",
       "matchday": "3",
       "type": "group",
       "stadium": "Mercedes-Benz Stadium",
       "stadium_city": "Atlanta",
-      "stadium_id": "7"
+      "stadium_id": "7",
+      "stats": {
+        "possession": {
+          "home": 60,
+          "away": 40
+        },
+        "shots": {
+          "home": 8,
+          "away": 4
+        },
+        "shots_on_target": {
+          "home": 5,
+          "away": 3
+        },
+        "passes": {
+          "home": 280,
+          "away": 251
+        },
+        "pass_accuracy": {
+          "home": 87,
+          "away": 84
+        },
+        "xG": {
+          "home": 2.16,
+          "away": 0.96
+        },
+        "yellow_cards": {
+          "home": 2,
+          "away": 0
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 13,
+          "away": 15
+        },
+        "corners": {
+          "home": 8,
+          "away": 5
+        },
+        "offsides": {
+          "home": 1,
+          "away": 4
+        },
+        "tackles": {
+          "home": 13,
+          "away": 18
+        },
+        "interceptions": {
+          "home": 11,
+          "away": 7
+        }
+      },
+      "events": [
+        {
+          "minute": 24,
+          "type": "goal",
+          "team": "Democratic Republic of the Congo",
+          "player": "Giannelli Imbula"
+        },
+        {
+          "minute": 32,
+          "type": "yellow_card",
+          "team": "Uzbekistan",
+          "player": "Utkir Yusupov"
+        },
+        {
+          "minute": 38,
+          "type": "yellow_card",
+          "team": "Democratic Republic of the Congo",
+          "player": "Issama Mpeko"
+        },
+        {
+          "minute": 47,
+          "type": "yellow_card",
+          "team": "Uzbekistan",
+          "player": "Eldor Shomurodov"
+        },
+        {
+          "minute": 77,
+          "type": "goal",
+          "team": "Democratic Republic of the Congo",
+          "player": "Yannick Bolasie"
+        },
+        {
+          "minute": 77,
+          "type": "goal",
+          "team": "Democratic Republic of the Congo",
+          "player": "Chancel Mbemba"
+        },
+        {
+          "minute": 81,
+          "type": "goal",
+          "team": "Uzbekistan",
+          "player": "Eldor Shomurodov"
+        }
+      ],
+      "players": [
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 1,
+          "name": "Joël Kiassumbua",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 20,
+          "pass_accuracy": 70,
+          "tackles": 2,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 2,
+          "name": "Issama Mpeko",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 53,
+          "pass_accuracy": 70,
+          "tackles": 5,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 3,
+          "name": "Wilfred Moke",
+          "position": "CB",
+          "minutes": 88,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 47,
+          "pass_accuracy": 75,
+          "tackles": 2,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 4,
+          "name": "Fabrice N'Sakala",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 29,
+          "pass_accuracy": 72,
+          "tackles": 0,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 5,
+          "name": "Marcel Tisserand",
+          "position": "RB",
+          "minutes": 66,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 20,
+          "pass_accuracy": 81,
+          "tackles": 0,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 6,
+          "name": "Chancel Mbemba",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 32,
+          "pass_accuracy": 70,
+          "tackles": 2,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 7,
+          "name": "Giannelli Imbula",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 28,
+          "pass_accuracy": 88,
+          "tackles": 4,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 8,
+          "name": "Cédric Bakambu",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 2,
+          "passes": 49,
+          "pass_accuracy": 79,
+          "tackles": 2,
+          "rating": 7.7,
+          "is_sub": false
+        },
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 9,
+          "name": "Dieumerci Mbokani",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 2,
+          "passes": 23,
+          "pass_accuracy": 71,
+          "tackles": 2,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 10,
+          "name": "Yannick Bolasie",
+          "position": "ST",
+          "minutes": 86,
+          "goals": 1,
+          "assists": 0,
+          "shots": 0,
+          "passes": 29,
+          "pass_accuracy": 73,
+          "tackles": 2,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 11,
+          "name": "Neeskens Kebano",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 2,
+          "passes": 33,
+          "pass_accuracy": 81,
+          "tackles": 2,
+          "rating": 7.8,
+          "is_sub": false
+        },
+        {
+          "team": "Uzbekistan",
+          "number": 1,
+          "name": "Utkir Yusupov",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 21,
+          "pass_accuracy": 93,
+          "tackles": 2,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Uzbekistan",
+          "number": 2,
+          "name": "Khojiakbar Alijonov",
+          "position": "LB",
+          "minutes": 83,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 42,
+          "pass_accuracy": 75,
+          "tackles": 1,
+          "rating": 5.5,
+          "is_sub": false
+        },
+        {
+          "team": "Uzbekistan",
+          "number": 3,
+          "name": "Igor Chikrizov",
+          "position": "CB",
+          "minutes": 75,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 42,
+          "pass_accuracy": 93,
+          "tackles": 3,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Uzbekistan",
+          "number": 4,
+          "name": "Farrukh Sayfiev",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 20,
+          "pass_accuracy": 92,
+          "tackles": 1,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Uzbekistan",
+          "number": 5,
+          "name": "Jaloliddin Masharipov",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 23,
+          "pass_accuracy": 71,
+          "tackles": 3,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Uzbekistan",
+          "number": 6,
+          "name": "Abbosbek Fayzullaev",
+          "position": "CM",
+          "minutes": 60,
+          "goals": 0,
+          "assists": 1,
+          "shots": 2,
+          "passes": 51,
+          "pass_accuracy": 76,
+          "tackles": 5,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Uzbekistan",
+          "number": 7,
+          "name": "Otabek Shukurov",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 43,
+          "pass_accuracy": 95,
+          "tackles": 2,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Uzbekistan",
+          "number": 8,
+          "name": "Eldor Shomurodov",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 32,
+          "pass_accuracy": 90,
+          "tackles": 0,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "Uzbekistan",
+          "number": 9,
+          "name": "Jaloliddin Masharipov",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 21,
+          "pass_accuracy": 74,
+          "tackles": 1,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Uzbekistan",
+          "number": 10,
+          "name": "Azizbek Turgunboev",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 3,
+          "passes": 29,
+          "pass_accuracy": 92,
+          "tackles": 1,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Uzbekistan",
+          "number": 11,
+          "name": "Dostonbek Tursunov",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 35,
+          "pass_accuracy": 93,
+          "tackles": 2,
+          "rating": 7.4,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "86",
@@ -18316,9 +18746,9 @@
       "away_id": "37",
       "home_flag": "https://flagcdn.com/w80/jo.png",
       "away_flag": "https://flagcdn.com/w80/ar.png",
-      "home_score": null,
-      "away_score": null,
-      "status": "SCHEDULED",
+      "home_score": "1",
+      "away_score": "3",
+      "status": "FINISHED",
       "minute": null,
       "date": "06/27/2026 21:00",
       "group": "J",
@@ -18326,7 +18756,449 @@
       "type": "group",
       "stadium": "AT&T Stadium",
       "stadium_city": "Dallas (Arlington, Texas)",
-      "stadium_id": "4"
+      "stadium_id": "4",
+      "stats": {
+        "possession": {
+          "home": 43,
+          "away": 57
+        },
+        "shots": {
+          "home": 7,
+          "away": 7
+        },
+        "shots_on_target": {
+          "home": 1,
+          "away": 4
+        },
+        "passes": {
+          "home": 236,
+          "away": 260
+        },
+        "pass_accuracy": {
+          "home": 91,
+          "away": 87
+        },
+        "xG": {
+          "home": 0.73,
+          "away": 1.94
+        },
+        "yellow_cards": {
+          "home": 2,
+          "away": 0
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 15,
+          "away": 10
+        },
+        "corners": {
+          "home": 8,
+          "away": 2
+        },
+        "offsides": {
+          "home": 4,
+          "away": 1
+        },
+        "tackles": {
+          "home": 28,
+          "away": 16
+        },
+        "interceptions": {
+          "home": 8,
+          "away": 14
+        }
+      },
+      "events": [
+        {
+          "minute": 13,
+          "type": "yellow_card",
+          "team": "Argentina",
+          "player": "Lionel Messi"
+        },
+        {
+          "minute": 24,
+          "type": "goal",
+          "team": "Jordan",
+          "player": "Yazan Al-Naimat"
+        },
+        {
+          "minute": 29,
+          "type": "yellow_card",
+          "team": "Jordan",
+          "player": "Amer Shafi"
+        },
+        {
+          "minute": 35,
+          "type": "yellow_card",
+          "team": "Argentina",
+          "player": "Rodrigo De Paul"
+        },
+        {
+          "minute": 57,
+          "type": "goal",
+          "team": "Argentina",
+          "player": "Rodrigo De Paul"
+        },
+        {
+          "minute": 64,
+          "type": "yellow_card",
+          "team": "Argentina",
+          "player": "Leandro Paredes"
+        },
+        {
+          "minute": 81,
+          "type": "goal",
+          "team": "Argentina",
+          "player": "Ángel Di María"
+        },
+        {
+          "minute": 83,
+          "type": "yellow_card",
+          "team": "Jordan",
+          "player": "Tareq Khattab"
+        },
+        {
+          "minute": 88,
+          "type": "goal",
+          "team": "Argentina",
+          "player": "Ángel Di María"
+        }
+      ],
+      "players": [
+        {
+          "team": "Jordan",
+          "number": 1,
+          "name": "Amer Shafi",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 21,
+          "pass_accuracy": 89,
+          "tackles": 1,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Jordan",
+          "number": 2,
+          "name": "Baha' Abdel-Rahman",
+          "position": "LB",
+          "minutes": 76,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 54,
+          "pass_accuracy": 81,
+          "tackles": 4,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Jordan",
+          "number": 3,
+          "name": "Tareq Khattab",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 26,
+          "pass_accuracy": 78,
+          "tackles": 2,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "Jordan",
+          "number": 4,
+          "name": "Ihsan Haddad",
+          "position": "CB",
+          "minutes": 73,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 20,
+          "pass_accuracy": 80,
+          "tackles": 1,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Jordan",
+          "number": 5,
+          "name": "Bara' Marei",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 33,
+          "pass_accuracy": 83,
+          "tackles": 0,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Jordan",
+          "number": 6,
+          "name": "Baha' Faisal",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 34,
+          "pass_accuracy": 79,
+          "tackles": 2,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Jordan",
+          "number": 7,
+          "name": "Yaseen Al-Bakhit",
+          "position": "CM",
+          "minutes": 60,
+          "goals": 1,
+          "assists": 0,
+          "shots": 1,
+          "passes": 43,
+          "pass_accuracy": 80,
+          "tackles": 0,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Jordan",
+          "number": 8,
+          "name": "Musa Al-Taamari",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 32,
+          "pass_accuracy": 85,
+          "tackles": 2,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Jordan",
+          "number": 9,
+          "name": "Hamza Al-Dardour",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 28,
+          "pass_accuracy": 90,
+          "tackles": 1,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Jordan",
+          "number": 10,
+          "name": "Yazan Al-Naimat",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 42,
+          "pass_accuracy": 72,
+          "tackles": 2,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Jordan",
+          "number": 11,
+          "name": "Rajaei Ayed",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 37,
+          "pass_accuracy": 81,
+          "tackles": 2,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 1,
+          "name": "Emiliano Martínez",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 22,
+          "pass_accuracy": 81,
+          "tackles": 0,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 2,
+          "name": "Nicolás Tagliafico",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 59,
+          "pass_accuracy": 70,
+          "tackles": 2,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 3,
+          "name": "Nicolás Otamendi",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 33,
+          "pass_accuracy": 87,
+          "tackles": 5,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 4,
+          "name": "Cristian Romero",
+          "position": "CB",
+          "minutes": 77,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 39,
+          "pass_accuracy": 95,
+          "tackles": 3,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 5,
+          "name": "Marcos Acuña",
+          "position": "RB",
+          "minutes": 70,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 42,
+          "pass_accuracy": 90,
+          "tackles": 5,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 6,
+          "name": "Rodrigo De Paul",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 50,
+          "pass_accuracy": 95,
+          "tackles": 3,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 7,
+          "name": "Leandro Paredes",
+          "position": "CM",
+          "minutes": 69,
+          "goals": 1,
+          "assists": 0,
+          "shots": 4,
+          "passes": 26,
+          "pass_accuracy": 82,
+          "tackles": 4,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 8,
+          "name": "Ángel Di María",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 21,
+          "pass_accuracy": 79,
+          "tackles": 1,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 9,
+          "name": "Lionel Messi",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 57,
+          "pass_accuracy": 90,
+          "tackles": 1,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 10,
+          "name": "Lautaro Martínez",
+          "position": "ST",
+          "minutes": 84,
+          "goals": 1,
+          "assists": 0,
+          "shots": 3,
+          "passes": 48,
+          "pass_accuracy": 80,
+          "tackles": 2,
+          "rating": 7.8,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 11,
+          "name": "Julián Álvarez",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 4,
+          "passes": 26,
+          "pass_accuracy": 95,
+          "tackles": 1,
+          "rating": 8.2,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "76",
@@ -22440,15 +23312,409 @@
       "away_flag": "https://flagcdn.com/w80/pt.png",
       "home_score": "0",
       "away_score": "0",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "status": "FINISHED",
+      "minute": null,
       "date": "06/27/2026 19:30",
       "group": "K",
       "matchday": "3",
       "type": "group",
       "stadium": "Hard Rock Stadium",
       "stadium_city": "Miami (Miami Gardens)",
-      "stadium_id": "8"
+      "stadium_id": "8",
+      "stats": {
+        "possession": {
+          "home": 47,
+          "away": 53
+        },
+        "shots": {
+          "home": 3,
+          "away": 5
+        },
+        "shots_on_target": {
+          "home": 0,
+          "away": 0
+        },
+        "passes": {
+          "home": 294,
+          "away": 297
+        },
+        "pass_accuracy": {
+          "home": 81,
+          "away": 77
+        },
+        "xG": {
+          "home": 0.0,
+          "away": 0.0
+        },
+        "yellow_cards": {
+          "home": 0,
+          "away": 4
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 1
+        },
+        "fouls": {
+          "home": 8,
+          "away": 15
+        },
+        "corners": {
+          "home": 5,
+          "away": 8
+        },
+        "offsides": {
+          "home": 4,
+          "away": 0
+        },
+        "tackles": {
+          "home": 22,
+          "away": 22
+        },
+        "interceptions": {
+          "home": 15,
+          "away": 8
+        }
+      },
+      "events": [
+        {
+          "minute": 44,
+          "type": "yellow_card",
+          "team": "Portugal",
+          "player": "Diogo Costa"
+        }
+      ],
+      "players": [
+        {
+          "team": "Colombia",
+          "number": 1,
+          "name": "David Ospina",
+          "position": "GK",
+          "minutes": 70,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 10,
+          "pass_accuracy": 88,
+          "tackles": 1,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 2,
+          "name": "Yerry Mina",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 33,
+          "pass_accuracy": 75,
+          "tackles": 5,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 3,
+          "name": "Davinson Sánchez",
+          "position": "CB",
+          "minutes": 87,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 21,
+          "pass_accuracy": 83,
+          "tackles": 5,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 4,
+          "name": "William Tesillo",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 32,
+          "pass_accuracy": 80,
+          "tackles": 3,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 5,
+          "name": "Frank Fabra",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 54,
+          "pass_accuracy": 93,
+          "tackles": 5,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 6,
+          "name": "Wilmar Barrios",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 25,
+          "pass_accuracy": 87,
+          "tackles": 4,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 7,
+          "name": "Juan Guillermo Cuadrad",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 59,
+          "pass_accuracy": 74,
+          "tackles": 4,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 8,
+          "name": "Luis Díaz",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 48,
+          "pass_accuracy": 83,
+          "tackles": 2,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 9,
+          "name": "Duván Zapata",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 25,
+          "pass_accuracy": 89,
+          "tackles": 1,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 10,
+          "name": "James Rodríguez",
+          "position": "ST",
+          "minutes": 81,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 32,
+          "pass_accuracy": 70,
+          "tackles": 1,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 11,
+          "name": "Rafael Santos Borré",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 37,
+          "pass_accuracy": 95,
+          "tackles": 2,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 1,
+          "name": "Diogo Costa",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 21,
+          "pass_accuracy": 95,
+          "tackles": 2,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 2,
+          "name": "João Cancelo",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 22,
+          "pass_accuracy": 72,
+          "tackles": 3,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 3,
+          "name": "Pepe",
+          "position": "CB",
+          "minutes": 78,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 30,
+          "pass_accuracy": 83,
+          "tackles": 2,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 4,
+          "name": "Rúben Dias",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 56,
+          "pass_accuracy": 76,
+          "tackles": 5,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 5,
+          "name": "Raphaël Guerreiro",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 37,
+          "pass_accuracy": 90,
+          "tackles": 2,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 6,
+          "name": "Bruno Fernandes",
+          "position": "CM",
+          "minutes": 66,
+          "goals": 0,
+          "assists": 1,
+          "shots": 0,
+          "passes": 27,
+          "pass_accuracy": 90,
+          "tackles": 4,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 7,
+          "name": "Bernardo Silva",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 30,
+          "pass_accuracy": 73,
+          "tackles": 1,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 8,
+          "name": "Diogo Jota",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 21,
+          "pass_accuracy": 84,
+          "tackles": 1,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 9,
+          "name": "Cristiano Ronaldo",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 42,
+          "pass_accuracy": 86,
+          "tackles": 1,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 10,
+          "name": "Rafael Leão",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 32,
+          "pass_accuracy": 86,
+          "tackles": 2,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 11,
+          "name": "André Silva",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 33,
+          "pass_accuracy": 80,
+          "tackles": 1,
+          "rating": 6.4,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "73",
@@ -28210,9 +29476,9 @@
       "away_id": "39",
       "home_flag": "https://flagcdn.com/w80/dz.png",
       "away_flag": "https://flagcdn.com/w80/at.png",
-      "home_score": null,
-      "away_score": null,
-      "status": "SCHEDULED",
+      "home_score": "3",
+      "away_score": "3",
+      "status": "FINISHED",
       "minute": null,
       "date": "06/27/2026 21:00",
       "group": "J",
@@ -28220,7 +29486,461 @@
       "type": "group",
       "stadium": "GEHA Field at Arrowhead Stadium",
       "stadium_city": "Kansas City",
-      "stadium_id": "6"
+      "stadium_id": "6",
+      "stats": {
+        "possession": {
+          "home": 52,
+          "away": 48
+        },
+        "shots": {
+          "home": 8,
+          "away": 8
+        },
+        "shots_on_target": {
+          "home": 3,
+          "away": 3
+        },
+        "passes": {
+          "home": 295,
+          "away": 297
+        },
+        "pass_accuracy": {
+          "home": 86,
+          "away": 87
+        },
+        "xG": {
+          "home": 2.13,
+          "away": 2.22
+        },
+        "yellow_cards": {
+          "home": 1,
+          "away": 0
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 1
+        },
+        "fouls": {
+          "home": 15,
+          "away": 16
+        },
+        "corners": {
+          "home": 6,
+          "away": 5
+        },
+        "offsides": {
+          "home": 2,
+          "away": 0
+        },
+        "tackles": {
+          "home": 19,
+          "away": 20
+        },
+        "interceptions": {
+          "home": 14,
+          "away": 11
+        }
+      },
+      "events": [
+        {
+          "minute": 8,
+          "type": "goal",
+          "team": "Austria",
+          "player": "Louis Schaub"
+        },
+        {
+          "minute": 9,
+          "type": "goal",
+          "team": "Algeria",
+          "player": "Riyad Mahrez"
+        },
+        {
+          "minute": 9,
+          "type": "goal",
+          "team": "Austria",
+          "player": "Marcel Sabitzer"
+        },
+        {
+          "minute": 9,
+          "type": "yellow_card",
+          "team": "Algeria",
+          "player": "Sofiane Feghouli"
+        },
+        {
+          "minute": 30,
+          "type": "yellow_card",
+          "team": "Austria",
+          "player": "Stefan Ilsanker"
+        },
+        {
+          "minute": 33,
+          "type": "yellow_card",
+          "team": "Algeria",
+          "player": "Ramy Bensebaini"
+        },
+        {
+          "minute": 37,
+          "type": "yellow_card",
+          "team": "Algeria",
+          "player": "Ramy Bensebaini"
+        },
+        {
+          "minute": 60,
+          "type": "goal",
+          "team": "Algeria",
+          "player": "Ismaël Bennacer"
+        },
+        {
+          "minute": 77,
+          "type": "goal",
+          "team": "Algeria",
+          "player": "Sofiane Feghouli"
+        },
+        {
+          "minute": 77,
+          "type": "goal",
+          "team": "Austria",
+          "player": "Florian Grillitsch"
+        },
+        {
+          "minute": 79,
+          "type": "yellow_card",
+          "team": "Austria",
+          "player": "Andreas Ulmer"
+        }
+      ],
+      "players": [
+        {
+          "team": "Algeria",
+          "number": 1,
+          "name": "Raïs M'Bolhi",
+          "position": "GK",
+          "minutes": 86,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 13,
+          "pass_accuracy": 81,
+          "tackles": 1,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Algeria",
+          "number": 2,
+          "name": "Youcef Atal",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 25,
+          "pass_accuracy": 91,
+          "tackles": 5,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Algeria",
+          "number": 3,
+          "name": "Aïssa Mandi",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 41,
+          "pass_accuracy": 75,
+          "tackles": 0,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Algeria",
+          "number": 4,
+          "name": "Djamel Benlamri",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 55,
+          "pass_accuracy": 79,
+          "tackles": 3,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Algeria",
+          "number": 5,
+          "name": "Ramy Bensebaini",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 28,
+          "pass_accuracy": 76,
+          "tackles": 3,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "Algeria",
+          "number": 6,
+          "name": "Sofiane Feghouli",
+          "position": "CM",
+          "minutes": 64,
+          "goals": 0,
+          "assists": 1,
+          "shots": 4,
+          "passes": 25,
+          "pass_accuracy": 85,
+          "tackles": 4,
+          "rating": 7.6,
+          "is_sub": false
+        },
+        {
+          "team": "Algeria",
+          "number": 7,
+          "name": "Ismaël Bennacer",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 0,
+          "passes": 54,
+          "pass_accuracy": 87,
+          "tackles": 3,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "Algeria",
+          "number": 8,
+          "name": "Yacine Brahimi",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 55,
+          "pass_accuracy": 80,
+          "tackles": 2,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Algeria",
+          "number": 9,
+          "name": "Riyad Mahrez",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 1,
+          "passes": 22,
+          "pass_accuracy": 73,
+          "tackles": 0,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Algeria",
+          "number": 10,
+          "name": "Islam Slimani",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 0,
+          "passes": 36,
+          "pass_accuracy": 73,
+          "tackles": 0,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Algeria",
+          "number": 11,
+          "name": "Baghdad Bounedjah",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 2,
+          "passes": 53,
+          "pass_accuracy": 82,
+          "tackles": 0,
+          "rating": 7.6,
+          "is_sub": false
+        },
+        {
+          "team": "Austria",
+          "number": 1,
+          "name": "Heinz Lindner",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 12,
+          "pass_accuracy": 74,
+          "tackles": 2,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Austria",
+          "number": 2,
+          "name": "Stefan Lainer",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 20,
+          "pass_accuracy": 95,
+          "tackles": 0,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Austria",
+          "number": 3,
+          "name": "Aleksandar Dragović",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 22,
+          "pass_accuracy": 95,
+          "tackles": 0,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Austria",
+          "number": 4,
+          "name": "Martin Hinteregger",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 49,
+          "pass_accuracy": 74,
+          "tackles": 1,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Austria",
+          "number": 5,
+          "name": "Andreas Ulmer",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 54,
+          "pass_accuracy": 85,
+          "tackles": 0,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Austria",
+          "number": 6,
+          "name": "Stefan Ilsanker",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 1,
+          "passes": 23,
+          "pass_accuracy": 72,
+          "tackles": 4,
+          "rating": 7.9,
+          "is_sub": false
+        },
+        {
+          "team": "Austria",
+          "number": 7,
+          "name": "Louis Schaub",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 1,
+          "shots": 3,
+          "passes": 34,
+          "pass_accuracy": 70,
+          "tackles": 1,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Austria",
+          "number": 8,
+          "name": "Florian Grillitsch",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 37,
+          "pass_accuracy": 78,
+          "tackles": 1,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "Austria",
+          "number": 9,
+          "name": "Marko Arnautović",
+          "position": "RW",
+          "minutes": 80,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 34,
+          "pass_accuracy": 84,
+          "tackles": 2,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Austria",
+          "number": 10,
+          "name": "Marcel Sabitzer",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 25,
+          "pass_accuracy": 72,
+          "tackles": 1,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Austria",
+          "number": 11,
+          "name": "Saša Kalajdžić",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 34,
+          "pass_accuracy": 86,
+          "tackles": 2,
+          "rating": 6.8,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "74",
@@ -30547,6 +32267,12 @@
       "assists": 1
     },
     {
+      "team": "Argentina",
+      "name": "Julián Álvarez",
+      "goals": 3,
+      "assists": 0
+    },
+    {
       "team": "Morocco",
       "name": "Sofyan Amrabat",
       "goals": 2,
@@ -30561,6 +32287,12 @@
     {
       "team": "Iran",
       "name": "Saeid Ezatolahi",
+      "goals": 2,
+      "assists": 1
+    },
+    {
+      "team": "Austria",
+      "name": "Stefan Ilsanker",
       "goals": 2,
       "assists": 1
     },
@@ -30631,12 +32363,6 @@
       "assists": 0
     },
     {
-      "team": "Argentina",
-      "name": "Julián Álvarez",
-      "goals": 2,
-      "assists": 0
-    },
-    {
       "team": "Egypt",
       "name": "Mohamed Elneny",
       "goals": 2,
@@ -30651,12 +32377,6 @@
     {
       "team": "Japan",
       "name": "Gaku Shibasaki",
-      "goals": 1,
-      "assists": 1
-    },
-    {
-      "team": "England",
-      "name": "Raheem Sterling",
       "goals": 1,
       "assists": 1
     }
