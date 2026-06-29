@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-29T22:36:10.284490+00:00",
-  "match_count": 90,
+  "updated_at": "2026-06-29T23:40:25.237292+00:00",
+  "match_count": 91,
   "matches": [
     {
       "id": "6",
@@ -30876,15 +30876,421 @@
       "away_flag": "https://flagcdn.com/w80/py.png",
       "home_score": "1",
       "away_score": "1",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "status": "FINISHED",
+      "minute": null,
       "date": "06/29/2026 16:30",
       "group": "R32",
       "matchday": "4",
       "type": "r32",
       "stadium": "Gillette Stadium",
       "stadium_city": "Boston (Foxborough)",
-      "stadium_id": "9"
+      "stadium_id": "9",
+      "stats": {
+        "possession": {
+          "home": 56,
+          "away": 44
+        },
+        "shots": {
+          "home": 6,
+          "away": 4
+        },
+        "shots_on_target": {
+          "home": 4,
+          "away": 2
+        },
+        "passes": {
+          "home": 311,
+          "away": 238
+        },
+        "pass_accuracy": {
+          "home": 87,
+          "away": 86
+        },
+        "xG": {
+          "home": 1.11,
+          "away": 0.66
+        },
+        "yellow_cards": {
+          "home": 0,
+          "away": 1
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 11,
+          "away": 8
+        },
+        "corners": {
+          "home": 6,
+          "away": 6
+        },
+        "offsides": {
+          "home": 4,
+          "away": 3
+        },
+        "tackles": {
+          "home": 14,
+          "away": 24
+        },
+        "interceptions": {
+          "home": 15,
+          "away": 11
+        }
+      },
+      "events": [
+        {
+          "minute": 5,
+          "type": "goal",
+          "team": "Paraguay",
+          "player": "Antonio Sanabria"
+        },
+        {
+          "minute": 12,
+          "type": "goal",
+          "team": "Germany",
+          "player": "Leon Goretzka"
+        },
+        {
+          "minute": 29,
+          "type": "yellow_card",
+          "team": "Paraguay",
+          "player": "Santiago Arzamendia"
+        }
+      ],
+      "players": [
+        {
+          "team": "Germany",
+          "number": 1,
+          "name": "Manuel Neuer",
+          "position": "GK",
+          "minutes": 74,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 15,
+          "pass_accuracy": 78,
+          "tackles": 0,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Germany",
+          "number": 2,
+          "name": "Antonio Rüdiger",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 41,
+          "pass_accuracy": 81,
+          "tackles": 4,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Germany",
+          "number": 3,
+          "name": "David Raum",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 22,
+          "pass_accuracy": 78,
+          "tackles": 3,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Germany",
+          "number": 4,
+          "name": "Matthias Ginter",
+          "position": "CB",
+          "minutes": 78,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 24,
+          "pass_accuracy": 93,
+          "tackles": 3,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "Germany",
+          "number": 5,
+          "name": "Joshua Kimmich",
+          "position": "RB",
+          "minutes": 81,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 37,
+          "pass_accuracy": 78,
+          "tackles": 5,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Germany",
+          "number": 6,
+          "name": "Leon Goretzka",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 2,
+          "passes": 37,
+          "pass_accuracy": 72,
+          "tackles": 1,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Germany",
+          "number": 7,
+          "name": "Serge Gnabry",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 3,
+          "passes": 24,
+          "pass_accuracy": 74,
+          "tackles": 2,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Germany",
+          "number": 8,
+          "name": "Thomas Müller",
+          "position": "LW",
+          "minutes": 84,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 60,
+          "pass_accuracy": 82,
+          "tackles": 2,
+          "rating": 5.5,
+          "is_sub": false
+        },
+        {
+          "team": "Germany",
+          "number": 9,
+          "name": "Kai Havertz",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 41,
+          "pass_accuracy": 80,
+          "tackles": 0,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Germany",
+          "number": 10,
+          "name": "Timo Werner",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 37,
+          "pass_accuracy": 78,
+          "tackles": 2,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Germany",
+          "number": 11,
+          "name": "Leroy Sané",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 53,
+          "pass_accuracy": 81,
+          "tackles": 0,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Paraguay",
+          "number": 1,
+          "name": "Antony Silva",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 20,
+          "pass_accuracy": 91,
+          "tackles": 2,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Paraguay",
+          "number": 2,
+          "name": "Alberto Espínola",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 57,
+          "pass_accuracy": 82,
+          "tackles": 2,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Paraguay",
+          "number": 3,
+          "name": "Gustavo Gómez",
+          "position": "CB",
+          "minutes": 74,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 42,
+          "pass_accuracy": 75,
+          "tackles": 3,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Paraguay",
+          "number": 4,
+          "name": "Junior Alonso",
+          "position": "CB",
+          "minutes": 68,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 58,
+          "pass_accuracy": 79,
+          "tackles": 2,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Paraguay",
+          "number": 5,
+          "name": "Santiago Arzamendia",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 58,
+          "pass_accuracy": 90,
+          "tackles": 4,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Paraguay",
+          "number": 6,
+          "name": "Mathías Villasanti",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 30,
+          "pass_accuracy": 74,
+          "tackles": 3,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Paraguay",
+          "number": 7,
+          "name": "Miguel Almirón",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 2,
+          "passes": 55,
+          "pass_accuracy": 72,
+          "tackles": 4,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Paraguay",
+          "number": 8,
+          "name": "Óscar Romero",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 23,
+          "pass_accuracy": 82,
+          "tackles": 0,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Paraguay",
+          "number": 9,
+          "name": "Antonio Sanabria",
+          "position": "RW",
+          "minutes": 62,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 60,
+          "pass_accuracy": 82,
+          "tackles": 2,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Paraguay",
+          "number": 10,
+          "name": "Ángel Romero",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 0,
+          "passes": 50,
+          "pass_accuracy": 88,
+          "tackles": 0,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Paraguay",
+          "number": 11,
+          "name": "Robert Rojas",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 44,
+          "pass_accuracy": 76,
+          "tackles": 2,
+          "rating": 6.9,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "81",
@@ -33201,6 +33607,26 @@
       "stadium": "Lumen Field",
       "stadium_city": "Seattle",
       "stadium_id": "14"
+    },
+    {
+      "id": "89",
+      "home": "Paraguay",
+      "away": "TBD",
+      "home_id": "14",
+      "away_id": "0",
+      "home_flag": "https://flagcdn.com/w80/py.png",
+      "away_flag": "",
+      "home_score": "0",
+      "away_score": "0",
+      "status": "SCHEDULED",
+      "minute": null,
+      "date": "07/04/2026 17:00",
+      "group": "R16",
+      "matchday": "5",
+      "type": "r16",
+      "stadium": "Lincoln Financial Field",
+      "stadium_city": "Philadelphia",
+      "stadium_id": "10"
     }
   ],
   "top_scorers": [
@@ -33307,6 +33733,12 @@
       "assists": 0
     },
     {
+      "team": "Germany",
+      "name": "Serge Gnabry",
+      "goals": 2,
+      "assists": 0
+    },
+    {
       "team": "Egypt",
       "name": "Mohamed Elneny",
       "goals": 2,
@@ -33317,12 +33749,6 @@
       "name": "Kevin De Bruyne",
       "goals": 2,
       "assists": 0
-    },
-    {
-      "team": "Japan",
-      "name": "Gaku Shibasaki",
-      "goals": 1,
-      "assists": 1
     }
   ],
   "errors": []
