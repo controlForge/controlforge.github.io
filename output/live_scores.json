@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T01:49:35.201940+00:00",
+  "updated_at": "2026-06-30T06:09:56.991975+00:00",
   "match_count": 91,
   "matches": [
     {
@@ -24643,11 +24643,11 @@
     {
       "id": "90",
       "home": "Canada",
-      "away": "TBD",
+      "away": "Morocco",
       "home_id": "5",
-      "away_id": "0",
+      "away_id": "10",
       "home_flag": "https://flagcdn.com/w80/ca.png",
-      "away_flag": "",
+      "away_flag": "https://flagcdn.com/w80/ma.png",
       "home_score": "0",
       "away_score": "0",
       "status": "SCHEDULED",
@@ -33516,17 +33516,423 @@
       "away_id": "10",
       "home_flag": "https://flagcdn.com/w80/nl.png",
       "away_flag": "https://flagcdn.com/w80/ma.png",
-      "home_score": "0",
-      "away_score": "0",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "home_score": "1",
+      "away_score": "1",
+      "status": "FINISHED",
+      "minute": null,
       "date": "06/29/2026 19:00",
       "group": "R32",
       "matchday": "4",
       "type": "r32",
       "stadium": "Estadio BBVA",
       "stadium_city": "Monterrey (Guadalupe)",
-      "stadium_id": "3"
+      "stadium_id": "3",
+      "stats": {
+        "possession": {
+          "home": 53,
+          "away": 47
+        },
+        "shots": {
+          "home": 6,
+          "away": 6
+        },
+        "shots_on_target": {
+          "home": 3,
+          "away": 2
+        },
+        "passes": {
+          "home": 250,
+          "away": 247
+        },
+        "pass_accuracy": {
+          "home": 83,
+          "away": 78
+        },
+        "xG": {
+          "home": 0.95,
+          "away": 0.46
+        },
+        "yellow_cards": {
+          "home": 4,
+          "away": 0
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 10,
+          "away": 13
+        },
+        "corners": {
+          "home": 4,
+          "away": 7
+        },
+        "offsides": {
+          "home": 1,
+          "away": 0
+        },
+        "tackles": {
+          "home": 18,
+          "away": 22
+        },
+        "interceptions": {
+          "home": 9,
+          "away": 8
+        }
+      },
+      "events": [
+        {
+          "minute": 21,
+          "type": "goal",
+          "team": "Morocco",
+          "player": "Munir Mohamedi"
+        },
+        {
+          "minute": 57,
+          "type": "yellow_card",
+          "team": "Netherlands",
+          "player": "Wout Weghorst"
+        },
+        {
+          "minute": 63,
+          "type": "goal",
+          "team": "Netherlands",
+          "player": "Cody Gakpo"
+        }
+      ],
+      "players": [
+        {
+          "team": "Netherlands",
+          "number": 1,
+          "name": "Justin Bijlow",
+          "position": "GK",
+          "minutes": 80,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 11,
+          "pass_accuracy": 82,
+          "tackles": 1,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "Netherlands",
+          "number": 2,
+          "name": "Daley Blind",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 33,
+          "pass_accuracy": 71,
+          "tackles": 1,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Netherlands",
+          "number": 3,
+          "name": "Virgil van Dijk",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 21,
+          "pass_accuracy": 84,
+          "tackles": 1,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "Netherlands",
+          "number": 4,
+          "name": "Nathan Aké",
+          "position": "CB",
+          "minutes": 78,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 36,
+          "pass_accuracy": 91,
+          "tackles": 1,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Netherlands",
+          "number": 5,
+          "name": "Denzel Dumfries",
+          "position": "RB",
+          "minutes": 62,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 32,
+          "pass_accuracy": 87,
+          "tackles": 2,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Netherlands",
+          "number": 6,
+          "name": "Frenkie de Jong",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 26,
+          "pass_accuracy": 79,
+          "tackles": 2,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Netherlands",
+          "number": 7,
+          "name": "Davy Klaassen",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 32,
+          "pass_accuracy": 87,
+          "tackles": 0,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Netherlands",
+          "number": 8,
+          "name": "Cody Gakpo",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 55,
+          "pass_accuracy": 78,
+          "tackles": 2,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Netherlands",
+          "number": 9,
+          "name": "Memphis Depay",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 30,
+          "pass_accuracy": 77,
+          "tackles": 2,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Netherlands",
+          "number": 10,
+          "name": "Steven Bergwijn",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 3,
+          "passes": 58,
+          "pass_accuracy": 91,
+          "tackles": 1,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "Netherlands",
+          "number": 11,
+          "name": "Wout Weghorst",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 35,
+          "pass_accuracy": 73,
+          "tackles": 0,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 1,
+          "name": "Yassine Bounou",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 19,
+          "pass_accuracy": 71,
+          "tackles": 2,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 2,
+          "name": "Achraf Hakimi",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 59,
+          "pass_accuracy": 83,
+          "tackles": 1,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 3,
+          "name": "Romain Saïss",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 30,
+          "pass_accuracy": 78,
+          "tackles": 5,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 4,
+          "name": "Nayef Aguerd",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 26,
+          "pass_accuracy": 84,
+          "tackles": 4,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 5,
+          "name": "Adam Masina",
+          "position": "RB",
+          "minutes": 62,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 40,
+          "pass_accuracy": 86,
+          "tackles": 4,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 6,
+          "name": "Sofyan Amrabat",
+          "position": "CM",
+          "minutes": 78,
+          "goals": 0,
+          "assists": 1,
+          "shots": 3,
+          "passes": 48,
+          "pass_accuracy": 70,
+          "tackles": 1,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 7,
+          "name": "Hakim Ziyech",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 2,
+          "passes": 22,
+          "pass_accuracy": 81,
+          "tackles": 3,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 8,
+          "name": "Youssef En-Nesyri",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 41,
+          "pass_accuracy": 93,
+          "tackles": 2,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 9,
+          "name": "Munir Mohamedi",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 22,
+          "pass_accuracy": 88,
+          "tackles": 0,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 10,
+          "name": "Azzedine Ounahi",
+          "position": "ST",
+          "minutes": 72,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 33,
+          "pass_accuracy": 95,
+          "tackles": 2,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 11,
+          "name": "Selim Amallah",
+          "position": "ST",
+          "minutes": 78,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 54,
+          "pass_accuracy": 84,
+          "tackles": 0,
+          "rating": 6.3,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "78",
@@ -33637,6 +34043,12 @@
       "assists": 1
     },
     {
+      "team": "Netherlands",
+      "name": "Steven Bergwijn",
+      "goals": 3,
+      "assists": 0
+    },
+    {
       "team": "Argentina",
       "name": "Julián Álvarez",
       "goals": 3,
@@ -33687,12 +34099,6 @@
     {
       "team": "Ivory Coast",
       "name": "Franck Kessié",
-      "goals": 2,
-      "assists": 0
-    },
-    {
-      "team": "Netherlands",
-      "name": "Steven Bergwijn",
       "goals": 2,
       "assists": 0
     },
