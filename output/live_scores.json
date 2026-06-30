@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-29T23:40:25.237292+00:00",
+  "updated_at": "2026-06-30T01:49:35.201940+00:00",
   "match_count": 91,
   "matches": [
     {
@@ -33516,10 +33516,10 @@
       "away_id": "10",
       "home_flag": "https://flagcdn.com/w80/nl.png",
       "away_flag": "https://flagcdn.com/w80/ma.png",
-      "home_score": null,
-      "away_score": null,
-      "status": "SCHEDULED",
-      "minute": null,
+      "home_score": "0",
+      "away_score": "0",
+      "status": "IN_PLAY",
+      "minute": "live",
       "date": "06/29/2026 19:00",
       "group": "R32",
       "matchday": "4",
