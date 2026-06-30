@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T19:17:55.833027+00:00",
+  "updated_at": "2026-06-30T21:13:44.160742+00:00",
   "match_count": 91,
   "matches": [
     {
@@ -24610,8 +24610,8 @@
       "away_flag": "https://flagcdn.com/w80/se.png",
       "home_score": "0",
       "away_score": "0",
-      "status": "SCHEDULED",
-      "minute": null,
+      "status": "IN_PLAY",
+      "minute": "live",
       "date": "06/30/2026 17:00",
       "group": "R32",
       "matchday": "4",
@@ -34398,8 +34398,8 @@
       "away_id": "20",
       "home_flag": "https://flagcdn.com/w80/mx.png",
       "away_flag": "https://flagcdn.com/w80/ec.png",
-      "home_score": "0",
-      "away_score": "0",
+      "home_score": null,
+      "away_score": null,
       "status": "SCHEDULED",
       "minute": null,
       "date": "06/30/2026 19:00",
