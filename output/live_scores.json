@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T17:15:36.705640+00:00",
+  "updated_at": "2026-06-30T19:17:55.833027+00:00",
   "match_count": 91,
   "matches": [
     {
@@ -26427,11 +26427,11 @@
     {
       "id": "91",
       "home": "Brazil",
-      "away": "TBD",
+      "away": "Norway",
       "home_id": "9",
-      "away_id": "0",
+      "away_id": "36",
       "home_flag": "https://flagcdn.com/w80/br.png",
-      "away_flag": "",
+      "away_flag": "https://flagcdn.com/w80/no.png",
       "home_score": "0",
       "away_score": "0",
       "status": "SCHEDULED",
@@ -33942,17 +33942,453 @@
       "away_id": "36",
       "home_flag": "https://flagcdn.com/w80/ci.png",
       "away_flag": "https://flagcdn.com/w80/no.png",
-      "home_score": "0",
-      "away_score": "0",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "home_score": "1",
+      "away_score": "2",
+      "status": "FINISHED",
+      "minute": null,
       "date": "06/30/2026 12:00",
       "group": "R32",
       "matchday": "4",
       "type": "r32",
       "stadium": "AT&T Stadium",
       "stadium_city": "Dallas (Arlington, Texas)",
-      "stadium_id": "4"
+      "stadium_id": "4",
+      "stats": {
+        "possession": {
+          "home": 40,
+          "away": 60
+        },
+        "shots": {
+          "home": 5,
+          "away": 7
+        },
+        "shots_on_target": {
+          "home": 4,
+          "away": 4
+        },
+        "passes": {
+          "home": 182,
+          "away": 309
+        },
+        "pass_accuracy": {
+          "home": 80,
+          "away": 90
+        },
+        "xG": {
+          "home": 1.06,
+          "away": 1.33
+        },
+        "yellow_cards": {
+          "home": 2,
+          "away": 1
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 12,
+          "away": 15
+        },
+        "corners": {
+          "home": 9,
+          "away": 4
+        },
+        "offsides": {
+          "home": 4,
+          "away": 2
+        },
+        "tackles": {
+          "home": 22,
+          "away": 19
+        },
+        "interceptions": {
+          "home": 14,
+          "away": 11
+        }
+      },
+      "events": [
+        {
+          "minute": 20,
+          "type": "yellow_card",
+          "team": "Ivory Coast",
+          "player": "Serge Aurier"
+        },
+        {
+          "minute": 25,
+          "type": "yellow_card",
+          "team": "Ivory Coast",
+          "player": "Willy Boly"
+        },
+        {
+          "minute": 30,
+          "type": "goal",
+          "team": "Norway",
+          "player": "Joshua King"
+        },
+        {
+          "minute": 31,
+          "type": "goal",
+          "team": "Ivory Coast",
+          "player": "Franck Kessié"
+        },
+        {
+          "minute": 43,
+          "type": "yellow_card",
+          "team": "Norway",
+          "player": "Birger Meling"
+        },
+        {
+          "minute": 54,
+          "type": "yellow_card",
+          "team": "Ivory Coast",
+          "player": "Nicolas Pépé"
+        },
+        {
+          "minute": 66,
+          "type": "yellow_card",
+          "team": "Norway",
+          "player": "Birger Meling"
+        },
+        {
+          "minute": 89,
+          "type": "goal",
+          "team": "Norway",
+          "player": "Erling Haaland"
+        }
+      ],
+      "players": [
+        {
+          "team": "Ivory Coast",
+          "number": 1,
+          "name": "Yahia Fofana",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 11,
+          "pass_accuracy": 83,
+          "tackles": 1,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Ivory Coast",
+          "number": 2,
+          "name": "Serge Aurier",
+          "position": "LB",
+          "minutes": 84,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 46,
+          "pass_accuracy": 87,
+          "tackles": 5,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Ivory Coast",
+          "number": 3,
+          "name": "Eric Bailly",
+          "position": "CB",
+          "minutes": 86,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 50,
+          "pass_accuracy": 79,
+          "tackles": 1,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Ivory Coast",
+          "number": 4,
+          "name": "Wilfried Singo",
+          "position": "CB",
+          "minutes": 81,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 22,
+          "pass_accuracy": 70,
+          "tackles": 2,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Ivory Coast",
+          "number": 5,
+          "name": "Willy Boly",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 56,
+          "pass_accuracy": 94,
+          "tackles": 2,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Ivory Coast",
+          "number": 6,
+          "name": "Seko Fofana",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 23,
+          "pass_accuracy": 85,
+          "tackles": 5,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Ivory Coast",
+          "number": 7,
+          "name": "Franck Kessié",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 3,
+          "passes": 24,
+          "pass_accuracy": 72,
+          "tackles": 1,
+          "rating": 7.9,
+          "is_sub": false
+        },
+        {
+          "team": "Ivory Coast",
+          "number": 8,
+          "name": "Max Gradel",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 44,
+          "pass_accuracy": 88,
+          "tackles": 0,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Ivory Coast",
+          "number": 9,
+          "name": "Sébastien Haller",
+          "position": "RW",
+          "minutes": 68,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 38,
+          "pass_accuracy": 74,
+          "tackles": 2,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Ivory Coast",
+          "number": 10,
+          "name": "Nicolas Pépé",
+          "position": "ST",
+          "minutes": 61,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 44,
+          "pass_accuracy": 83,
+          "tackles": 0,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Ivory Coast",
+          "number": 11,
+          "name": "Christian Kouamé",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 22,
+          "pass_accuracy": 87,
+          "tackles": 2,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Norway",
+          "number": 1,
+          "name": "André Hansen",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 25,
+          "pass_accuracy": 78,
+          "tackles": 2,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Norway",
+          "number": 2,
+          "name": "Stefan Strandberg",
+          "position": "LB",
+          "minutes": 70,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 58,
+          "pass_accuracy": 74,
+          "tackles": 5,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Norway",
+          "number": 3,
+          "name": "Kristoffer Ajer",
+          "position": "CB",
+          "minutes": 72,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 44,
+          "pass_accuracy": 88,
+          "tackles": 0,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Norway",
+          "number": 4,
+          "name": "Morten Thorsby",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 21,
+          "pass_accuracy": 87,
+          "tackles": 1,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Norway",
+          "number": 5,
+          "name": "Birger Meling",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 58,
+          "pass_accuracy": 87,
+          "tackles": 5,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Norway",
+          "number": 6,
+          "name": "Morten Hjulmand",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 2,
+          "passes": 36,
+          "pass_accuracy": 78,
+          "tackles": 2,
+          "rating": 8.0,
+          "is_sub": false
+        },
+        {
+          "team": "Norway",
+          "number": 7,
+          "name": "Martin Ødegaard",
+          "position": "CM",
+          "minutes": 78,
+          "goals": 1,
+          "assists": 0,
+          "shots": 2,
+          "passes": 59,
+          "pass_accuracy": 83,
+          "tackles": 5,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Norway",
+          "number": 8,
+          "name": "Joshua King",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 47,
+          "pass_accuracy": 83,
+          "tackles": 0,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Norway",
+          "number": 9,
+          "name": "Erling Haaland",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 1,
+          "passes": 22,
+          "pass_accuracy": 72,
+          "tackles": 1,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Norway",
+          "number": 10,
+          "name": "Alexander Sørloth",
+          "position": "ST",
+          "minutes": 80,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 26,
+          "pass_accuracy": 94,
+          "tackles": 0,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Norway",
+          "number": 11,
+          "name": "Jens Petter Hauge",
+          "position": "ST",
+          "minutes": 77,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 46,
+          "pass_accuracy": 76,
+          "tackles": 2,
+          "rating": 6.2,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "79",
@@ -34039,8 +34475,14 @@
     {
       "team": "Norway",
       "name": "Martin Ødegaard",
-      "goals": 3,
+      "goals": 4,
       "assists": 1
+    },
+    {
+      "team": "Ivory Coast",
+      "name": "Franck Kessié",
+      "goals": 3,
+      "assists": 0
     },
     {
       "team": "Netherlands",
@@ -34093,12 +34535,6 @@
     {
       "team": "Germany",
       "name": "Leon Goretzka",
-      "goals": 2,
-      "assists": 0
-    },
-    {
-      "team": "Ivory Coast",
-      "name": "Franck Kessié",
       "goals": 2,
       "assists": 0
     },
