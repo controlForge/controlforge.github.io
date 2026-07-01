@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T20:23:26.879379+00:00",
+  "updated_at": "2026-07-01T21:59:35.915428+00:00",
   "match_count": 92,
   "matches": [
     {
@@ -35532,8 +35532,8 @@
       "away_id": "34",
       "home_flag": "https://flagcdn.com/w80/be.png",
       "away_flag": "https://flagcdn.com/w80/sn.png",
-      "home_score": "0",
-      "away_score": "0",
+      "home_score": "2",
+      "away_score": "2",
       "status": "IN_PLAY",
       "minute": "live",
       "date": "07/01/2026 13:00",
