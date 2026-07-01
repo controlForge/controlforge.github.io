@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T16:25:05.015197+00:00",
+  "updated_at": "2026-07-01T18:24:22.955947+00:00",
   "match_count": 92,
   "matches": [
     {
@@ -35068,17 +35068,441 @@
       "away_id": "42",
       "home_flag": "https://flagcdn.com/w80/gb-eng.png",
       "away_flag": "https://flagcdn.com/w80/cd.png",
-      "home_score": "0",
+      "home_score": "2",
       "away_score": "1",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "status": "FINISHED",
+      "minute": null,
       "date": "07/01/2026 12:00",
       "group": "R32",
       "matchday": "4",
       "type": "r32",
       "stadium": "Mercedes-Benz Stadium",
       "stadium_city": "Atlanta",
-      "stadium_id": "7"
+      "stadium_id": "7",
+      "stats": {
+        "possession": {
+          "home": 57,
+          "away": 43
+        },
+        "shots": {
+          "home": 10,
+          "away": 7
+        },
+        "shots_on_target": {
+          "home": 2,
+          "away": 3
+        },
+        "passes": {
+          "home": 330,
+          "away": 215
+        },
+        "pass_accuracy": {
+          "home": 80,
+          "away": 89
+        },
+        "xG": {
+          "home": 1.07,
+          "away": 1.03
+        },
+        "yellow_cards": {
+          "home": 3,
+          "away": 0
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 13,
+          "away": 13
+        },
+        "corners": {
+          "home": 8,
+          "away": 2
+        },
+        "offsides": {
+          "home": 4,
+          "away": 0
+        },
+        "tackles": {
+          "home": 12,
+          "away": 20
+        },
+        "interceptions": {
+          "home": 14,
+          "away": 10
+        }
+      },
+      "events": [
+        {
+          "minute": 16,
+          "type": "goal",
+          "team": "England",
+          "player": "Raheem Sterling"
+        },
+        {
+          "minute": 26,
+          "type": "yellow_card",
+          "team": "England",
+          "player": "Kyle Walker"
+        },
+        {
+          "minute": 46,
+          "type": "yellow_card",
+          "team": "Democratic Republic of the Congo",
+          "player": "Fabrice N'Sakala"
+        },
+        {
+          "minute": 60,
+          "type": "yellow_card",
+          "team": "England",
+          "player": "Raheem Sterling"
+        },
+        {
+          "minute": 64,
+          "type": "goal",
+          "team": "Democratic Republic of the Congo",
+          "player": "Chancel Mbemba"
+        },
+        {
+          "minute": 84,
+          "type": "goal",
+          "team": "England",
+          "player": "Jude Bellingham"
+        }
+      ],
+      "players": [
+        {
+          "team": "England",
+          "number": 1,
+          "name": "Jordan Pickford",
+          "position": "GK",
+          "minutes": 78,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 19,
+          "pass_accuracy": 95,
+          "tackles": 2,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 2,
+          "name": "Kyle Walker",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 45,
+          "pass_accuracy": 79,
+          "tackles": 4,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 3,
+          "name": "John Stones",
+          "position": "CB",
+          "minutes": 84,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 43,
+          "pass_accuracy": 88,
+          "tackles": 1,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 4,
+          "name": "Harry Maguire",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 53,
+          "pass_accuracy": 72,
+          "tackles": 3,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 5,
+          "name": "Luke Shaw",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 60,
+          "pass_accuracy": 95,
+          "tackles": 5,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 6,
+          "name": "Declan Rice",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 3,
+          "passes": 27,
+          "pass_accuracy": 71,
+          "tackles": 4,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 7,
+          "name": "Jude Bellingham",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 4,
+          "passes": 33,
+          "pass_accuracy": 81,
+          "tackles": 3,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 8,
+          "name": "Raheem Sterling",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 23,
+          "pass_accuracy": 92,
+          "tackles": 1,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 9,
+          "name": "Harry Kane",
+          "position": "RW",
+          "minutes": 72,
+          "goals": 1,
+          "assists": 1,
+          "shots": 3,
+          "passes": 27,
+          "pass_accuracy": 74,
+          "tackles": 0,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 10,
+          "name": "Phil Foden",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 40,
+          "pass_accuracy": 78,
+          "tackles": 2,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 11,
+          "name": "Jack Grealish",
+          "position": "ST",
+          "minutes": 68,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 23,
+          "pass_accuracy": 91,
+          "tackles": 2,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 1,
+          "name": "Joël Kiassumbua",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 14,
+          "pass_accuracy": 75,
+          "tackles": 1,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 2,
+          "name": "Issama Mpeko",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 43,
+          "pass_accuracy": 95,
+          "tackles": 0,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 3,
+          "name": "Wilfred Moke",
+          "position": "CB",
+          "minutes": 73,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 31,
+          "pass_accuracy": 71,
+          "tackles": 2,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 4,
+          "name": "Fabrice N'Sakala",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 45,
+          "pass_accuracy": 89,
+          "tackles": 5,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 5,
+          "name": "Marcel Tisserand",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 60,
+          "pass_accuracy": 85,
+          "tackles": 1,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 6,
+          "name": "Chancel Mbemba",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 42,
+          "pass_accuracy": 71,
+          "tackles": 5,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 7,
+          "name": "Giannelli Imbula",
+          "position": "CM",
+          "minutes": 86,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 21,
+          "pass_accuracy": 85,
+          "tackles": 3,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 8,
+          "name": "Cédric Bakambu",
+          "position": "LW",
+          "minutes": 70,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 47,
+          "pass_accuracy": 70,
+          "tackles": 0,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 9,
+          "name": "Dieumerci Mbokani",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 45,
+          "pass_accuracy": 94,
+          "tackles": 2,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 10,
+          "name": "Yannick Bolasie",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 52,
+          "pass_accuracy": 78,
+          "tackles": 2,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 11,
+          "name": "Neeskens Kebano",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 3,
+          "passes": 30,
+          "pass_accuracy": 86,
+          "tackles": 0,
+          "rating": 7.1,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "81",
@@ -35303,11 +35727,11 @@
     {
       "id": "92",
       "home": "Mexico",
-      "away": "TBD",
+      "away": "England",
       "home_id": "1",
-      "away_id": "0",
+      "away_id": "45",
       "home_flag": "https://flagcdn.com/w80/mx.png",
-      "away_flag": "",
+      "away_flag": "https://flagcdn.com/w80/gb-eng.png",
       "home_score": "0",
       "away_score": "0",
       "status": "SCHEDULED",
