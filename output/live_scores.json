@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T11:30:19.986596+00:00",
+  "updated_at": "2026-07-01T13:54:21.964135+00:00",
   "match_count": 92,
   "matches": [
     {
@@ -35268,8 +35268,8 @@
       "away_id": "42",
       "home_flag": "https://flagcdn.com/w80/gb-eng.png",
       "away_flag": "https://flagcdn.com/w80/cd.png",
-      "home_score": "0",
-      "away_score": "0",
+      "home_score": null,
+      "away_score": null,
       "status": "SCHEDULED",
       "minute": null,
       "date": "07/01/2026 12:00",
@@ -35288,8 +35288,8 @@
       "away_id": "34",
       "home_flag": "https://flagcdn.com/w80/be.png",
       "away_flag": "https://flagcdn.com/w80/sn.png",
-      "home_score": "0",
-      "away_score": "0",
+      "home_score": null,
+      "away_score": null,
       "status": "SCHEDULED",
       "minute": null,
       "date": "07/01/2026 13:00",
