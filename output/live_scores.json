@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-01T03:37:14.508335+00:00",
-  "match_count": 91,
+  "updated_at": "2026-07-01T07:58:50.093046+00:00",
+  "match_count": 92,
   "matches": [
     {
       "id": "6",
@@ -25079,6 +25079,26 @@
       "stadium_id": "5"
     },
     {
+      "id": "92",
+      "home": "Mexico",
+      "away": "TBD",
+      "home_id": "1",
+      "away_id": "0",
+      "home_flag": "https://flagcdn.com/w80/mx.png",
+      "away_flag": "",
+      "home_score": "0",
+      "away_score": "0",
+      "status": "SCHEDULED",
+      "minute": null,
+      "date": "07/05/2026 18:00",
+      "group": "R16",
+      "matchday": "5",
+      "type": "r16",
+      "stadium": "Estadio Azteca",
+      "stadium_city": "Mexico City",
+      "stadium_id": "1"
+    },
+    {
       "id": "14",
       "home": "Spain",
       "away": "Cape Verde",
@@ -34818,15 +34838,427 @@
       "away_flag": "https://flagcdn.com/w80/ec.png",
       "home_score": "2",
       "away_score": "0",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "status": "FINISHED",
+      "minute": null,
       "date": "06/30/2026 19:00",
       "group": "R32",
       "matchday": "4",
       "type": "r32",
       "stadium": "Estadio Azteca",
       "stadium_city": "Mexico City",
-      "stadium_id": "1"
+      "stadium_id": "1",
+      "stats": {
+        "possession": {
+          "home": 53,
+          "away": 47
+        },
+        "shots": {
+          "home": 4,
+          "away": 4
+        },
+        "shots_on_target": {
+          "home": 4,
+          "away": 0
+        },
+        "passes": {
+          "home": 301,
+          "away": 259
+        },
+        "pass_accuracy": {
+          "home": 91,
+          "away": 90
+        },
+        "xG": {
+          "home": 1.17,
+          "away": 0.0
+        },
+        "yellow_cards": {
+          "home": 1,
+          "away": 4
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 13,
+          "away": 8
+        },
+        "corners": {
+          "home": 4,
+          "away": 2
+        },
+        "offsides": {
+          "home": 1,
+          "away": 2
+        },
+        "tackles": {
+          "home": 18,
+          "away": 12
+        },
+        "interceptions": {
+          "home": 12,
+          "away": 6
+        }
+      },
+      "events": [
+        {
+          "minute": 16,
+          "type": "yellow_card",
+          "team": "Ecuador",
+          "player": "Piero Hincapié"
+        },
+        {
+          "minute": 48,
+          "type": "yellow_card",
+          "team": "Ecuador",
+          "player": "Alexander Domínguez"
+        },
+        {
+          "minute": 52,
+          "type": "goal",
+          "team": "Mexico",
+          "player": "Héctor Moreno"
+        },
+        {
+          "minute": 67,
+          "type": "goal",
+          "team": "Mexico",
+          "player": "Héctor Moreno"
+        }
+      ],
+      "players": [
+        {
+          "team": "Mexico",
+          "number": 1,
+          "name": "Guillermo Ochoa",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 25,
+          "pass_accuracy": 93,
+          "tackles": 1,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Mexico",
+          "number": 2,
+          "name": "Jesús Gallardo",
+          "position": "LB",
+          "minutes": 71,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 55,
+          "pass_accuracy": 72,
+          "tackles": 5,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Mexico",
+          "number": 3,
+          "name": "César Montes",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 46,
+          "pass_accuracy": 77,
+          "tackles": 2,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Mexico",
+          "number": 4,
+          "name": "Edson Álvarez",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 44,
+          "pass_accuracy": 76,
+          "tackles": 3,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Mexico",
+          "number": 5,
+          "name": "Jorge Sánchez",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 42,
+          "pass_accuracy": 70,
+          "tackles": 5,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Mexico",
+          "number": 6,
+          "name": "Héctor Moreno",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 2,
+          "passes": 21,
+          "pass_accuracy": 75,
+          "tackles": 1,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Mexico",
+          "number": 7,
+          "name": "Orbelín Pineda",
+          "position": "CM",
+          "minutes": 83,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 32,
+          "pass_accuracy": 73,
+          "tackles": 2,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Mexico",
+          "number": 8,
+          "name": "Carlos Rodríguez",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 1,
+          "passes": 60,
+          "pass_accuracy": 70,
+          "tackles": 1,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Mexico",
+          "number": 9,
+          "name": "Raúl Jiménez",
+          "position": "RW",
+          "minutes": 79,
+          "goals": 1,
+          "assists": 0,
+          "shots": 2,
+          "passes": 36,
+          "pass_accuracy": 72,
+          "tackles": 0,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Mexico",
+          "number": 10,
+          "name": "Hirving Lozano",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 44,
+          "pass_accuracy": 71,
+          "tackles": 2,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Mexico",
+          "number": 11,
+          "name": "Rogelio Funes Mori",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 35,
+          "pass_accuracy": 89,
+          "tackles": 2,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "Ecuador",
+          "number": 1,
+          "name": "Alexander Domínguez",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 13,
+          "pass_accuracy": 71,
+          "tackles": 0,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Ecuador",
+          "number": 2,
+          "name": "Piero Hincapié",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 21,
+          "pass_accuracy": 85,
+          "tackles": 4,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Ecuador",
+          "number": 3,
+          "name": "Robert Arboleda",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 20,
+          "pass_accuracy": 90,
+          "tackles": 5,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Ecuador",
+          "number": 4,
+          "name": "Pervis Estupiñán",
+          "position": "CB",
+          "minutes": 69,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 25,
+          "pass_accuracy": 91,
+          "tackles": 1,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Ecuador",
+          "number": 5,
+          "name": "Ángelo Preciado",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 44,
+          "pass_accuracy": 81,
+          "tackles": 5,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Ecuador",
+          "number": 6,
+          "name": "Moisés Caicedo",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 3,
+          "passes": 41,
+          "pass_accuracy": 83,
+          "tackles": 2,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Ecuador",
+          "number": 7,
+          "name": "Alan Franco",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 4,
+          "passes": 38,
+          "pass_accuracy": 94,
+          "tackles": 0,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Ecuador",
+          "number": 8,
+          "name": "Michael Estrada",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 30,
+          "pass_accuracy": 95,
+          "tackles": 2,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Ecuador",
+          "number": 9,
+          "name": "Enner Valencia",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 27,
+          "pass_accuracy": 74,
+          "tackles": 0,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Ecuador",
+          "number": 10,
+          "name": "Gonzalo Plata",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 59,
+          "pass_accuracy": 87,
+          "tackles": 1,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Ecuador",
+          "number": 11,
+          "name": "Jordy Caicedo",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 42,
+          "pass_accuracy": 95,
+          "tackles": 1,
+          "rating": 5.6,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "80",
