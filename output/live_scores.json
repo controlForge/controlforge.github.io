@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T18:24:22.955947+00:00",
+  "updated_at": "2026-07-01T20:23:26.879379+00:00",
   "match_count": 92,
   "matches": [
     {
@@ -35512,8 +35512,8 @@
       "away_id": "6",
       "home_flag": "https://flagcdn.com/w80/us.png",
       "away_flag": "https://flagcdn.com/w80/ba.png",
-      "home_score": "0",
-      "away_score": "0",
+      "home_score": null,
+      "away_score": null,
       "status": "SCHEDULED",
       "minute": null,
       "date": "07/01/2026 17:00",
@@ -35532,10 +35532,10 @@
       "away_id": "34",
       "home_flag": "https://flagcdn.com/w80/be.png",
       "away_flag": "https://flagcdn.com/w80/sn.png",
-      "home_score": null,
-      "away_score": null,
-      "status": "SCHEDULED",
-      "minute": null,
+      "home_score": "0",
+      "away_score": "0",
+      "status": "IN_PLAY",
+      "minute": "live",
       "date": "07/01/2026 13:00",
       "group": "R32",
       "matchday": "4",
