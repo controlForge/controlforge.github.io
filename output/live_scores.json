@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-02T20:20:12.272758+00:00",
-  "match_count": 93,
+  "updated_at": "2026-07-02T21:43:18.290507+00:00",
+  "match_count": 94,
   "matches": [
     {
       "id": "1",
@@ -36402,17 +36402,441 @@
       "away_id": "39",
       "home_flag": "https://flagcdn.com/w80/es.png",
       "away_flag": "https://flagcdn.com/w80/at.png",
-      "home_score": "1",
+      "home_score": "3",
       "away_score": "0",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "status": "FINISHED",
+      "minute": null,
       "date": "07/02/2026 12:00",
       "group": "R32",
       "matchday": "4",
       "type": "r32",
       "stadium": "SoFi Stadium",
       "stadium_city": "Los Angeles (Inglewood)",
-      "stadium_id": "16"
+      "stadium_id": "16",
+      "stats": {
+        "possession": {
+          "home": 60,
+          "away": 40
+        },
+        "shots": {
+          "home": 9,
+          "away": 1
+        },
+        "shots_on_target": {
+          "home": 4,
+          "away": 1
+        },
+        "passes": {
+          "home": 365,
+          "away": 215
+        },
+        "pass_accuracy": {
+          "home": 90,
+          "away": 87
+        },
+        "xG": {
+          "home": 2.17,
+          "away": 0.18
+        },
+        "yellow_cards": {
+          "home": 0,
+          "away": 3
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 17,
+          "away": 18
+        },
+        "corners": {
+          "home": 2,
+          "away": 6
+        },
+        "offsides": {
+          "home": 0,
+          "away": 3
+        },
+        "tackles": {
+          "home": 25,
+          "away": 12
+        },
+        "interceptions": {
+          "home": 12,
+          "away": 7
+        }
+      },
+      "events": [
+        {
+          "minute": 23,
+          "type": "yellow_card",
+          "team": "Spain",
+          "player": "César Azpilicueta"
+        },
+        {
+          "minute": 33,
+          "type": "yellow_card",
+          "team": "Spain",
+          "player": "Pedri"
+        },
+        {
+          "minute": 51,
+          "type": "yellow_card",
+          "team": "Austria",
+          "player": "Heinz Lindner"
+        },
+        {
+          "minute": 53,
+          "type": "goal",
+          "team": "Spain",
+          "player": "Marco Asensio"
+        },
+        {
+          "minute": 60,
+          "type": "goal",
+          "team": "Spain",
+          "player": "Gavi"
+        },
+        {
+          "minute": 71,
+          "type": "goal",
+          "team": "Spain",
+          "player": "Gavi"
+        }
+      ],
+      "players": [
+        {
+          "team": "Spain",
+          "number": 1,
+          "name": "Unai Simón",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 24,
+          "pass_accuracy": 75,
+          "tackles": 0,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 2,
+          "name": "César Azpilicueta",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 34,
+          "pass_accuracy": 91,
+          "tackles": 2,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 3,
+          "name": "Pau Torres",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 41,
+          "pass_accuracy": 85,
+          "tackles": 5,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 4,
+          "name": "Aymeric Laporte",
+          "position": "CB",
+          "minutes": 68,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 34,
+          "pass_accuracy": 90,
+          "tackles": 1,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 5,
+          "name": "Jordi Alba",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 38,
+          "pass_accuracy": 83,
+          "tackles": 1,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 6,
+          "name": "Pedri",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 35,
+          "pass_accuracy": 92,
+          "tackles": 1,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 7,
+          "name": "Gavi",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 25,
+          "pass_accuracy": 71,
+          "tackles": 5,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 8,
+          "name": "Ferran Torres",
+          "position": "LW",
+          "minutes": 87,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 54,
+          "pass_accuracy": 70,
+          "tackles": 1,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 9,
+          "name": "Álvaro Morata",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 37,
+          "pass_accuracy": 79,
+          "tackles": 2,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 10,
+          "name": "Marco Asensio",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 1,
+          "passes": 50,
+          "pass_accuracy": 85,
+          "tackles": 0,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 11,
+          "name": "Dani Olmo",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 53,
+          "pass_accuracy": 73,
+          "tackles": 2,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Austria",
+          "number": 1,
+          "name": "Heinz Lindner",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 23,
+          "pass_accuracy": 71,
+          "tackles": 0,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Austria",
+          "number": 2,
+          "name": "Stefan Lainer",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 47,
+          "pass_accuracy": 84,
+          "tackles": 5,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Austria",
+          "number": 3,
+          "name": "Aleksandar Dragović",
+          "position": "CB",
+          "minutes": 74,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 26,
+          "pass_accuracy": 73,
+          "tackles": 1,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Austria",
+          "number": 4,
+          "name": "Martin Hinteregger",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 34,
+          "pass_accuracy": 71,
+          "tackles": 1,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "Austria",
+          "number": 5,
+          "name": "Andreas Ulmer",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 34,
+          "pass_accuracy": 93,
+          "tackles": 5,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Austria",
+          "number": 6,
+          "name": "Stefan Ilsanker",
+          "position": "CM",
+          "minutes": 71,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 55,
+          "pass_accuracy": 83,
+          "tackles": 4,
+          "rating": 5.5,
+          "is_sub": false
+        },
+        {
+          "team": "Austria",
+          "number": 7,
+          "name": "Louis Schaub",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 43,
+          "pass_accuracy": 71,
+          "tackles": 1,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "Austria",
+          "number": 8,
+          "name": "Florian Grillitsch",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 34,
+          "pass_accuracy": 78,
+          "tackles": 2,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Austria",
+          "number": 9,
+          "name": "Marko Arnautović",
+          "position": "RW",
+          "minutes": 63,
+          "goals": 0,
+          "assists": 1,
+          "shots": 4,
+          "passes": 33,
+          "pass_accuracy": 95,
+          "tackles": 0,
+          "rating": 7.7,
+          "is_sub": false
+        },
+        {
+          "team": "Austria",
+          "number": 10,
+          "name": "Marcel Sabitzer",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 48,
+          "pass_accuracy": 85,
+          "tackles": 0,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Austria",
+          "number": 11,
+          "name": "Saša Kalajdžić",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 45,
+          "pass_accuracy": 74,
+          "tackles": 2,
+          "rating": 6.8,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "85",
@@ -36573,6 +36997,26 @@
       "stadium": "Estadio Azteca",
       "stadium_city": "Mexico City",
       "stadium_id": "1"
+    },
+    {
+      "id": "93",
+      "home": "TBD",
+      "away": "Spain",
+      "home_id": "0",
+      "away_id": "29",
+      "home_flag": "",
+      "away_flag": "https://flagcdn.com/w80/es.png",
+      "home_score": "0",
+      "away_score": "0",
+      "status": "SCHEDULED",
+      "minute": null,
+      "date": "07/06/2026 14:00",
+      "group": "R16",
+      "matchday": "5",
+      "type": "r16",
+      "stadium": "AT&T Stadium",
+      "stadium_city": "Dallas (Arlington, Texas)",
+      "stadium_id": "4"
     },
     {
       "id": "94",
