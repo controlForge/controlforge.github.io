@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-03T04:07:39.578491+00:00",
-  "match_count": 94,
+  "updated_at": "2026-07-03T07:35:28.919880+00:00",
+  "match_count": 95,
   "matches": [
     {
       "id": "1",
@@ -37264,17 +37264,423 @@
       "away_id": "38",
       "home_flag": "https://flagcdn.com/w80/ch.png",
       "away_flag": "https://flagcdn.com/w80/dz.png",
-      "home_score": "1",
+      "home_score": "2",
       "away_score": "0",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "status": "FINISHED",
+      "minute": null,
       "date": "07/02/2026 20:00",
       "group": "R32",
       "matchday": "4",
       "type": "r32",
       "stadium": "BC Place",
       "stadium_city": "Vancouver",
-      "stadium_id": "13"
+      "stadium_id": "13",
+      "stats": {
+        "possession": {
+          "home": 58,
+          "away": 42
+        },
+        "shots": {
+          "home": 10,
+          "away": 7
+        },
+        "shots_on_target": {
+          "home": 5,
+          "away": 2
+        },
+        "passes": {
+          "home": 308,
+          "away": 189
+        },
+        "pass_accuracy": {
+          "home": 85,
+          "away": 77
+        },
+        "xG": {
+          "home": 1.55,
+          "away": 0.34
+        },
+        "yellow_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 17,
+          "away": 11
+        },
+        "corners": {
+          "home": 7,
+          "away": 1
+        },
+        "offsides": {
+          "home": 4,
+          "away": 0
+        },
+        "tackles": {
+          "home": 18,
+          "away": 22
+        },
+        "interceptions": {
+          "home": 7,
+          "away": 7
+        }
+      },
+      "events": [
+        {
+          "minute": 72,
+          "type": "goal",
+          "team": "Switzerland",
+          "player": "Remo Freuler"
+        },
+        {
+          "minute": 77,
+          "type": "yellow_card",
+          "team": "Algeria",
+          "player": "Raïs M'Bolhi"
+        },
+        {
+          "minute": 88,
+          "type": "goal",
+          "team": "Switzerland",
+          "player": "Breel Embolo"
+        }
+      ],
+      "players": [
+        {
+          "team": "Switzerland",
+          "number": 1,
+          "name": "Yann Sommer",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 15,
+          "pass_accuracy": 92,
+          "tackles": 1,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 2,
+          "name": "Silvan Widmer",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 55,
+          "pass_accuracy": 83,
+          "tackles": 5,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 3,
+          "name": "Nico Elvedi",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 54,
+          "pass_accuracy": 90,
+          "tackles": 3,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 4,
+          "name": "Manuel Akanji",
+          "position": "CB",
+          "minutes": 75,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 60,
+          "pass_accuracy": 88,
+          "tackles": 3,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 5,
+          "name": "Ricardo Rodriguez",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 45,
+          "pass_accuracy": 88,
+          "tackles": 5,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 6,
+          "name": "Granit Xhaka",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 40,
+          "pass_accuracy": 91,
+          "tackles": 4,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 7,
+          "name": "Remo Freuler",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 44,
+          "pass_accuracy": 73,
+          "tackles": 4,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 8,
+          "name": "Steven Zuber",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 0,
+          "passes": 53,
+          "pass_accuracy": 90,
+          "tackles": 1,
+          "rating": 8.0,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 9,
+          "name": "Breel Embolo",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 48,
+          "pass_accuracy": 87,
+          "tackles": 0,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 10,
+          "name": "Haris Seferović",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 3,
+          "passes": 25,
+          "pass_accuracy": 71,
+          "tackles": 2,
+          "rating": 7.8,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 11,
+          "name": "Ruben Vargas",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 60,
+          "pass_accuracy": 93,
+          "tackles": 2,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Algeria",
+          "number": 1,
+          "name": "Raïs M'Bolhi",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 20,
+          "pass_accuracy": 91,
+          "tackles": 2,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Algeria",
+          "number": 2,
+          "name": "Youcef Atal",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 49,
+          "pass_accuracy": 71,
+          "tackles": 0,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Algeria",
+          "number": 3,
+          "name": "Aïssa Mandi",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 57,
+          "pass_accuracy": 78,
+          "tackles": 4,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Algeria",
+          "number": 4,
+          "name": "Djamel Benlamri",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 22,
+          "pass_accuracy": 71,
+          "tackles": 1,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Algeria",
+          "number": 5,
+          "name": "Ramy Bensebaini",
+          "position": "RB",
+          "minutes": 62,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 47,
+          "pass_accuracy": 72,
+          "tackles": 0,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Algeria",
+          "number": 6,
+          "name": "Sofiane Feghouli",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 60,
+          "pass_accuracy": 95,
+          "tackles": 0,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Algeria",
+          "number": 7,
+          "name": "Ismaël Bennacer",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 58,
+          "pass_accuracy": 70,
+          "tackles": 3,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Algeria",
+          "number": 8,
+          "name": "Yacine Brahimi",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 39,
+          "pass_accuracy": 74,
+          "tackles": 1,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Algeria",
+          "number": 9,
+          "name": "Riyad Mahrez",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 41,
+          "pass_accuracy": 87,
+          "tackles": 2,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Algeria",
+          "number": 10,
+          "name": "Islam Slimani",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 42,
+          "pass_accuracy": 77,
+          "tackles": 1,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Algeria",
+          "number": 11,
+          "name": "Baghdad Bounedjah",
+          "position": "ST",
+          "minutes": 87,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 40,
+          "pass_accuracy": 93,
+          "tackles": 2,
+          "rating": 6.1,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "86",
@@ -37455,6 +37861,26 @@
       "stadium": "Lumen Field",
       "stadium_city": "Seattle",
       "stadium_id": "14"
+    },
+    {
+      "id": "96",
+      "home": "Switzerland",
+      "away": "TBD",
+      "home_id": "8",
+      "away_id": "0",
+      "home_flag": "https://flagcdn.com/w80/ch.png",
+      "away_flag": "",
+      "home_score": "0",
+      "away_score": "0",
+      "status": "SCHEDULED",
+      "minute": null,
+      "date": "07/07/2026 13:00",
+      "group": "R16",
+      "matchday": "5",
+      "type": "r16",
+      "stadium": "BC Place",
+      "stadium_city": "Vancouver",
+      "stadium_id": "13"
     }
   ],
   "top_scorers": [
