@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T00:03:40.187703+00:00",
+  "updated_at": "2026-07-03T04:07:39.578491+00:00",
   "match_count": 94,
   "matches": [
     {
@@ -36382,17 +36382,435 @@
       "away_id": "46",
       "home_flag": "https://flagcdn.com/w80/pt.png",
       "away_flag": "https://flagcdn.com/w80/hr.png",
-      "home_score": "0",
-      "away_score": "0",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "home_score": "2",
+      "away_score": "1",
+      "status": "FINISHED",
+      "minute": null,
       "date": "07/02/2026 19:00",
       "group": "R32",
       "matchday": "4",
       "type": "r32",
       "stadium": "BMO Field",
       "stadium_city": "Toronto",
-      "stadium_id": "12"
+      "stadium_id": "12",
+      "stats": {
+        "possession": {
+          "home": 57,
+          "away": 43
+        },
+        "shots": {
+          "home": 5,
+          "away": 5
+        },
+        "shots_on_target": {
+          "home": 3,
+          "away": 3
+        },
+        "passes": {
+          "home": 345,
+          "away": 256
+        },
+        "pass_accuracy": {
+          "home": 78,
+          "away": 81
+        },
+        "xG": {
+          "home": 1.43,
+          "away": 0.9
+        },
+        "yellow_cards": {
+          "home": 3,
+          "away": 1
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 12,
+          "away": 14
+        },
+        "corners": {
+          "home": 8,
+          "away": 1
+        },
+        "offsides": {
+          "home": 1,
+          "away": 4
+        },
+        "tackles": {
+          "home": 16,
+          "away": 25
+        },
+        "interceptions": {
+          "home": 16,
+          "away": 12
+        }
+      },
+      "events": [
+        {
+          "minute": 1,
+          "type": "goal",
+          "team": "Croatia",
+          "player": "Andrej Kramarić"
+        },
+        {
+          "minute": 27,
+          "type": "yellow_card",
+          "team": "Croatia",
+          "player": "Duje Ćaleta-Car"
+        },
+        {
+          "minute": 45,
+          "type": "goal",
+          "team": "Portugal",
+          "player": "Bruno Fernandes"
+        },
+        {
+          "minute": 49,
+          "type": "goal",
+          "team": "Portugal",
+          "player": "Cristiano Ronaldo"
+        },
+        {
+          "minute": 60,
+          "type": "yellow_card",
+          "team": "Croatia",
+          "player": "Ivan Perišić"
+        }
+      ],
+      "players": [
+        {
+          "team": "Portugal",
+          "number": 1,
+          "name": "Diogo Costa",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 24,
+          "pass_accuracy": 87,
+          "tackles": 2,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 2,
+          "name": "João Cancelo",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 43,
+          "pass_accuracy": 95,
+          "tackles": 3,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 3,
+          "name": "Pepe",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 54,
+          "pass_accuracy": 94,
+          "tackles": 5,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 4,
+          "name": "Rúben Dias",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 53,
+          "pass_accuracy": 82,
+          "tackles": 3,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 5,
+          "name": "Raphaël Guerreiro",
+          "position": "RB",
+          "minutes": 68,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 57,
+          "pass_accuracy": 90,
+          "tackles": 3,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 6,
+          "name": "Bruno Fernandes",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 31,
+          "pass_accuracy": 83,
+          "tackles": 2,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 7,
+          "name": "Bernardo Silva",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 0,
+          "passes": 60,
+          "pass_accuracy": 84,
+          "tackles": 2,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 8,
+          "name": "Diogo Jota",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 1,
+          "passes": 45,
+          "pass_accuracy": 87,
+          "tackles": 1,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 9,
+          "name": "Cristiano Ronaldo",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 52,
+          "pass_accuracy": 89,
+          "tackles": 1,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 10,
+          "name": "Rafael Leão",
+          "position": "ST",
+          "minutes": 80,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 31,
+          "pass_accuracy": 83,
+          "tackles": 0,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 11,
+          "name": "André Silva",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 54,
+          "pass_accuracy": 83,
+          "tackles": 2,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "Croatia",
+          "number": 1,
+          "name": "Dominik Livaković",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 15,
+          "pass_accuracy": 86,
+          "tackles": 0,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Croatia",
+          "number": 2,
+          "name": "Josip Juranović",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 0,
+          "passes": 31,
+          "pass_accuracy": 84,
+          "tackles": 3,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Croatia",
+          "number": 3,
+          "name": "Duje Ćaleta-Car",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 51,
+          "pass_accuracy": 82,
+          "tackles": 1,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Croatia",
+          "number": 4,
+          "name": "Dejan Lovren",
+          "position": "CB",
+          "minutes": 83,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 54,
+          "pass_accuracy": 84,
+          "tackles": 2,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Croatia",
+          "number": 5,
+          "name": "Borna Sosa",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 48,
+          "pass_accuracy": 71,
+          "tackles": 2,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Croatia",
+          "number": 6,
+          "name": "Marcelo Brozović",
+          "position": "CM",
+          "minutes": 81,
+          "goals": 1,
+          "assists": 0,
+          "shots": 2,
+          "passes": 33,
+          "pass_accuracy": 80,
+          "tackles": 3,
+          "rating": 7.8,
+          "is_sub": false
+        },
+        {
+          "team": "Croatia",
+          "number": 7,
+          "name": "Luka Modrić",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 37,
+          "pass_accuracy": 80,
+          "tackles": 5,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Croatia",
+          "number": 8,
+          "name": "Ivan Perišić",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 28,
+          "pass_accuracy": 70,
+          "tackles": 1,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Croatia",
+          "number": 9,
+          "name": "Andrej Kramarić",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 37,
+          "pass_accuracy": 81,
+          "tackles": 1,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Croatia",
+          "number": 10,
+          "name": "Mario Pašalić",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 45,
+          "pass_accuracy": 72,
+          "tackles": 2,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Croatia",
+          "number": 11,
+          "name": "Ante Rebić",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 20,
+          "pass_accuracy": 89,
+          "tackles": 1,
+          "rating": 6.7,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "84",
@@ -36846,10 +37264,10 @@
       "away_id": "38",
       "home_flag": "https://flagcdn.com/w80/ch.png",
       "away_flag": "https://flagcdn.com/w80/dz.png",
-      "home_score": null,
-      "away_score": null,
-      "status": "SCHEDULED",
-      "minute": null,
+      "home_score": "1",
+      "away_score": "0",
+      "status": "IN_PLAY",
+      "minute": "live",
       "date": "07/02/2026 20:00",
       "group": "R32",
       "matchday": "4",
@@ -37000,11 +37418,11 @@
     },
     {
       "id": "93",
-      "home": "TBD",
+      "home": "Portugal",
       "away": "Spain",
-      "home_id": "0",
+      "home_id": "41",
       "away_id": "29",
-      "home_flag": "",
+      "home_flag": "https://flagcdn.com/w80/pt.png",
       "away_flag": "https://flagcdn.com/w80/es.png",
       "home_score": "0",
       "away_score": "0",
