@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T17:50:12.460042+00:00",
+  "updated_at": "2026-07-03T19:17:55.482125+00:00",
   "match_count": 95,
   "matches": [
     {
@@ -37730,10 +37730,10 @@
       "away_id": "26",
       "home_flag": "https://flagcdn.com/w80/au.png",
       "away_flag": "https://flagcdn.com/w80/eg.png",
-      "home_score": null,
-      "away_score": null,
-      "status": "SCHEDULED",
-      "minute": null,
+      "home_score": "1",
+      "away_score": "1",
+      "status": "IN_PLAY",
+      "minute": "live",
       "date": "07/03/2026 13:00",
       "group": "R32",
       "matchday": "4",
