@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-03T20:37:17.886806+00:00",
-  "match_count": 95,
+  "updated_at": "2026-07-03T21:44:55.675198+00:00",
+  "match_count": 96,
   "matches": [
     {
       "id": "1",
@@ -37732,15 +37732,427 @@
       "away_flag": "https://flagcdn.com/w80/eg.png",
       "home_score": "1",
       "away_score": "1",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "status": "FINISHED",
+      "minute": null,
       "date": "07/03/2026 13:00",
       "group": "R32",
       "matchday": "4",
       "type": "r32",
       "stadium": "AT&T Stadium",
       "stadium_city": "Dallas (Arlington, Texas)",
-      "stadium_id": "4"
+      "stadium_id": "4",
+      "stats": {
+        "possession": {
+          "home": 46,
+          "away": 54
+        },
+        "shots": {
+          "home": 8,
+          "away": 5
+        },
+        "shots_on_target": {
+          "home": 4,
+          "away": 2
+        },
+        "passes": {
+          "home": 259,
+          "away": 272
+        },
+        "pass_accuracy": {
+          "home": 78,
+          "away": 86
+        },
+        "xG": {
+          "home": 0.96,
+          "away": 0.64
+        },
+        "yellow_cards": {
+          "home": 1,
+          "away": 0
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 10,
+          "away": 14
+        },
+        "corners": {
+          "home": 2,
+          "away": 2
+        },
+        "offsides": {
+          "home": 0,
+          "away": 1
+        },
+        "tackles": {
+          "home": 28,
+          "away": 28
+        },
+        "interceptions": {
+          "home": 10,
+          "away": 6
+        }
+      },
+      "events": [
+        {
+          "minute": 10,
+          "type": "goal",
+          "team": "Egypt",
+          "player": "Mohamed Elneny"
+        },
+        {
+          "minute": 14,
+          "type": "goal",
+          "team": "Australia",
+          "player": "Mathew Leckie"
+        },
+        {
+          "minute": 24,
+          "type": "yellow_card",
+          "team": "Australia",
+          "player": "Martin Boyle"
+        },
+        {
+          "minute": 85,
+          "type": "yellow_card",
+          "team": "Australia",
+          "player": "Ajdin Hrustic"
+        }
+      ],
+      "players": [
+        {
+          "team": "Australia",
+          "number": 1,
+          "name": "Mathew Ryan",
+          "position": "GK",
+          "minutes": 67,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 22,
+          "pass_accuracy": 81,
+          "tackles": 2,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Australia",
+          "number": 2,
+          "name": "Miloš Degenek",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 20,
+          "pass_accuracy": 88,
+          "tackles": 5,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Australia",
+          "number": 3,
+          "name": "Aziz Behich",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 30,
+          "pass_accuracy": 93,
+          "tackles": 4,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Australia",
+          "number": 4,
+          "name": "Rhyan Grant",
+          "position": "CB",
+          "minutes": 84,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 57,
+          "pass_accuracy": 91,
+          "tackles": 3,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Australia",
+          "number": 5,
+          "name": "Trent Sainsbury",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 32,
+          "pass_accuracy": 85,
+          "tackles": 3,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "Australia",
+          "number": 6,
+          "name": "Ajdin Hrustic",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 4,
+          "passes": 29,
+          "pass_accuracy": 95,
+          "tackles": 5,
+          "rating": 8.3,
+          "is_sub": false
+        },
+        {
+          "team": "Australia",
+          "number": 7,
+          "name": "Jackson Irvine",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 42,
+          "pass_accuracy": 89,
+          "tackles": 2,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Australia",
+          "number": 8,
+          "name": "Mathew Leckie",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 41,
+          "pass_accuracy": 94,
+          "tackles": 0,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Australia",
+          "number": 9,
+          "name": "Awer Mabil",
+          "position": "RW",
+          "minutes": 69,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 59,
+          "pass_accuracy": 84,
+          "tackles": 0,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Australia",
+          "number": 10,
+          "name": "Martin Boyle",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 34,
+          "pass_accuracy": 84,
+          "tackles": 0,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Australia",
+          "number": 11,
+          "name": "Mitchell Duke",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 41,
+          "pass_accuracy": 89,
+          "tackles": 0,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Egypt",
+          "number": 1,
+          "name": "Mohamed El-Shenawy",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 19,
+          "pass_accuracy": 84,
+          "tackles": 0,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Egypt",
+          "number": 2,
+          "name": "Ahmed Hegazi",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 53,
+          "pass_accuracy": 71,
+          "tackles": 1,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Egypt",
+          "number": 3,
+          "name": "Omar Gaber",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 40,
+          "pass_accuracy": 89,
+          "tackles": 5,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "Egypt",
+          "number": 4,
+          "name": "Mahmoud Hamdy",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 32,
+          "pass_accuracy": 80,
+          "tackles": 0,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Egypt",
+          "number": 5,
+          "name": "Ahmed Fathy",
+          "position": "RB",
+          "minutes": 89,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 22,
+          "pass_accuracy": 79,
+          "tackles": 2,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Egypt",
+          "number": 6,
+          "name": "Trézéguet",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 4,
+          "passes": 51,
+          "pass_accuracy": 84,
+          "tackles": 4,
+          "rating": 7.6,
+          "is_sub": false
+        },
+        {
+          "team": "Egypt",
+          "number": 7,
+          "name": "Mohamed Elneny",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 36,
+          "pass_accuracy": 71,
+          "tackles": 4,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Egypt",
+          "number": 8,
+          "name": "Mostafa Fathi",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 50,
+          "pass_accuracy": 73,
+          "tackles": 0,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Egypt",
+          "number": 9,
+          "name": "Mohamed Salah",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 55,
+          "pass_accuracy": 81,
+          "tackles": 2,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Egypt",
+          "number": 10,
+          "name": "Marwan Hamdy",
+          "position": "ST",
+          "minutes": 68,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 40,
+          "pass_accuracy": 79,
+          "tackles": 2,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Egypt",
+          "number": 11,
+          "name": "Ramadan Sobhi",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 46,
+          "pass_accuracy": 73,
+          "tackles": 0,
+          "rating": 6.6,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "89",
@@ -37861,6 +38273,26 @@
       "stadium": "Lumen Field",
       "stadium_city": "Seattle",
       "stadium_id": "14"
+    },
+    {
+      "id": "95",
+      "home": "TBD",
+      "away": "Egypt",
+      "home_id": "0",
+      "away_id": "26",
+      "home_flag": "",
+      "away_flag": "https://flagcdn.com/w80/eg.png",
+      "home_score": "0",
+      "away_score": "0",
+      "status": "SCHEDULED",
+      "minute": null,
+      "date": "07/07/2026 12:00",
+      "group": "R16",
+      "matchday": "5",
+      "type": "r16",
+      "stadium": "Mercedes-Benz Stadium",
+      "stadium_city": "Atlanta",
+      "stadium_id": "7"
     },
     {
       "id": "96",
