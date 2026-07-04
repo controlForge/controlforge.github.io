@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T23:46:11.939802+00:00",
+  "updated_at": "2026-07-04T02:41:18.077272+00:00",
   "match_count": 96,
   "matches": [
     {
@@ -37690,17 +37690,465 @@
       "away_id": "30",
       "home_flag": "https://flagcdn.com/w80/ar.png",
       "away_flag": "https://flagcdn.com/w80/cv.png",
-      "home_score": "1",
-      "away_score": "1",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "home_score": "3",
+      "away_score": "2",
+      "status": "FINISHED",
+      "minute": null,
       "date": "07/03/2026 18:00",
       "group": "R32",
       "matchday": "4",
       "type": "r32",
       "stadium": "Hard Rock Stadium",
       "stadium_city": "Miami (Miami Gardens)",
-      "stadium_id": "8"
+      "stadium_id": "8",
+      "stats": {
+        "possession": {
+          "home": 57,
+          "away": 43
+        },
+        "shots": {
+          "home": 11,
+          "away": 3
+        },
+        "shots_on_target": {
+          "home": 4,
+          "away": 3
+        },
+        "passes": {
+          "home": 305,
+          "away": 228
+        },
+        "pass_accuracy": {
+          "home": 79,
+          "away": 87
+        },
+        "xG": {
+          "home": 1.82,
+          "away": 1.16
+        },
+        "yellow_cards": {
+          "home": 3,
+          "away": 0
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 10,
+          "away": 17
+        },
+        "corners": {
+          "home": 8,
+          "away": 7
+        },
+        "offsides": {
+          "home": 1,
+          "away": 3
+        },
+        "tackles": {
+          "home": 27,
+          "away": 15
+        },
+        "interceptions": {
+          "home": 6,
+          "away": 10
+        }
+      },
+      "events": [
+        {
+          "minute": 4,
+          "type": "goal",
+          "team": "Cape Verde",
+          "player": "Ryan Mendes"
+        },
+        {
+          "minute": 13,
+          "type": "goal",
+          "team": "Cape Verde",
+          "player": "Júlio Tavares"
+        },
+        {
+          "minute": 19,
+          "type": "yellow_card",
+          "team": "Cape Verde",
+          "player": "Ryan Mendes"
+        },
+        {
+          "minute": 33,
+          "type": "goal",
+          "team": "Argentina",
+          "player": "Leandro Paredes"
+        },
+        {
+          "minute": 34,
+          "type": "yellow_card",
+          "team": "Argentina",
+          "player": "Rodrigo De Paul"
+        },
+        {
+          "minute": 50,
+          "type": "yellow_card",
+          "team": "Argentina",
+          "player": "Emiliano Martínez"
+        },
+        {
+          "minute": 55,
+          "type": "yellow_card",
+          "team": "Cape Verde",
+          "player": "Ponck"
+        },
+        {
+          "minute": 59,
+          "type": "goal",
+          "team": "Argentina",
+          "player": "Rodrigo De Paul"
+        },
+        {
+          "minute": 80,
+          "type": "goal",
+          "team": "Argentina",
+          "player": "Lautaro Martínez"
+        },
+        {
+          "minute": 89,
+          "type": "yellow_card",
+          "team": "Cape Verde",
+          "player": "Márcio Rosa"
+        }
+      ],
+      "players": [
+        {
+          "team": "Argentina",
+          "number": 1,
+          "name": "Emiliano Martínez",
+          "position": "GK",
+          "minutes": 70,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 16,
+          "pass_accuracy": 84,
+          "tackles": 1,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 2,
+          "name": "Nicolás Tagliafico",
+          "position": "LB",
+          "minutes": 79,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 40,
+          "pass_accuracy": 88,
+          "tackles": 2,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 3,
+          "name": "Nicolás Otamendi",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 26,
+          "pass_accuracy": 85,
+          "tackles": 1,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 4,
+          "name": "Cristian Romero",
+          "position": "CB",
+          "minutes": 79,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 53,
+          "pass_accuracy": 81,
+          "tackles": 4,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 5,
+          "name": "Marcos Acuña",
+          "position": "RB",
+          "minutes": 74,
+          "goals": 0,
+          "assists": 1,
+          "shots": 1,
+          "passes": 51,
+          "pass_accuracy": 78,
+          "tackles": 1,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 6,
+          "name": "Rodrigo De Paul",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 57,
+          "pass_accuracy": 75,
+          "tackles": 4,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 7,
+          "name": "Leandro Paredes",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 0,
+          "passes": 35,
+          "pass_accuracy": 77,
+          "tackles": 3,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 8,
+          "name": "Ángel Di María",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 30,
+          "pass_accuracy": 78,
+          "tackles": 1,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 9,
+          "name": "Lionel Messi",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 29,
+          "pass_accuracy": 94,
+          "tackles": 1,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 10,
+          "name": "Lautaro Martínez",
+          "position": "ST",
+          "minutes": 60,
+          "goals": 1,
+          "assists": 0,
+          "shots": 4,
+          "passes": 32,
+          "pass_accuracy": 87,
+          "tackles": 1,
+          "rating": 8.3,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 11,
+          "name": "Julián Álvarez",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 58,
+          "pass_accuracy": 81,
+          "tackles": 2,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Cape Verde",
+          "number": 1,
+          "name": "Márcio Rosa",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 25,
+          "pass_accuracy": 93,
+          "tackles": 0,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Cape Verde",
+          "number": 2,
+          "name": "Stopira",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 43,
+          "pass_accuracy": 89,
+          "tackles": 3,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Cape Verde",
+          "number": 3,
+          "name": "Diney",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 44,
+          "pass_accuracy": 72,
+          "tackles": 4,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Cape Verde",
+          "number": 4,
+          "name": "Ponck",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 25,
+          "pass_accuracy": 85,
+          "tackles": 5,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Cape Verde",
+          "number": 5,
+          "name": "Dylan Tavares",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 51,
+          "pass_accuracy": 70,
+          "tackles": 5,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Cape Verde",
+          "number": 6,
+          "name": "Patrick Andrade",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 33,
+          "pass_accuracy": 77,
+          "tackles": 5,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Cape Verde",
+          "number": 7,
+          "name": "Garry Rodrigues",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 4,
+          "passes": 30,
+          "pass_accuracy": 75,
+          "tackles": 3,
+          "rating": 7.9,
+          "is_sub": false
+        },
+        {
+          "team": "Cape Verde",
+          "number": 8,
+          "name": "Ryan Mendes",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 24,
+          "pass_accuracy": 82,
+          "tackles": 2,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Cape Verde",
+          "number": 9,
+          "name": "Willy Semedo",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 1,
+          "shots": 4,
+          "passes": 20,
+          "pass_accuracy": 73,
+          "tackles": 2,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "Cape Verde",
+          "number": 10,
+          "name": "Júlio Tavares",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 50,
+          "pass_accuracy": 84,
+          "tackles": 1,
+          "rating": 5.5,
+          "is_sub": false
+        },
+        {
+          "team": "Cape Verde",
+          "number": 11,
+          "name": "Héldon Ramos",
+          "position": "ST",
+          "minutes": 88,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 55,
+          "pass_accuracy": 78,
+          "tackles": 0,
+          "rating": 6.0,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "87",
@@ -37710,10 +38158,10 @@
       "away_id": "47",
       "home_flag": "https://flagcdn.com/w80/co.png",
       "away_flag": "https://flagcdn.com/w80/gh.png",
-      "home_score": null,
-      "away_score": null,
-      "status": "SCHEDULED",
-      "minute": null,
+      "home_score": "1",
+      "away_score": "0",
+      "status": "IN_PLAY",
+      "minute": "live",
       "date": "07/03/2026 20:30",
       "group": "R32",
       "matchday": "4",
@@ -38276,11 +38724,11 @@
     },
     {
       "id": "95",
-      "home": "TBD",
+      "home": "Argentina",
       "away": "Egypt",
-      "home_id": "0",
+      "home_id": "37",
       "away_id": "26",
-      "home_flag": "",
+      "home_flag": "https://flagcdn.com/w80/ar.png",
       "away_flag": "https://flagcdn.com/w80/eg.png",
       "home_score": "0",
       "away_score": "0",
