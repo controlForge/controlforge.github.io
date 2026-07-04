@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T16:15:20.494018+00:00",
+  "updated_at": "2026-07-04T17:33:12.649339+00:00",
   "match_count": 96,
   "matches": [
     {
@@ -39048,10 +39048,10 @@
       "away_id": "10",
       "home_flag": "https://flagcdn.com/w80/ca.png",
       "away_flag": "https://flagcdn.com/w80/ma.png",
-      "home_score": null,
-      "away_score": null,
-      "status": "SCHEDULED",
-      "minute": null,
+      "home_score": "0",
+      "away_score": "0",
+      "status": "IN_PLAY",
+      "minute": "live",
       "date": "07/04/2026 12:00",
       "group": "R16",
       "matchday": "5",
