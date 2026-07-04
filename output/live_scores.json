@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T02:41:18.077272+00:00",
+  "updated_at": "2026-07-04T06:01:02.424328+00:00",
   "match_count": 96,
   "matches": [
     {
@@ -38160,15 +38160,433 @@
       "away_flag": "https://flagcdn.com/w80/gh.png",
       "home_score": "1",
       "away_score": "0",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "status": "FINISHED",
+      "minute": null,
       "date": "07/03/2026 20:30",
       "group": "R32",
       "matchday": "4",
       "type": "r32",
       "stadium": "GEHA Field at Arrowhead Stadium",
       "stadium_city": "Kansas City",
-      "stadium_id": "6"
+      "stadium_id": "6",
+      "stats": {
+        "possession": {
+          "home": 60,
+          "away": 40
+        },
+        "shots": {
+          "home": 6,
+          "away": 4
+        },
+        "shots_on_target": {
+          "home": 4,
+          "away": 2
+        },
+        "passes": {
+          "home": 331,
+          "away": 181
+        },
+        "pass_accuracy": {
+          "home": 78,
+          "away": 89
+        },
+        "xG": {
+          "home": 1.15,
+          "away": 0.29
+        },
+        "yellow_cards": {
+          "home": 1,
+          "away": 2
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 12,
+          "away": 13
+        },
+        "corners": {
+          "home": 6,
+          "away": 3
+        },
+        "offsides": {
+          "home": 0,
+          "away": 1
+        },
+        "tackles": {
+          "home": 25,
+          "away": 23
+        },
+        "interceptions": {
+          "home": 7,
+          "away": 16
+        }
+      },
+      "events": [
+        {
+          "minute": 22,
+          "type": "yellow_card",
+          "team": "Colombia",
+          "player": "Wilmar Barrios"
+        },
+        {
+          "minute": 23,
+          "type": "yellow_card",
+          "team": "Colombia",
+          "player": "Frank Fabra"
+        },
+        {
+          "minute": 23,
+          "type": "yellow_card",
+          "team": "Colombia",
+          "player": "Wilmar Barrios"
+        },
+        {
+          "minute": 30,
+          "type": "yellow_card",
+          "team": "Ghana",
+          "player": "Thomas Partey"
+        },
+        {
+          "minute": 78,
+          "type": "goal",
+          "team": "Colombia",
+          "player": "James Rodríguez"
+        }
+      ],
+      "players": [
+        {
+          "team": "Colombia",
+          "number": 1,
+          "name": "David Ospina",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 15,
+          "pass_accuracy": 70,
+          "tackles": 0,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 2,
+          "name": "Yerry Mina",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 54,
+          "pass_accuracy": 80,
+          "tackles": 1,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 3,
+          "name": "Davinson Sánchez",
+          "position": "CB",
+          "minutes": 86,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 30,
+          "pass_accuracy": 84,
+          "tackles": 3,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 4,
+          "name": "William Tesillo",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 30,
+          "pass_accuracy": 85,
+          "tackles": 2,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 5,
+          "name": "Frank Fabra",
+          "position": "RB",
+          "minutes": 71,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 21,
+          "pass_accuracy": 84,
+          "tackles": 1,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 6,
+          "name": "Wilmar Barrios",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 0,
+          "passes": 21,
+          "pass_accuracy": 93,
+          "tackles": 5,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 7,
+          "name": "Juan Guillermo Cuadrad",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 31,
+          "pass_accuracy": 81,
+          "tackles": 4,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 8,
+          "name": "Luis Díaz",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 3,
+          "passes": 33,
+          "pass_accuracy": 78,
+          "tackles": 2,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 9,
+          "name": "Duván Zapata",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 48,
+          "pass_accuracy": 81,
+          "tackles": 1,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 10,
+          "name": "James Rodríguez",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 42,
+          "pass_accuracy": 85,
+          "tackles": 0,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 11,
+          "name": "Rafael Santos Borré",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 33,
+          "pass_accuracy": 92,
+          "tackles": 0,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 1,
+          "name": "Lawrence Ati-Zigi",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 21,
+          "pass_accuracy": 95,
+          "tackles": 1,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 2,
+          "name": "Daniel Amartey",
+          "position": "LB",
+          "minutes": 69,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 49,
+          "pass_accuracy": 79,
+          "tackles": 0,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 3,
+          "name": "Abdul-Rahman Baba",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 27,
+          "pass_accuracy": 87,
+          "tackles": 1,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 4,
+          "name": "Gideon Mensah",
+          "position": "CB",
+          "minutes": 78,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 33,
+          "pass_accuracy": 75,
+          "tackles": 1,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 5,
+          "name": "Thomas Partey",
+          "position": "RB",
+          "minutes": 83,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 49,
+          "pass_accuracy": 82,
+          "tackles": 0,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 6,
+          "name": "Mohammed Kudus",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 53,
+          "pass_accuracy": 94,
+          "tackles": 4,
+          "rating": 5.5,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 7,
+          "name": "André Ayew",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 3,
+          "passes": 34,
+          "pass_accuracy": 88,
+          "tackles": 3,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 8,
+          "name": "Jordan Ayew",
+          "position": "LW",
+          "minutes": 88,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 41,
+          "pass_accuracy": 86,
+          "tackles": 1,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 9,
+          "name": "Kamaldeen Sulemana",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 20,
+          "pass_accuracy": 85,
+          "tackles": 0,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 10,
+          "name": "Abdul Fatawu Issahaku",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 47,
+          "pass_accuracy": 86,
+          "tackles": 2,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 11,
+          "name": "Antoine Semenyo",
+          "position": "ST",
+          "minutes": 63,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 33,
+          "pass_accuracy": 74,
+          "tackles": 1,
+          "rating": 7.1,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "88",
@@ -38745,11 +39163,11 @@
     {
       "id": "96",
       "home": "Switzerland",
-      "away": "TBD",
+      "away": "Colombia",
       "home_id": "8",
-      "away_id": "0",
+      "away_id": "44",
       "home_flag": "https://flagcdn.com/w80/ch.png",
-      "away_flag": "",
+      "away_flag": "https://flagcdn.com/w80/co.png",
       "home_score": "0",
       "away_score": "0",
       "status": "SCHEDULED",
