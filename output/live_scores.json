@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-04T21:57:06.607103+00:00",
-  "match_count": 96,
+  "updated_at": "2026-07-04T22:59:41.278375+00:00",
+  "match_count": 97,
   "matches": [
     {
       "id": "1",
@@ -39029,7 +39029,7 @@
       "home_flag": "https://flagcdn.com/w80/py.png",
       "away_flag": "https://flagcdn.com/w80/fr.png",
       "home_score": "0",
-      "away_score": "0",
+      "away_score": "1",
       "status": "IN_PLAY",
       "minute": "live",
       "date": "07/04/2026 17:00",
@@ -39603,6 +39603,26 @@
       "stadium": "BC Place",
       "stadium_city": "Vancouver",
       "stadium_id": "13"
+    },
+    {
+      "id": "97",
+      "home": "TBD",
+      "away": "Morocco",
+      "home_id": "0",
+      "away_id": "10",
+      "home_flag": "",
+      "away_flag": "https://flagcdn.com/w80/ma.png",
+      "home_score": "0",
+      "away_score": "0",
+      "status": "SCHEDULED",
+      "minute": null,
+      "date": "07/09/2026 16:00",
+      "group": "QF",
+      "matchday": "6",
+      "type": "qf",
+      "stadium": "Gillette Stadium",
+      "stadium_city": "Boston (Foxborough)",
+      "stadium_id": "9"
     }
   ],
   "top_scorers": [
