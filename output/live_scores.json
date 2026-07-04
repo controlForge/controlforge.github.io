@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T18:40:40.032148+00:00",
+  "updated_at": "2026-07-04T19:54:13.947767+00:00",
   "match_count": 96,
   "matches": [
     {
@@ -39049,16 +39049,440 @@
       "home_flag": "https://flagcdn.com/w80/ca.png",
       "away_flag": "https://flagcdn.com/w80/ma.png",
       "home_score": "0",
-      "away_score": "1",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "away_score": "3",
+      "status": "FINISHED",
+      "minute": null,
       "date": "07/04/2026 12:00",
       "group": "R16",
       "matchday": "5",
       "type": "r16",
       "stadium": "NRG Stadium",
       "stadium_city": "Houston",
-      "stadium_id": "5"
+      "stadium_id": "5",
+      "stats": {
+        "possession": {
+          "home": 44,
+          "away": 56
+        },
+        "shots": {
+          "home": 5,
+          "away": 10
+        },
+        "shots_on_target": {
+          "home": 3,
+          "away": 5
+        },
+        "passes": {
+          "home": 203,
+          "away": 261
+        },
+        "pass_accuracy": {
+          "home": 79,
+          "away": 87
+        },
+        "xG": {
+          "home": 0.53,
+          "away": 1.88
+        },
+        "yellow_cards": {
+          "home": 3,
+          "away": 4
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 18,
+          "away": 17
+        },
+        "corners": {
+          "home": 4,
+          "away": 8
+        },
+        "offsides": {
+          "home": 0,
+          "away": 4
+        },
+        "tackles": {
+          "home": 14,
+          "away": 24
+        },
+        "interceptions": {
+          "home": 12,
+          "away": 11
+        }
+      },
+      "events": [
+        {
+          "minute": 12,
+          "type": "goal",
+          "team": "Morocco",
+          "player": "Youssef En-Nesyri"
+        },
+        {
+          "minute": 34,
+          "type": "goal",
+          "team": "Morocco",
+          "player": "Munir Mohamedi"
+        },
+        {
+          "minute": 37,
+          "type": "goal",
+          "team": "Morocco",
+          "player": "Munir Mohamedi"
+        },
+        {
+          "minute": 42,
+          "type": "yellow_card",
+          "team": "Canada",
+          "player": "Alistair Johnston"
+        },
+        {
+          "minute": 53,
+          "type": "yellow_card",
+          "team": "Morocco",
+          "player": "Munir Mohamedi"
+        },
+        {
+          "minute": 66,
+          "type": "yellow_card",
+          "team": "Morocco",
+          "player": "Romain Saïss"
+        }
+      ],
+      "players": [
+        {
+          "team": "Canada",
+          "number": 1,
+          "name": "Milan Borjan",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 23,
+          "pass_accuracy": 84,
+          "tackles": 2,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Canada",
+          "number": 2,
+          "name": "Alistair Johnston",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 54,
+          "pass_accuracy": 75,
+          "tackles": 1,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Canada",
+          "number": 3,
+          "name": "Kamal Miller",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 40,
+          "pass_accuracy": 85,
+          "tackles": 2,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Canada",
+          "number": 4,
+          "name": "Steven Vitória",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 52,
+          "pass_accuracy": 70,
+          "tackles": 0,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Canada",
+          "number": 5,
+          "name": "Sam Adekugbe",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 1,
+          "passes": 47,
+          "pass_accuracy": 87,
+          "tackles": 4,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Canada",
+          "number": 6,
+          "name": "Stephen Eustáquio",
+          "position": "CM",
+          "minutes": 63,
+          "goals": 0,
+          "assists": 1,
+          "shots": 2,
+          "passes": 28,
+          "pass_accuracy": 93,
+          "tackles": 3,
+          "rating": 7.6,
+          "is_sub": false
+        },
+        {
+          "team": "Canada",
+          "number": 7,
+          "name": "Mark-Anthony Kaye",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 55,
+          "pass_accuracy": 82,
+          "tackles": 3,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "Canada",
+          "number": 8,
+          "name": "Alphonso Davies",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 34,
+          "pass_accuracy": 95,
+          "tackles": 2,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Canada",
+          "number": 9,
+          "name": "Jonathan David",
+          "position": "RW",
+          "minutes": 61,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 45,
+          "pass_accuracy": 72,
+          "tackles": 2,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Canada",
+          "number": 10,
+          "name": "Cyle Larin",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 36,
+          "pass_accuracy": 70,
+          "tackles": 1,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Canada",
+          "number": 11,
+          "name": "Tajon Buchanan",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 29,
+          "pass_accuracy": 90,
+          "tackles": 2,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 1,
+          "name": "Yassine Bounou",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 24,
+          "pass_accuracy": 77,
+          "tackles": 1,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 2,
+          "name": "Achraf Hakimi",
+          "position": "LB",
+          "minutes": 67,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 30,
+          "pass_accuracy": 77,
+          "tackles": 2,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 3,
+          "name": "Romain Saïss",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 22,
+          "pass_accuracy": 93,
+          "tackles": 1,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 4,
+          "name": "Nayef Aguerd",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 42,
+          "pass_accuracy": 75,
+          "tackles": 2,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 5,
+          "name": "Adam Masina",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 50,
+          "pass_accuracy": 74,
+          "tackles": 2,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 6,
+          "name": "Sofyan Amrabat",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 52,
+          "pass_accuracy": 84,
+          "tackles": 5,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 7,
+          "name": "Hakim Ziyech",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 49,
+          "pass_accuracy": 79,
+          "tackles": 3,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 8,
+          "name": "Youssef En-Nesyri",
+          "position": "LW",
+          "minutes": 69,
+          "goals": 0,
+          "assists": 1,
+          "shots": 3,
+          "passes": 45,
+          "pass_accuracy": 92,
+          "tackles": 2,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 9,
+          "name": "Munir Mohamedi",
+          "position": "RW",
+          "minutes": 61,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 24,
+          "pass_accuracy": 92,
+          "tackles": 2,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 10,
+          "name": "Azzedine Ounahi",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 39,
+          "pass_accuracy": 78,
+          "tackles": 2,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 11,
+          "name": "Selim Amallah",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 31,
+          "pass_accuracy": 90,
+          "tackles": 0,
+          "rating": 7.1,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "91",
