@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T22:59:41.278375+00:00",
+  "updated_at": "2026-07-05T00:09:12.706778+00:00",
   "match_count": 97,
   "matches": [
     {
@@ -39030,15 +39030,415 @@
       "away_flag": "https://flagcdn.com/w80/fr.png",
       "home_score": "0",
       "away_score": "1",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "status": "FINISHED",
+      "minute": null,
       "date": "07/04/2026 17:00",
       "group": "R16",
       "matchday": "5",
       "type": "r16",
       "stadium": "Lincoln Financial Field",
       "stadium_city": "Philadelphia",
-      "stadium_id": "10"
+      "stadium_id": "10",
+      "stats": {
+        "possession": {
+          "home": 40,
+          "away": 60
+        },
+        "shots": {
+          "home": 3,
+          "away": 6
+        },
+        "shots_on_target": {
+          "home": 0,
+          "away": 3
+        },
+        "passes": {
+          "home": 236,
+          "away": 348
+        },
+        "pass_accuracy": {
+          "home": 80,
+          "away": 80
+        },
+        "xG": {
+          "home": 0.0,
+          "away": 0.74
+        },
+        "yellow_cards": {
+          "home": 1,
+          "away": 2
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 1
+        },
+        "fouls": {
+          "home": 18,
+          "away": 12
+        },
+        "corners": {
+          "home": 3,
+          "away": 3
+        },
+        "offsides": {
+          "home": 1,
+          "away": 2
+        },
+        "tackles": {
+          "home": 15,
+          "away": 16
+        },
+        "interceptions": {
+          "home": 12,
+          "away": 11
+        }
+      },
+      "events": [
+        {
+          "minute": 49,
+          "type": "goal",
+          "team": "France",
+          "player": "Antoine Griezmann"
+        },
+        {
+          "minute": 55,
+          "type": "yellow_card",
+          "team": "France",
+          "player": "Karim Benzema"
+        }
+      ],
+      "players": [
+        {
+          "team": "Paraguay",
+          "number": 1,
+          "name": "Antony Silva",
+          "position": "GK",
+          "minutes": 78,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 18,
+          "pass_accuracy": 93,
+          "tackles": 2,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Paraguay",
+          "number": 2,
+          "name": "Alberto Espínola",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 23,
+          "pass_accuracy": 88,
+          "tackles": 3,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Paraguay",
+          "number": 3,
+          "name": "Gustavo Gómez",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 52,
+          "pass_accuracy": 70,
+          "tackles": 1,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Paraguay",
+          "number": 4,
+          "name": "Junior Alonso",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 41,
+          "pass_accuracy": 81,
+          "tackles": 4,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Paraguay",
+          "number": 5,
+          "name": "Santiago Arzamendia",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 32,
+          "pass_accuracy": 91,
+          "tackles": 5,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "Paraguay",
+          "number": 6,
+          "name": "Mathías Villasanti",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 53,
+          "pass_accuracy": 92,
+          "tackles": 2,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Paraguay",
+          "number": 7,
+          "name": "Miguel Almirón",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 29,
+          "pass_accuracy": 92,
+          "tackles": 0,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Paraguay",
+          "number": 8,
+          "name": "Óscar Romero",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 36,
+          "pass_accuracy": 91,
+          "tackles": 2,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Paraguay",
+          "number": 9,
+          "name": "Antonio Sanabria",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 29,
+          "pass_accuracy": 89,
+          "tackles": 1,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Paraguay",
+          "number": 10,
+          "name": "Ángel Romero",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 20,
+          "pass_accuracy": 75,
+          "tackles": 2,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Paraguay",
+          "number": 11,
+          "name": "Robert Rojas",
+          "position": "ST",
+          "minutes": 67,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 44,
+          "pass_accuracy": 92,
+          "tackles": 2,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 1,
+          "name": "Hugo Lloris",
+          "position": "GK",
+          "minutes": 62,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 19,
+          "pass_accuracy": 83,
+          "tackles": 1,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 2,
+          "name": "Jules Koundé",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 24,
+          "pass_accuracy": 72,
+          "tackles": 0,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 3,
+          "name": "Raphaël Varane",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 52,
+          "pass_accuracy": 92,
+          "tackles": 3,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 4,
+          "name": "Theo Hernández",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 29,
+          "pass_accuracy": 73,
+          "tackles": 5,
+          "rating": 5.5,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 5,
+          "name": "Aurélien Tchouaméni",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 20,
+          "pass_accuracy": 88,
+          "tackles": 4,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 6,
+          "name": "Antoine Griezmann",
+          "position": "CM",
+          "minutes": 84,
+          "goals": 1,
+          "assists": 0,
+          "shots": 4,
+          "passes": 49,
+          "pass_accuracy": 81,
+          "tackles": 1,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 7,
+          "name": "Ousmane Dembélé",
+          "position": "CM",
+          "minutes": 73,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 33,
+          "pass_accuracy": 88,
+          "tackles": 1,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 8,
+          "name": "Kylian Mbappé",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 32,
+          "pass_accuracy": 84,
+          "tackles": 1,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 9,
+          "name": "Karim Benzema",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 42,
+          "pass_accuracy": 80,
+          "tackles": 0,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 10,
+          "name": "Kingsley Coman",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 32,
+          "pass_accuracy": 81,
+          "tackles": 0,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 11,
+          "name": "Mike Maignan",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 20,
+          "pass_accuracy": 76,
+          "tackles": 1,
+          "rating": 7.0,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "90",
@@ -39606,11 +40006,11 @@
     },
     {
       "id": "97",
-      "home": "TBD",
+      "home": "France",
       "away": "Morocco",
-      "home_id": "0",
+      "home_id": "33",
       "away_id": "10",
-      "home_flag": "",
+      "home_flag": "https://flagcdn.com/w80/fr.png",
       "away_flag": "https://flagcdn.com/w80/ma.png",
       "home_score": "0",
       "away_score": "0",
