@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-05T20:57:14.343978+00:00",
+  "updated_at": "2026-07-05T22:04:35.068533+00:00",
   "match_count": 97,
   "matches": [
     {
@@ -39892,8 +39892,8 @@
       "away_id": "36",
       "home_flag": "https://flagcdn.com/w80/br.png",
       "away_flag": "https://flagcdn.com/w80/no.png",
-      "home_score": "0",
-      "away_score": "0",
+      "home_score": "1",
+      "away_score": "2",
       "status": "IN_PLAY",
       "minute": "live",
       "date": "07/05/2026 16:00",
