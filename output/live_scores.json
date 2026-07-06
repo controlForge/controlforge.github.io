@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T18:33:23.464764+00:00",
+  "updated_at": "2026-07-06T20:33:28.565484+00:00",
   "match_count": 98,
   "matches": [
     {
@@ -40792,10 +40792,10 @@
       "away_id": "29",
       "home_flag": "https://flagcdn.com/w80/pt.png",
       "away_flag": "https://flagcdn.com/w80/es.png",
-      "home_score": null,
-      "away_score": null,
-      "status": "SCHEDULED",
-      "minute": null,
+      "home_score": "0",
+      "away_score": "0",
+      "status": "IN_PLAY",
+      "minute": "live",
       "date": "07/06/2026 14:00",
       "group": "R16",
       "matchday": "5",
