@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-05T23:17:38.772318+00:00",
+  "updated_at": "2026-07-06T01:14:29.568917+00:00",
   "match_count": 98,
   "matches": [
     {
@@ -40348,10 +40348,10 @@
       "away_id": "45",
       "home_flag": "https://flagcdn.com/w80/mx.png",
       "away_flag": "https://flagcdn.com/w80/gb-eng.png",
-      "home_score": null,
-      "away_score": null,
-      "status": "SCHEDULED",
-      "minute": null,
+      "home_score": "0",
+      "away_score": "0",
+      "status": "IN_PLAY",
+      "minute": "live",
       "date": "07/05/2026 18:00",
       "group": "R16",
       "matchday": "5",
