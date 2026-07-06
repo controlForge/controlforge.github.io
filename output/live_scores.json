@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-06T20:33:28.565484+00:00",
-  "match_count": 98,
+  "updated_at": "2026-07-06T22:02:45.570584+00:00",
+  "match_count": 99,
   "matches": [
     {
       "id": "1",
@@ -40793,16 +40793,440 @@
       "home_flag": "https://flagcdn.com/w80/pt.png",
       "away_flag": "https://flagcdn.com/w80/es.png",
       "home_score": "0",
-      "away_score": "0",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "away_score": "1",
+      "status": "FINISHED",
+      "minute": null,
       "date": "07/06/2026 14:00",
       "group": "R16",
       "matchday": "5",
       "type": "r16",
       "stadium": "AT&T Stadium",
       "stadium_city": "Dallas (Arlington, Texas)",
-      "stadium_id": "4"
+      "stadium_id": "4",
+      "stats": {
+        "possession": {
+          "home": 44,
+          "away": 56
+        },
+        "shots": {
+          "home": 7,
+          "away": 3
+        },
+        "shots_on_target": {
+          "home": 3,
+          "away": 3
+        },
+        "passes": {
+          "home": 252,
+          "away": 314
+        },
+        "pass_accuracy": {
+          "home": 78,
+          "away": 87
+        },
+        "xG": {
+          "home": 0.58,
+          "away": 0.85
+        },
+        "yellow_cards": {
+          "home": 3,
+          "away": 2
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 9,
+          "away": 8
+        },
+        "corners": {
+          "home": 3,
+          "away": 3
+        },
+        "offsides": {
+          "home": 2,
+          "away": 3
+        },
+        "tackles": {
+          "home": 13,
+          "away": 21
+        },
+        "interceptions": {
+          "home": 13,
+          "away": 7
+        }
+      },
+      "events": [
+        {
+          "minute": 41,
+          "type": "goal",
+          "team": "Spain",
+          "player": "Pedri"
+        },
+        {
+          "minute": 46,
+          "type": "yellow_card",
+          "team": "Spain",
+          "player": "Álvaro Morata"
+        },
+        {
+          "minute": 46,
+          "type": "yellow_card",
+          "team": "Spain",
+          "player": "Pedri"
+        },
+        {
+          "minute": 47,
+          "type": "yellow_card",
+          "team": "Portugal",
+          "player": "André Silva"
+        },
+        {
+          "minute": 71,
+          "type": "yellow_card",
+          "team": "Portugal",
+          "player": "João Cancelo"
+        },
+        {
+          "minute": 73,
+          "type": "yellow_card",
+          "team": "Portugal",
+          "player": "André Silva"
+        }
+      ],
+      "players": [
+        {
+          "team": "Portugal",
+          "number": 1,
+          "name": "Diogo Costa",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 24,
+          "pass_accuracy": 85,
+          "tackles": 1,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 2,
+          "name": "João Cancelo",
+          "position": "LB",
+          "minutes": 68,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 37,
+          "pass_accuracy": 77,
+          "tackles": 0,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 3,
+          "name": "Pepe",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 43,
+          "pass_accuracy": 72,
+          "tackles": 5,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 4,
+          "name": "Rúben Dias",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 52,
+          "pass_accuracy": 94,
+          "tackles": 5,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 5,
+          "name": "Raphaël Guerreiro",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 22,
+          "pass_accuracy": 87,
+          "tackles": 1,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 6,
+          "name": "Bruno Fernandes",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 51,
+          "pass_accuracy": 87,
+          "tackles": 2,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 7,
+          "name": "Bernardo Silva",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 48,
+          "pass_accuracy": 84,
+          "tackles": 2,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 8,
+          "name": "Diogo Jota",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 24,
+          "pass_accuracy": 74,
+          "tackles": 0,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 9,
+          "name": "Cristiano Ronaldo",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 20,
+          "pass_accuracy": 75,
+          "tackles": 2,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 10,
+          "name": "Rafael Leão",
+          "position": "ST",
+          "minutes": 87,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 28,
+          "pass_accuracy": 94,
+          "tackles": 2,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 11,
+          "name": "André Silva",
+          "position": "ST",
+          "minutes": 68,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 53,
+          "pass_accuracy": 83,
+          "tackles": 1,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 1,
+          "name": "Unai Simón",
+          "position": "GK",
+          "minutes": 63,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 19,
+          "pass_accuracy": 72,
+          "tackles": 0,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 2,
+          "name": "César Azpilicueta",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 2,
+          "passes": 40,
+          "pass_accuracy": 84,
+          "tackles": 5,
+          "rating": 7.8,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 3,
+          "name": "Pau Torres",
+          "position": "CB",
+          "minutes": 76,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 51,
+          "pass_accuracy": 80,
+          "tackles": 1,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 4,
+          "name": "Aymeric Laporte",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 48,
+          "pass_accuracy": 75,
+          "tackles": 0,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 5,
+          "name": "Jordi Alba",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 50,
+          "pass_accuracy": 89,
+          "tackles": 3,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 6,
+          "name": "Pedri",
+          "position": "CM",
+          "minutes": 78,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 26,
+          "pass_accuracy": 77,
+          "tackles": 5,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 7,
+          "name": "Gavi",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 51,
+          "pass_accuracy": 86,
+          "tackles": 5,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 8,
+          "name": "Ferran Torres",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 0,
+          "passes": 51,
+          "pass_accuracy": 85,
+          "tackles": 0,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 9,
+          "name": "Álvaro Morata",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 27,
+          "pass_accuracy": 95,
+          "tackles": 2,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 10,
+          "name": "Marco Asensio",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 26,
+          "pass_accuracy": 75,
+          "tackles": 1,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 11,
+          "name": "Dani Olmo",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 60,
+          "pass_accuracy": 92,
+          "tackles": 0,
+          "rating": 6.9,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "94",
@@ -40883,6 +41307,26 @@
       "stadium": "Gillette Stadium",
       "stadium_city": "Boston (Foxborough)",
       "stadium_id": "9"
+    },
+    {
+      "id": "98",
+      "home": "Spain",
+      "away": "TBD",
+      "home_id": "29",
+      "away_id": "0",
+      "home_flag": "https://flagcdn.com/w80/es.png",
+      "away_flag": "",
+      "home_score": "0",
+      "away_score": "0",
+      "status": "SCHEDULED",
+      "minute": null,
+      "date": "07/10/2026 12:00",
+      "group": "QF",
+      "matchday": "6",
+      "type": "qf",
+      "stadium": "SoFi Stadium",
+      "stadium_city": "Los Angeles (Inglewood)",
+      "stadium_id": "16"
     },
     {
       "id": "99",
