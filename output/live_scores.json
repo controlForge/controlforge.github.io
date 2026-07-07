@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T14:28:11.786853+00:00",
+  "updated_at": "2026-07-07T16:56:47.968915+00:00",
   "match_count": 99,
   "matches": [
     {
@@ -41686,10 +41686,10 @@
       "away_id": "26",
       "home_flag": "https://flagcdn.com/w80/ar.png",
       "away_flag": "https://flagcdn.com/w80/eg.png",
-      "home_score": null,
-      "away_score": null,
-      "status": "SCHEDULED",
-      "minute": null,
+      "home_score": "0",
+      "away_score": "1",
+      "status": "IN_PLAY",
+      "minute": "live",
       "date": "07/07/2026 12:00",
       "group": "R16",
       "matchday": "5",
