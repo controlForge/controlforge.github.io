@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T19:03:52.853430+00:00",
+  "updated_at": "2026-07-07T20:57:37.682720+00:00",
   "match_count": 100,
   "matches": [
     {
@@ -42130,10 +42130,10 @@
       "away_id": "44",
       "home_flag": "https://flagcdn.com/w80/ch.png",
       "away_flag": "https://flagcdn.com/w80/co.png",
-      "home_score": null,
-      "away_score": null,
-      "status": "SCHEDULED",
-      "minute": null,
+      "home_score": "0",
+      "away_score": "0",
+      "status": "IN_PLAY",
+      "minute": "live",
       "date": "07/07/2026 13:00",
       "group": "R16",
       "matchday": "5",
