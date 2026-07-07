@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T01:23:44.612917+00:00",
+  "updated_at": "2026-07-07T05:34:54.113677+00:00",
   "match_count": 99,
   "matches": [
     {
@@ -41237,16 +41237,446 @@
       "home_flag": "https://flagcdn.com/w80/us.png",
       "away_flag": "https://flagcdn.com/w80/be.png",
       "home_score": "1",
-      "away_score": "3",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "away_score": "4",
+      "status": "FINISHED",
+      "minute": null,
       "date": "07/06/2026 17:00",
       "group": "R16",
       "matchday": "5",
       "type": "r16",
       "stadium": "Lumen Field",
       "stadium_city": "Seattle",
-      "stadium_id": "14"
+      "stadium_id": "14",
+      "stats": {
+        "possession": {
+          "home": 43,
+          "away": 57
+        },
+        "shots": {
+          "home": 9,
+          "away": 8
+        },
+        "shots_on_target": {
+          "home": 3,
+          "away": 5
+        },
+        "passes": {
+          "home": 249,
+          "away": 286
+        },
+        "pass_accuracy": {
+          "home": 87,
+          "away": 91
+        },
+        "xG": {
+          "home": 0.69,
+          "away": 2.78
+        },
+        "yellow_cards": {
+          "home": 3,
+          "away": 0
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 13,
+          "away": 13
+        },
+        "corners": {
+          "home": 4,
+          "away": 7
+        },
+        "offsides": {
+          "home": 2,
+          "away": 4
+        },
+        "tackles": {
+          "home": 26,
+          "away": 22
+        },
+        "interceptions": {
+          "home": 14,
+          "away": 16
+        }
+      },
+      "events": [
+        {
+          "minute": 20,
+          "type": "goal",
+          "team": "Belgium",
+          "player": "Axel Witsel"
+        },
+        {
+          "minute": 21,
+          "type": "yellow_card",
+          "team": "Belgium",
+          "player": "Thibaut Courtois"
+        },
+        {
+          "minute": 22,
+          "type": "goal",
+          "team": "Belgium",
+          "player": "Kevin De Bruyne"
+        },
+        {
+          "minute": 25,
+          "type": "yellow_card",
+          "team": "Belgium",
+          "player": "Dries Mertens"
+        },
+        {
+          "minute": 66,
+          "type": "goal",
+          "team": "Belgium",
+          "player": "Axel Witsel"
+        },
+        {
+          "minute": 69,
+          "type": "goal",
+          "team": "Belgium",
+          "player": "Yannick Carrasco"
+        },
+        {
+          "minute": 85,
+          "type": "goal",
+          "team": "United States",
+          "player": "Yunus Musah"
+        }
+      ],
+      "players": [
+        {
+          "team": "United States",
+          "number": 1,
+          "name": "Matt Turner",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 12,
+          "pass_accuracy": 81,
+          "tackles": 0,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "United States",
+          "number": 2,
+          "name": "Sergiño Dest",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 1,
+          "passes": 29,
+          "pass_accuracy": 91,
+          "tackles": 1,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "United States",
+          "number": 3,
+          "name": "Walker Zimmerman",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 21,
+          "pass_accuracy": 85,
+          "tackles": 5,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "United States",
+          "number": 4,
+          "name": "Antonee Robinson",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 54,
+          "pass_accuracy": 89,
+          "tackles": 3,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "United States",
+          "number": 5,
+          "name": "Tyler Adams",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 50,
+          "pass_accuracy": 79,
+          "tackles": 2,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "United States",
+          "number": 6,
+          "name": "Yunus Musah",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 36,
+          "pass_accuracy": 89,
+          "tackles": 5,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "United States",
+          "number": 7,
+          "name": "Christian Pulisic",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 27,
+          "pass_accuracy": 86,
+          "tackles": 1,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "United States",
+          "number": 8,
+          "name": "Weston McKennie",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 43,
+          "pass_accuracy": 79,
+          "tackles": 0,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "United States",
+          "number": 9,
+          "name": "Giovanni Reyna",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 1,
+          "passes": 43,
+          "pass_accuracy": 95,
+          "tackles": 2,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "United States",
+          "number": 10,
+          "name": "Ricardo Pepi",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 26,
+          "pass_accuracy": 87,
+          "tackles": 0,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "United States",
+          "number": 11,
+          "name": "Brenden Aaronson",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 34,
+          "pass_accuracy": 88,
+          "tackles": 0,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Belgium",
+          "number": 1,
+          "name": "Thibaut Courtois",
+          "position": "GK",
+          "minutes": 68,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 16,
+          "pass_accuracy": 87,
+          "tackles": 2,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Belgium",
+          "number": 2,
+          "name": "Toby Alderweireld",
+          "position": "LB",
+          "minutes": 82,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 27,
+          "pass_accuracy": 93,
+          "tackles": 2,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Belgium",
+          "number": 3,
+          "name": "Jan Vertonghen",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 50,
+          "pass_accuracy": 73,
+          "tackles": 3,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Belgium",
+          "number": 4,
+          "name": "Jason Denayer",
+          "position": "CB",
+          "minutes": 70,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 28,
+          "pass_accuracy": 74,
+          "tackles": 4,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Belgium",
+          "number": 5,
+          "name": "Thomas Meunier",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 22,
+          "pass_accuracy": 90,
+          "tackles": 4,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Belgium",
+          "number": 6,
+          "name": "Axel Witsel",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 0,
+          "passes": 25,
+          "pass_accuracy": 88,
+          "tackles": 5,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Belgium",
+          "number": 7,
+          "name": "Kevin De Bruyne",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 2,
+          "passes": 29,
+          "pass_accuracy": 93,
+          "tackles": 5,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Belgium",
+          "number": 8,
+          "name": "Yannick Carrasco",
+          "position": "LW",
+          "minutes": 89,
+          "goals": 1,
+          "assists": 0,
+          "shots": 0,
+          "passes": 27,
+          "pass_accuracy": 71,
+          "tackles": 1,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Belgium",
+          "number": 9,
+          "name": "Romelu Lukaku",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 40,
+          "pass_accuracy": 84,
+          "tackles": 1,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Belgium",
+          "number": 10,
+          "name": "Eden Hazard",
+          "position": "ST",
+          "minutes": 69,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 58,
+          "pass_accuracy": 95,
+          "tackles": 1,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Belgium",
+          "number": 11,
+          "name": "Dries Mertens",
+          "position": "ST",
+          "minutes": 74,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 26,
+          "pass_accuracy": 77,
+          "tackles": 1,
+          "rating": 5.9,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "95",
@@ -41311,11 +41741,11 @@
     {
       "id": "98",
       "home": "Spain",
-      "away": "TBD",
+      "away": "Belgium",
       "home_id": "29",
-      "away_id": "0",
+      "away_id": "25",
       "home_flag": "https://flagcdn.com/w80/es.png",
-      "away_flag": "",
+      "away_flag": "https://flagcdn.com/w80/be.png",
       "home_score": "0",
       "away_score": "0",
       "status": "SCHEDULED",
@@ -41423,6 +41853,12 @@
       "assists": 1
     },
     {
+      "team": "Belgium",
+      "name": "Axel Witsel",
+      "goals": 2,
+      "assists": 1
+    },
+    {
       "team": "England",
       "name": "Harry Kane",
       "goals": 2,
@@ -41461,12 +41897,6 @@
     {
       "team": "Sweden",
       "name": "Emil Forsberg",
-      "goals": 2,
-      "assists": 0
-    },
-    {
-      "team": "Belgium",
-      "name": "Kevin De Bruyne",
       "goals": 2,
       "assists": 0
     }
