@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T22:13:50.014119+00:00",
+  "updated_at": "2026-07-07T23:15:49.151500+00:00",
   "match_count": 100,
   "matches": [
     {
@@ -42132,15 +42132,415 @@
       "away_flag": "https://flagcdn.com/w80/co.png",
       "home_score": "0",
       "away_score": "0",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "status": "FINISHED",
+      "minute": null,
       "date": "07/07/2026 13:00",
       "group": "R16",
       "matchday": "5",
       "type": "r16",
       "stadium": "BC Place",
       "stadium_city": "Vancouver",
-      "stadium_id": "13"
+      "stadium_id": "13",
+      "stats": {
+        "possession": {
+          "home": 46,
+          "away": 54
+        },
+        "shots": {
+          "home": 6,
+          "away": 3
+        },
+        "shots_on_target": {
+          "home": 1,
+          "away": 0
+        },
+        "passes": {
+          "home": 284,
+          "away": 321
+        },
+        "pass_accuracy": {
+          "home": 88,
+          "away": 88
+        },
+        "xG": {
+          "home": 0.19,
+          "away": 0.0
+        },
+        "yellow_cards": {
+          "home": 3,
+          "away": 1
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 1
+        },
+        "fouls": {
+          "home": 12,
+          "away": 11
+        },
+        "corners": {
+          "home": 9,
+          "away": 6
+        },
+        "offsides": {
+          "home": 1,
+          "away": 1
+        },
+        "tackles": {
+          "home": 24,
+          "away": 18
+        },
+        "interceptions": {
+          "home": 8,
+          "away": 7
+        }
+      },
+      "events": [
+        {
+          "minute": 10,
+          "type": "yellow_card",
+          "team": "Colombia",
+          "player": "Luis Díaz"
+        },
+        {
+          "minute": 66,
+          "type": "yellow_card",
+          "team": "Colombia",
+          "player": "Luis Díaz"
+        }
+      ],
+      "players": [
+        {
+          "team": "Switzerland",
+          "number": 1,
+          "name": "Yann Sommer",
+          "position": "GK",
+          "minutes": 61,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 18,
+          "pass_accuracy": 85,
+          "tackles": 1,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 2,
+          "name": "Silvan Widmer",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 48,
+          "pass_accuracy": 71,
+          "tackles": 5,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 3,
+          "name": "Nico Elvedi",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 20,
+          "pass_accuracy": 74,
+          "tackles": 1,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 4,
+          "name": "Manuel Akanji",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 41,
+          "pass_accuracy": 95,
+          "tackles": 3,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 5,
+          "name": "Ricardo Rodriguez",
+          "position": "RB",
+          "minutes": 87,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 22,
+          "pass_accuracy": 77,
+          "tackles": 5,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 6,
+          "name": "Granit Xhaka",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 29,
+          "pass_accuracy": 76,
+          "tackles": 0,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 7,
+          "name": "Remo Freuler",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 46,
+          "pass_accuracy": 71,
+          "tackles": 5,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 8,
+          "name": "Steven Zuber",
+          "position": "LW",
+          "minutes": 89,
+          "goals": 0,
+          "assists": 1,
+          "shots": 0,
+          "passes": 45,
+          "pass_accuracy": 80,
+          "tackles": 2,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 9,
+          "name": "Breel Embolo",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 51,
+          "pass_accuracy": 93,
+          "tackles": 2,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 10,
+          "name": "Haris Seferović",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 34,
+          "pass_accuracy": 77,
+          "tackles": 2,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 11,
+          "name": "Ruben Vargas",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 56,
+          "pass_accuracy": 83,
+          "tackles": 2,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 1,
+          "name": "David Ospina",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 21,
+          "pass_accuracy": 93,
+          "tackles": 2,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 2,
+          "name": "Yerry Mina",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 50,
+          "pass_accuracy": 92,
+          "tackles": 5,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 3,
+          "name": "Davinson Sánchez",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 21,
+          "pass_accuracy": 89,
+          "tackles": 5,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 4,
+          "name": "William Tesillo",
+          "position": "CB",
+          "minutes": 65,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 32,
+          "pass_accuracy": 85,
+          "tackles": 5,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 5,
+          "name": "Frank Fabra",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 49,
+          "pass_accuracy": 76,
+          "tackles": 2,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 6,
+          "name": "Wilmar Barrios",
+          "position": "CM",
+          "minutes": 80,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 51,
+          "pass_accuracy": 83,
+          "tackles": 2,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 7,
+          "name": "Juan Guillermo Cuadrad",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 56,
+          "pass_accuracy": 79,
+          "tackles": 5,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 8,
+          "name": "Luis Díaz",
+          "position": "LW",
+          "minutes": 61,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 30,
+          "pass_accuracy": 87,
+          "tackles": 1,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 9,
+          "name": "Duván Zapata",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 48,
+          "pass_accuracy": 79,
+          "tackles": 1,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 10,
+          "name": "James Rodríguez",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 47,
+          "pass_accuracy": 90,
+          "tackles": 1,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 11,
+          "name": "Rafael Santos Borré",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 22,
+          "pass_accuracy": 83,
+          "tackles": 0,
+          "rating": 6.6,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "97",
@@ -42205,11 +42605,11 @@
     {
       "id": "100",
       "home": "Argentina",
-      "away": "TBD",
+      "away": "Switzerland",
       "home_id": "37",
-      "away_id": "0",
+      "away_id": "8",
       "home_flag": "https://flagcdn.com/w80/ar.png",
-      "away_flag": "",
+      "away_flag": "https://flagcdn.com/w80/ch.png",
       "home_score": "0",
       "away_score": "0",
       "status": "SCHEDULED",
