@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T19:42:31.215051+00:00",
+  "updated_at": "2026-07-09T21:06:57.344328+00:00",
   "match_count": 100,
   "matches": [
     {
@@ -32498,10 +32498,10 @@
       "away_id": "10",
       "home_flag": "https://flagcdn.com/w80/fr.png",
       "away_flag": "https://flagcdn.com/w80/ma.png",
-      "home_score": null,
-      "away_score": null,
-      "status": "SCHEDULED",
-      "minute": null,
+      "home_score": "0",
+      "away_score": "0",
+      "status": "IN_PLAY",
+      "minute": "live",
       "date": "07/09/2026 16:00",
       "group": "QF",
       "matchday": "6",
