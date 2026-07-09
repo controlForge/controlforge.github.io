@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T21:06:57.344328+00:00",
+  "updated_at": "2026-07-09T22:43:12.094910+00:00",
   "match_count": 100,
   "matches": [
     {
@@ -32498,17 +32498,429 @@
       "away_id": "10",
       "home_flag": "https://flagcdn.com/w80/fr.png",
       "away_flag": "https://flagcdn.com/w80/ma.png",
-      "home_score": "0",
+      "home_score": "2",
       "away_score": "0",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "status": "FINISHED",
+      "minute": null,
       "date": "07/09/2026 16:00",
       "group": "QF",
       "matchday": "6",
       "type": "qf",
       "stadium": "Gillette Stadium",
       "stadium_city": "Boston (Foxborough)",
-      "stadium_id": "9"
+      "stadium_id": "9",
+      "stats": {
+        "possession": {
+          "home": 59,
+          "away": 41
+        },
+        "shots": {
+          "home": 4,
+          "away": 6
+        },
+        "shots_on_target": {
+          "home": 2,
+          "away": 2
+        },
+        "passes": {
+          "home": 335,
+          "away": 189
+        },
+        "pass_accuracy": {
+          "home": 80,
+          "away": 85
+        },
+        "xG": {
+          "home": 1.2,
+          "away": 0.37
+        },
+        "yellow_cards": {
+          "home": 3,
+          "away": 0
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 18,
+          "away": 8
+        },
+        "corners": {
+          "home": 6,
+          "away": 5
+        },
+        "offsides": {
+          "home": 3,
+          "away": 1
+        },
+        "tackles": {
+          "home": 22,
+          "away": 20
+        },
+        "interceptions": {
+          "home": 8,
+          "away": 10
+        }
+      },
+      "events": [
+        {
+          "minute": 5,
+          "type": "yellow_card",
+          "team": "France",
+          "player": "Raphaël Varane"
+        },
+        {
+          "minute": 8,
+          "type": "yellow_card",
+          "team": "France",
+          "player": "Theo Hernández"
+        },
+        {
+          "minute": 36,
+          "type": "goal",
+          "team": "France",
+          "player": "Kylian Mbappé"
+        },
+        {
+          "minute": 85,
+          "type": "goal",
+          "team": "France",
+          "player": "Kylian Mbappé"
+        }
+      ],
+      "players": [
+        {
+          "team": "France",
+          "number": 1,
+          "name": "Hugo Lloris",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 11,
+          "pass_accuracy": 80,
+          "tackles": 1,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 2,
+          "name": "Jules Koundé",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 33,
+          "pass_accuracy": 76,
+          "tackles": 0,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 3,
+          "name": "Raphaël Varane",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 29,
+          "pass_accuracy": 83,
+          "tackles": 1,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 4,
+          "name": "Theo Hernández",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 47,
+          "pass_accuracy": 83,
+          "tackles": 5,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 5,
+          "name": "Aurélien Tchouaméni",
+          "position": "RB",
+          "minutes": 71,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 48,
+          "pass_accuracy": 74,
+          "tackles": 0,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 6,
+          "name": "Antoine Griezmann",
+          "position": "CM",
+          "minutes": 82,
+          "goals": 0,
+          "assists": 1,
+          "shots": 0,
+          "passes": 30,
+          "pass_accuracy": 75,
+          "tackles": 4,
+          "rating": 8.0,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 7,
+          "name": "Ousmane Dembélé",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 29,
+          "pass_accuracy": 87,
+          "tackles": 0,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 8,
+          "name": "Kylian Mbappé",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 3,
+          "passes": 41,
+          "pass_accuracy": 71,
+          "tackles": 1,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 9,
+          "name": "Karim Benzema",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 21,
+          "pass_accuracy": 77,
+          "tackles": 1,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 10,
+          "name": "Kingsley Coman",
+          "position": "ST",
+          "minutes": 86,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 42,
+          "pass_accuracy": 70,
+          "tackles": 0,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 11,
+          "name": "Mike Maignan",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 51,
+          "pass_accuracy": 86,
+          "tackles": 1,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 1,
+          "name": "Yassine Bounou",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 13,
+          "pass_accuracy": 77,
+          "tackles": 1,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 2,
+          "name": "Achraf Hakimi",
+          "position": "LB",
+          "minutes": 74,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 35,
+          "pass_accuracy": 74,
+          "tackles": 0,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 3,
+          "name": "Romain Saïss",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 21,
+          "pass_accuracy": 74,
+          "tackles": 2,
+          "rating": 5.5,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 4,
+          "name": "Nayef Aguerd",
+          "position": "CB",
+          "minutes": 76,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 33,
+          "pass_accuracy": 84,
+          "tackles": 3,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 5,
+          "name": "Adam Masina",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 34,
+          "pass_accuracy": 84,
+          "tackles": 1,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 6,
+          "name": "Sofyan Amrabat",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 4,
+          "passes": 25,
+          "pass_accuracy": 78,
+          "tackles": 2,
+          "rating": 7.6,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 7,
+          "name": "Hakim Ziyech",
+          "position": "CM",
+          "minutes": 61,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 20,
+          "pass_accuracy": 88,
+          "tackles": 1,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 8,
+          "name": "Youssef En-Nesyri",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 56,
+          "pass_accuracy": 87,
+          "tackles": 1,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 9,
+          "name": "Munir Mohamedi",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 4,
+          "passes": 57,
+          "pass_accuracy": 80,
+          "tackles": 2,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 10,
+          "name": "Azzedine Ounahi",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 41,
+          "pass_accuracy": 95,
+          "tackles": 2,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 11,
+          "name": "Selim Amallah",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 59,
+          "pass_accuracy": 94,
+          "tackles": 0,
+          "rating": 7.0,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "3",
