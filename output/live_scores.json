@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-10T06:43:02.182255+00:00",
-  "match_count": 100,
+  "updated_at": "2026-07-10T10:04:48.516128+00:00",
+  "match_count": 101,
   "matches": [
     {
       "id": "1",
@@ -43033,6 +43033,26 @@
       "stadium": "GEHA Field at Arrowhead Stadium",
       "stadium_city": "Kansas City",
       "stadium_id": "6"
+    },
+    {
+      "id": "101",
+      "home": "France",
+      "away": "TBD",
+      "home_id": "33",
+      "away_id": "0",
+      "home_flag": "https://flagcdn.com/w80/fr.png",
+      "away_flag": "",
+      "home_score": "0",
+      "away_score": "0",
+      "status": "SCHEDULED",
+      "minute": null,
+      "date": "07/14/2026 14:00",
+      "group": "SF",
+      "matchday": "7",
+      "type": "sf",
+      "stadium": "AT&T Stadium",
+      "stadium_city": "Dallas (Arlington, Texas)",
+      "stadium_id": "4"
     }
   ],
   "top_scorers": [
