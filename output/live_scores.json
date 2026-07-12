@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12T03:57:02.231941+00:00",
+  "updated_at": "2026-07-12T06:35:27.164331+00:00",
   "match_count": 102,
   "matches": [
     {
@@ -43864,9 +43864,9 @@
       "away_id": "8",
       "home_flag": "https://flagcdn.com/w80/ar.png",
       "away_flag": "https://flagcdn.com/w80/ch.png",
-      "home_score": "0",
-      "away_score": "0",
-      "status": "SCHEDULED",
+      "home_score": "3",
+      "away_score": "1",
+      "status": "FINISHED",
       "minute": null,
       "date": "07/11/2026 20:00",
       "group": "QF",
@@ -43874,7 +43874,449 @@
       "type": "qf",
       "stadium": "GEHA Field at Arrowhead Stadium",
       "stadium_city": "Kansas City",
-      "stadium_id": "6"
+      "stadium_id": "6",
+      "stats": {
+        "possession": {
+          "home": 57,
+          "away": 43
+        },
+        "shots": {
+          "home": 5,
+          "away": 8
+        },
+        "shots_on_target": {
+          "home": 5,
+          "away": 3
+        },
+        "passes": {
+          "home": 291,
+          "away": 254
+        },
+        "pass_accuracy": {
+          "home": 81,
+          "away": 76
+        },
+        "xG": {
+          "home": 1.9,
+          "away": 0.93
+        },
+        "yellow_cards": {
+          "home": 3,
+          "away": 3
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 17,
+          "away": 13
+        },
+        "corners": {
+          "home": 2,
+          "away": 3
+        },
+        "offsides": {
+          "home": 2,
+          "away": 2
+        },
+        "tackles": {
+          "home": 15,
+          "away": 17
+        },
+        "interceptions": {
+          "home": 11,
+          "away": 15
+        }
+      },
+      "events": [
+        {
+          "minute": 7,
+          "type": "yellow_card",
+          "team": "Argentina",
+          "player": "Cristian Romero"
+        },
+        {
+          "minute": 16,
+          "type": "goal",
+          "team": "Switzerland",
+          "player": "Remo Freuler"
+        },
+        {
+          "minute": 19,
+          "type": "yellow_card",
+          "team": "Switzerland",
+          "player": "Steven Zuber"
+        },
+        {
+          "minute": 25,
+          "type": "yellow_card",
+          "team": "Switzerland",
+          "player": "Remo Freuler"
+        },
+        {
+          "minute": 52,
+          "type": "goal",
+          "team": "Argentina",
+          "player": "Rodrigo De Paul"
+        },
+        {
+          "minute": 57,
+          "type": "yellow_card",
+          "team": "Argentina",
+          "player": "Rodrigo De Paul"
+        },
+        {
+          "minute": 70,
+          "type": "goal",
+          "team": "Argentina",
+          "player": "Ángel Di María"
+        },
+        {
+          "minute": 70,
+          "type": "goal",
+          "team": "Argentina",
+          "player": "Ángel Di María"
+        },
+        {
+          "minute": 74,
+          "type": "yellow_card",
+          "team": "Argentina",
+          "player": "Ángel Di María"
+        }
+      ],
+      "players": [
+        {
+          "team": "Argentina",
+          "number": 1,
+          "name": "Emiliano Martínez",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 14,
+          "pass_accuracy": 78,
+          "tackles": 0,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 2,
+          "name": "Nicolás Tagliafico",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 59,
+          "pass_accuracy": 87,
+          "tackles": 1,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 3,
+          "name": "Nicolás Otamendi",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 51,
+          "pass_accuracy": 93,
+          "tackles": 2,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 4,
+          "name": "Cristian Romero",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 59,
+          "pass_accuracy": 70,
+          "tackles": 4,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 5,
+          "name": "Marcos Acuña",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 44,
+          "pass_accuracy": 87,
+          "tackles": 5,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 6,
+          "name": "Rodrigo De Paul",
+          "position": "CM",
+          "minutes": 68,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 29,
+          "pass_accuracy": 82,
+          "tackles": 1,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 7,
+          "name": "Leandro Paredes",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 37,
+          "pass_accuracy": 79,
+          "tackles": 1,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 8,
+          "name": "Ángel Di María",
+          "position": "LW",
+          "minutes": 71,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 44,
+          "pass_accuracy": 78,
+          "tackles": 1,
+          "rating": 5.5,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 9,
+          "name": "Lionel Messi",
+          "position": "RW",
+          "minutes": 65,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 58,
+          "pass_accuracy": 91,
+          "tackles": 2,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 10,
+          "name": "Lautaro Martínez",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 0,
+          "passes": 56,
+          "pass_accuracy": 80,
+          "tackles": 2,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 11,
+          "name": "Julián Álvarez",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 2,
+          "passes": 37,
+          "pass_accuracy": 95,
+          "tackles": 0,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 1,
+          "name": "Yann Sommer",
+          "position": "GK",
+          "minutes": 68,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 17,
+          "pass_accuracy": 70,
+          "tackles": 2,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 2,
+          "name": "Silvan Widmer",
+          "position": "LB",
+          "minutes": 66,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 20,
+          "pass_accuracy": 85,
+          "tackles": 1,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 3,
+          "name": "Nico Elvedi",
+          "position": "CB",
+          "minutes": 81,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 20,
+          "pass_accuracy": 91,
+          "tackles": 5,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 4,
+          "name": "Manuel Akanji",
+          "position": "CB",
+          "minutes": 66,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 58,
+          "pass_accuracy": 72,
+          "tackles": 2,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 5,
+          "name": "Ricardo Rodriguez",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 30,
+          "pass_accuracy": 80,
+          "tackles": 1,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 6,
+          "name": "Granit Xhaka",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 0,
+          "passes": 53,
+          "pass_accuracy": 82,
+          "tackles": 1,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 7,
+          "name": "Remo Freuler",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 51,
+          "pass_accuracy": 70,
+          "tackles": 4,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 8,
+          "name": "Steven Zuber",
+          "position": "LW",
+          "minutes": 79,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 51,
+          "pass_accuracy": 82,
+          "tackles": 1,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 9,
+          "name": "Breel Embolo",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 36,
+          "pass_accuracy": 71,
+          "tackles": 1,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 10,
+          "name": "Haris Seferović",
+          "position": "ST",
+          "minutes": 68,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 35,
+          "pass_accuracy": 88,
+          "tackles": 0,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Switzerland",
+          "number": 11,
+          "name": "Ruben Vargas",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 39,
+          "pass_accuracy": 95,
+          "tackles": 1,
+          "rating": 5.6,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "101",
@@ -43899,11 +44341,11 @@
     {
       "id": "102",
       "home": "England",
-      "away": "TBD",
+      "away": "Argentina",
       "home_id": "45",
-      "away_id": "0",
+      "away_id": "37",
       "home_flag": "https://flagcdn.com/w80/gb-eng.png",
-      "away_flag": "",
+      "away_flag": "https://flagcdn.com/w80/ar.png",
       "home_score": "0",
       "away_score": "0",
       "status": "SCHEDULED",
@@ -43919,20 +44361,26 @@
   ],
   "top_scorers": [
     {
+      "team": "Argentina",
+      "name": "Julián Álvarez",
+      "goals": 5,
+      "assists": 0
+    },
+    {
       "team": "Norway",
       "name": "Martin Ødegaard",
       "goals": 4,
       "assists": 1
     },
     {
-      "team": "Argentina",
-      "name": "Julián Álvarez",
-      "goals": 4,
+      "team": "Mexico",
+      "name": "Raúl Jiménez",
+      "goals": 3,
       "assists": 0
     },
     {
-      "team": "Mexico",
-      "name": "Raúl Jiménez",
+      "team": "Switzerland",
+      "name": "Granit Xhaka",
       "goals": 3,
       "assists": 0
     },
@@ -43957,6 +44405,12 @@
     {
       "team": "England",
       "name": "Jude Bellingham",
+      "goals": 3,
+      "assists": 0
+    },
+    {
+      "team": "Argentina",
+      "name": "Lautaro Martínez",
       "goals": 3,
       "assists": 0
     },
@@ -44023,18 +44477,6 @@
     {
       "team": "United States",
       "name": "Weston McKennie",
-      "goals": 2,
-      "assists": 0
-    },
-    {
-      "team": "Switzerland",
-      "name": "Granit Xhaka",
-      "goals": 2,
-      "assists": 0
-    },
-    {
-      "team": "Germany",
-      "name": "Serge Gnabry",
       "goals": 2,
       "assists": 0
     }
