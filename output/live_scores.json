@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-11T23:10:16.081934+00:00",
-  "match_count": 101,
+  "updated_at": "2026-07-12T00:10:39.423419+00:00",
+  "match_count": 102,
   "matches": [
     {
       "id": "1",
@@ -43433,16 +43433,428 @@
       "home_flag": "https://flagcdn.com/w80/no.png",
       "away_flag": "https://flagcdn.com/w80/gb-eng.png",
       "home_score": "1",
-      "away_score": "1",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "away_score": "2",
+      "status": "FINISHED",
+      "minute": null,
       "date": "07/11/2026 17:00",
       "group": "QF",
       "matchday": "6",
       "type": "qf",
       "stadium": "Hard Rock Stadium",
       "stadium_city": "Miami (Miami Gardens)",
-      "stadium_id": "8"
+      "stadium_id": "8",
+      "stats": {
+        "possession": {
+          "home": 43,
+          "away": 57
+        },
+        "shots": {
+          "home": 8,
+          "away": 9
+        },
+        "shots_on_target": {
+          "home": 3,
+          "away": 4
+        },
+        "passes": {
+          "home": 254,
+          "away": 307
+        },
+        "pass_accuracy": {
+          "home": 87,
+          "away": 82
+        },
+        "xG": {
+          "home": 0.84,
+          "away": 1.53
+        },
+        "yellow_cards": {
+          "home": 4,
+          "away": 0
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 16,
+          "away": 15
+        },
+        "corners": {
+          "home": 7,
+          "away": 2
+        },
+        "offsides": {
+          "home": 1,
+          "away": 3
+        },
+        "tackles": {
+          "home": 21,
+          "away": 16
+        },
+        "interceptions": {
+          "home": 7,
+          "away": 10
+        }
+      },
+      "events": [
+        {
+          "minute": 62,
+          "type": "goal",
+          "team": "England",
+          "player": "Harry Kane"
+        },
+        {
+          "minute": 69,
+          "type": "goal",
+          "team": "Norway",
+          "player": "Alexander Sørloth"
+        },
+        {
+          "minute": 80,
+          "type": "yellow_card",
+          "team": "Norway",
+          "player": "Morten Thorsby"
+        },
+        {
+          "minute": 81,
+          "type": "goal",
+          "team": "England",
+          "player": "Declan Rice"
+        }
+      ],
+      "players": [
+        {
+          "team": "Norway",
+          "number": 1,
+          "name": "André Hansen",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 19,
+          "pass_accuracy": 77,
+          "tackles": 1,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Norway",
+          "number": 2,
+          "name": "Stefan Strandberg",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 25,
+          "pass_accuracy": 81,
+          "tackles": 3,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Norway",
+          "number": 3,
+          "name": "Kristoffer Ajer",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 56,
+          "pass_accuracy": 75,
+          "tackles": 0,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Norway",
+          "number": 4,
+          "name": "Morten Thorsby",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 40,
+          "pass_accuracy": 94,
+          "tackles": 4,
+          "rating": 5.5,
+          "is_sub": false
+        },
+        {
+          "team": "Norway",
+          "number": 5,
+          "name": "Birger Meling",
+          "position": "RB",
+          "minutes": 84,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 20,
+          "pass_accuracy": 86,
+          "tackles": 4,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Norway",
+          "number": 6,
+          "name": "Morten Hjulmand",
+          "position": "CM",
+          "minutes": 74,
+          "goals": 1,
+          "assists": 0,
+          "shots": 4,
+          "passes": 29,
+          "pass_accuracy": 89,
+          "tackles": 1,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Norway",
+          "number": 7,
+          "name": "Martin Ødegaard",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 35,
+          "pass_accuracy": 85,
+          "tackles": 3,
+          "rating": 5.5,
+          "is_sub": false
+        },
+        {
+          "team": "Norway",
+          "number": 8,
+          "name": "Joshua King",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 3,
+          "passes": 33,
+          "pass_accuracy": 79,
+          "tackles": 0,
+          "rating": 8.0,
+          "is_sub": false
+        },
+        {
+          "team": "Norway",
+          "number": 9,
+          "name": "Erling Haaland",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 44,
+          "pass_accuracy": 89,
+          "tackles": 2,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Norway",
+          "number": 10,
+          "name": "Alexander Sørloth",
+          "position": "ST",
+          "minutes": 83,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 21,
+          "pass_accuracy": 95,
+          "tackles": 0,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Norway",
+          "number": 11,
+          "name": "Jens Petter Hauge",
+          "position": "ST",
+          "minutes": 61,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 57,
+          "pass_accuracy": 85,
+          "tackles": 0,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 1,
+          "name": "Jordan Pickford",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 22,
+          "pass_accuracy": 78,
+          "tackles": 0,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 2,
+          "name": "Kyle Walker",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 0,
+          "passes": 26,
+          "pass_accuracy": 78,
+          "tackles": 2,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 3,
+          "name": "John Stones",
+          "position": "CB",
+          "minutes": 76,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 45,
+          "pass_accuracy": 86,
+          "tackles": 0,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 4,
+          "name": "Harry Maguire",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 21,
+          "pass_accuracy": 86,
+          "tackles": 1,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 5,
+          "name": "Luke Shaw",
+          "position": "RB",
+          "minutes": 82,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 30,
+          "pass_accuracy": 82,
+          "tackles": 1,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 6,
+          "name": "Declan Rice",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 3,
+          "passes": 34,
+          "pass_accuracy": 89,
+          "tackles": 3,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 7,
+          "name": "Jude Bellingham",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 35,
+          "pass_accuracy": 95,
+          "tackles": 5,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 8,
+          "name": "Raheem Sterling",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 4,
+          "passes": 23,
+          "pass_accuracy": 71,
+          "tackles": 1,
+          "rating": 7.6,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 9,
+          "name": "Harry Kane",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 40,
+          "pass_accuracy": 71,
+          "tackles": 1,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 10,
+          "name": "Phil Foden",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 0,
+          "passes": 48,
+          "pass_accuracy": 91,
+          "tackles": 2,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 11,
+          "name": "Jack Grealish",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 55,
+          "pass_accuracy": 83,
+          "tackles": 1,
+          "rating": 6.9,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "100",
@@ -43483,6 +43895,26 @@
       "stadium": "AT&T Stadium",
       "stadium_city": "Dallas (Arlington, Texas)",
       "stadium_id": "4"
+    },
+    {
+      "id": "102",
+      "home": "England",
+      "away": "TBD",
+      "home_id": "45",
+      "away_id": "0",
+      "home_flag": "https://flagcdn.com/w80/gb-eng.png",
+      "away_flag": "",
+      "home_score": "0",
+      "away_score": "0",
+      "status": "SCHEDULED",
+      "minute": null,
+      "date": "07/15/2026 15:00",
+      "group": "SF",
+      "matchday": "7",
+      "type": "sf",
+      "stadium": "Mercedes-Benz Stadium",
+      "stadium_city": "Atlanta",
+      "stadium_id": "7"
     }
   ],
   "top_scorers": [
