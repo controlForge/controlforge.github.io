@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T18:05:01.439396+00:00",
+  "updated_at": "2026-07-15T19:35:55.217700+00:00",
   "match_count": 102,
   "matches": [
     {
@@ -44776,10 +44776,10 @@
       "away_id": "37",
       "home_flag": "https://flagcdn.com/w80/gb-eng.png",
       "away_flag": "https://flagcdn.com/w80/ar.png",
-      "home_score": null,
-      "away_score": null,
-      "status": "SCHEDULED",
-      "minute": null,
+      "home_score": "0",
+      "away_score": "0",
+      "status": "IN_PLAY",
+      "minute": "live",
       "date": "07/15/2026 15:00",
       "group": "SF",
       "matchday": "7",
