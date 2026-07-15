@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T19:35:55.217700+00:00",
+  "updated_at": "2026-07-15T21:40:05.092883+00:00",
   "match_count": 102,
   "matches": [
     {
@@ -44776,24 +44776,460 @@
       "away_id": "37",
       "home_flag": "https://flagcdn.com/w80/gb-eng.png",
       "away_flag": "https://flagcdn.com/w80/ar.png",
-      "home_score": "0",
-      "away_score": "0",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "home_score": "1",
+      "away_score": "2",
+      "status": "FINISHED",
+      "minute": null,
       "date": "07/15/2026 15:00",
       "group": "SF",
       "matchday": "7",
       "type": "sf",
       "stadium": "Mercedes-Benz Stadium",
       "stadium_city": "Atlanta",
-      "stadium_id": "7"
+      "stadium_id": "7",
+      "stats": {
+        "possession": {
+          "home": 43,
+          "away": 57
+        },
+        "shots": {
+          "home": 9,
+          "away": 9
+        },
+        "shots_on_target": {
+          "home": 2,
+          "away": 4
+        },
+        "passes": {
+          "home": 206,
+          "away": 351
+        },
+        "pass_accuracy": {
+          "home": 90,
+          "away": 84
+        },
+        "xG": {
+          "home": 0.62,
+          "away": 1.47
+        },
+        "yellow_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 16,
+          "away": 10
+        },
+        "corners": {
+          "home": 6,
+          "away": 8
+        },
+        "offsides": {
+          "home": 2,
+          "away": 0
+        },
+        "tackles": {
+          "home": 20,
+          "away": 27
+        },
+        "interceptions": {
+          "home": 6,
+          "away": 13
+        }
+      },
+      "events": [
+        {
+          "minute": 33,
+          "type": "goal",
+          "team": "Argentina",
+          "player": "Ángel Di María"
+        },
+        {
+          "minute": 35,
+          "type": "yellow_card",
+          "team": "England",
+          "player": "Declan Rice"
+        },
+        {
+          "minute": 36,
+          "type": "yellow_card",
+          "team": "England",
+          "player": "Luke Shaw"
+        },
+        {
+          "minute": 38,
+          "type": "goal",
+          "team": "England",
+          "player": "Declan Rice"
+        },
+        {
+          "minute": 43,
+          "type": "yellow_card",
+          "team": "England",
+          "player": "Jordan Pickford"
+        },
+        {
+          "minute": 73,
+          "type": "goal",
+          "team": "Argentina",
+          "player": "Lionel Messi"
+        },
+        {
+          "minute": 88,
+          "type": "yellow_card",
+          "team": "England",
+          "player": "Jude Bellingham"
+        },
+        {
+          "minute": 90,
+          "type": "yellow_card",
+          "team": "England",
+          "player": "John Stones"
+        }
+      ],
+      "players": [
+        {
+          "team": "England",
+          "number": 1,
+          "name": "Jordan Pickford",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 24,
+          "pass_accuracy": 83,
+          "tackles": 0,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 2,
+          "name": "Kyle Walker",
+          "position": "LB",
+          "minutes": 83,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 24,
+          "pass_accuracy": 89,
+          "tackles": 5,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 3,
+          "name": "John Stones",
+          "position": "CB",
+          "minutes": 78,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 42,
+          "pass_accuracy": 91,
+          "tackles": 5,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 4,
+          "name": "Harry Maguire",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 57,
+          "pass_accuracy": 80,
+          "tackles": 4,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 5,
+          "name": "Luke Shaw",
+          "position": "RB",
+          "minutes": 72,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 52,
+          "pass_accuracy": 91,
+          "tackles": 0,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 6,
+          "name": "Declan Rice",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 50,
+          "pass_accuracy": 84,
+          "tackles": 1,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 7,
+          "name": "Jude Bellingham",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 30,
+          "pass_accuracy": 71,
+          "tackles": 4,
+          "rating": 5.5,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 8,
+          "name": "Raheem Sterling",
+          "position": "LW",
+          "minutes": 77,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 28,
+          "pass_accuracy": 82,
+          "tackles": 1,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 9,
+          "name": "Harry Kane",
+          "position": "RW",
+          "minutes": 74,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 46,
+          "pass_accuracy": 94,
+          "tackles": 2,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 10,
+          "name": "Phil Foden",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 22,
+          "pass_accuracy": 78,
+          "tackles": 2,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 11,
+          "name": "Jack Grealish",
+          "position": "ST",
+          "minutes": 72,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 55,
+          "pass_accuracy": 91,
+          "tackles": 0,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 1,
+          "name": "Emiliano Martínez",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 17,
+          "pass_accuracy": 79,
+          "tackles": 2,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 2,
+          "name": "Nicolás Tagliafico",
+          "position": "LB",
+          "minutes": 84,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 41,
+          "pass_accuracy": 90,
+          "tackles": 2,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 3,
+          "name": "Nicolás Otamendi",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 59,
+          "pass_accuracy": 83,
+          "tackles": 5,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 4,
+          "name": "Cristian Romero",
+          "position": "CB",
+          "minutes": 71,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 24,
+          "pass_accuracy": 72,
+          "tackles": 2,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 5,
+          "name": "Marcos Acuña",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 4,
+          "passes": 40,
+          "pass_accuracy": 80,
+          "tackles": 1,
+          "rating": 7.8,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 6,
+          "name": "Rodrigo De Paul",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 2,
+          "passes": 25,
+          "pass_accuracy": 89,
+          "tackles": 4,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 7,
+          "name": "Leandro Paredes",
+          "position": "CM",
+          "minutes": 73,
+          "goals": 0,
+          "assists": 1,
+          "shots": 4,
+          "passes": 40,
+          "pass_accuracy": 91,
+          "tackles": 4,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 8,
+          "name": "Ángel Di María",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 56,
+          "pass_accuracy": 81,
+          "tackles": 0,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 9,
+          "name": "Lionel Messi",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 47,
+          "pass_accuracy": 70,
+          "tackles": 1,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 10,
+          "name": "Lautaro Martínez",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 27,
+          "pass_accuracy": 92,
+          "tackles": 1,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 11,
+          "name": "Julián Álvarez",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 2,
+          "passes": 41,
+          "pass_accuracy": 79,
+          "tackles": 1,
+          "rating": 8.0,
+          "is_sub": false
+        }
+      ]
     }
   ],
   "top_scorers": [
     {
       "team": "Argentina",
       "name": "Julián Álvarez",
-      "goals": 5,
+      "goals": 6,
       "assists": 0
     },
     {
