@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-17T10:49:50.852214+00:00",
-  "match_count": 102,
+  "updated_at": "2026-07-17T12:07:23.445232+00:00",
+  "match_count": 104,
   "matches": [
     {
       "id": "6",
@@ -34701,6 +34701,26 @@
       ]
     },
     {
+      "id": "104",
+      "home": "Spain",
+      "away": "Argentina",
+      "home_id": "29",
+      "away_id": "37",
+      "home_flag": "https://flagcdn.com/w80/es.png",
+      "away_flag": "https://flagcdn.com/w80/ar.png",
+      "home_score": "0",
+      "away_score": "0",
+      "status": "SCHEDULED",
+      "minute": null,
+      "date": "07/19/2026 15:00",
+      "group": "FINAL",
+      "matchday": "9",
+      "type": "final",
+      "stadium": "MetLife Stadium",
+      "stadium_city": "New York/New Jersey (East Rutherford)",
+      "stadium_id": "11"
+    },
+    {
       "id": "3",
       "home": "Canada",
       "away": "Bosnia and Herzegovina",
@@ -39973,6 +39993,26 @@
           "is_sub": false
         }
       ]
+    },
+    {
+      "id": "103",
+      "home": "France",
+      "away": "England",
+      "home_id": "33",
+      "away_id": "45",
+      "home_flag": "https://flagcdn.com/w80/fr.png",
+      "away_flag": "https://flagcdn.com/w80/gb-eng.png",
+      "home_score": "0",
+      "away_score": "0",
+      "status": "SCHEDULED",
+      "minute": null,
+      "date": "07/18/2026 17:00",
+      "group": "3RD",
+      "matchday": "8",
+      "type": "third",
+      "stadium": "Hard Rock Stadium",
+      "stadium_city": "Miami (Miami Gardens)",
+      "stadium_id": "8"
     },
     {
       "id": "15",
