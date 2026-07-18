@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T22:06:46.060190+00:00",
+  "updated_at": "2026-07-18T23:09:59.444684+00:00",
   "match_count": 104,
   "matches": [
     {
@@ -40002,17 +40002,495 @@
       "away_id": "45",
       "home_flag": "https://flagcdn.com/w80/fr.png",
       "away_flag": "https://flagcdn.com/w80/gb-eng.png",
-      "home_score": "0",
-      "away_score": "4",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "home_score": "4",
+      "away_score": "6",
+      "status": "FINISHED",
+      "minute": null,
       "date": "07/18/2026 17:00",
       "group": "3RD",
       "matchday": "8",
       "type": "third",
       "stadium": "Hard Rock Stadium",
       "stadium_city": "Miami (Miami Gardens)",
-      "stadium_id": "8"
+      "stadium_id": "8",
+      "stats": {
+        "possession": {
+          "home": 42,
+          "away": 58
+        },
+        "shots": {
+          "home": 10,
+          "away": 11
+        },
+        "shots_on_target": {
+          "home": 4,
+          "away": 6
+        },
+        "passes": {
+          "home": 228,
+          "away": 324
+        },
+        "pass_accuracy": {
+          "home": 78,
+          "away": 86
+        },
+        "xG": {
+          "home": 2.89,
+          "away": 4.34
+        },
+        "yellow_cards": {
+          "home": 1,
+          "away": 1
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 8,
+          "away": 13
+        },
+        "corners": {
+          "home": 8,
+          "away": 3
+        },
+        "offsides": {
+          "home": 3,
+          "away": 2
+        },
+        "tackles": {
+          "home": 15,
+          "away": 19
+        },
+        "interceptions": {
+          "home": 15,
+          "away": 11
+        }
+      },
+      "events": [
+        {
+          "minute": 1,
+          "type": "goal",
+          "team": "France",
+          "player": "Antoine Griezmann"
+        },
+        {
+          "minute": 1,
+          "type": "yellow_card",
+          "team": "France",
+          "player": "Kingsley Coman"
+        },
+        {
+          "minute": 6,
+          "type": "yellow_card",
+          "team": "France",
+          "player": "Jules Koundé"
+        },
+        {
+          "minute": 26,
+          "type": "goal",
+          "team": "England",
+          "player": "Raheem Sterling"
+        },
+        {
+          "minute": 31,
+          "type": "yellow_card",
+          "team": "England",
+          "player": "Jack Grealish"
+        },
+        {
+          "minute": 32,
+          "type": "goal",
+          "team": "France",
+          "player": "Karim Benzema"
+        },
+        {
+          "minute": 32,
+          "type": "yellow_card",
+          "team": "England",
+          "player": "Harry Kane"
+        },
+        {
+          "minute": 35,
+          "type": "goal",
+          "team": "France",
+          "player": "Kingsley Coman"
+        },
+        {
+          "minute": 35,
+          "type": "goal",
+          "team": "England",
+          "player": "Raheem Sterling"
+        },
+        {
+          "minute": 35,
+          "type": "goal",
+          "team": "England",
+          "player": "Declan Rice"
+        },
+        {
+          "minute": 36,
+          "type": "yellow_card",
+          "team": "England",
+          "player": "Jude Bellingham"
+        },
+        {
+          "minute": 64,
+          "type": "goal",
+          "team": "France",
+          "player": "Antoine Griezmann"
+        },
+        {
+          "minute": 69,
+          "type": "goal",
+          "team": "England",
+          "player": "Phil Foden"
+        },
+        {
+          "minute": 75,
+          "type": "goal",
+          "team": "England",
+          "player": "Raheem Sterling"
+        },
+        {
+          "minute": 77,
+          "type": "goal",
+          "team": "England",
+          "player": "Declan Rice"
+        }
+      ],
+      "players": [
+        {
+          "team": "France",
+          "number": 1,
+          "name": "Hugo Lloris",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 18,
+          "pass_accuracy": 80,
+          "tackles": 1,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 2,
+          "name": "Jules Koundé",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 31,
+          "pass_accuracy": 84,
+          "tackles": 1,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 3,
+          "name": "Raphaël Varane",
+          "position": "CB",
+          "minutes": 71,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 32,
+          "pass_accuracy": 83,
+          "tackles": 1,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 4,
+          "name": "Theo Hernández",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 24,
+          "pass_accuracy": 95,
+          "tackles": 0,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 5,
+          "name": "Aurélien Tchouaméni",
+          "position": "RB",
+          "minutes": 80,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 56,
+          "pass_accuracy": 92,
+          "tackles": 3,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 6,
+          "name": "Antoine Griezmann",
+          "position": "CM",
+          "minutes": 69,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 48,
+          "pass_accuracy": 92,
+          "tackles": 2,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 7,
+          "name": "Ousmane Dembélé",
+          "position": "CM",
+          "minutes": 87,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 31,
+          "pass_accuracy": 88,
+          "tackles": 4,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 8,
+          "name": "Kylian Mbappé",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 28,
+          "pass_accuracy": 77,
+          "tackles": 0,
+          "rating": 5.5,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 9,
+          "name": "Karim Benzema",
+          "position": "RW",
+          "minutes": 66,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 25,
+          "pass_accuracy": 88,
+          "tackles": 1,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 10,
+          "name": "Kingsley Coman",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 31,
+          "pass_accuracy": 83,
+          "tackles": 2,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "France",
+          "number": 11,
+          "name": "Mike Maignan",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 35,
+          "pass_accuracy": 84,
+          "tackles": 1,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 1,
+          "name": "Jordan Pickford",
+          "position": "GK",
+          "minutes": 64,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 19,
+          "pass_accuracy": 79,
+          "tackles": 0,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 2,
+          "name": "Kyle Walker",
+          "position": "LB",
+          "minutes": 84,
+          "goals": 0,
+          "assists": 1,
+          "shots": 2,
+          "passes": 44,
+          "pass_accuracy": 91,
+          "tackles": 2,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 3,
+          "name": "John Stones",
+          "position": "CB",
+          "minutes": 86,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 39,
+          "pass_accuracy": 77,
+          "tackles": 4,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 4,
+          "name": "Harry Maguire",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 29,
+          "pass_accuracy": 80,
+          "tackles": 3,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 5,
+          "name": "Luke Shaw",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 26,
+          "pass_accuracy": 87,
+          "tackles": 4,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 6,
+          "name": "Declan Rice",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 25,
+          "pass_accuracy": 73,
+          "tackles": 2,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 7,
+          "name": "Jude Bellingham",
+          "position": "CM",
+          "minutes": 82,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 50,
+          "pass_accuracy": 79,
+          "tackles": 5,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 8,
+          "name": "Raheem Sterling",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 0,
+          "passes": 49,
+          "pass_accuracy": 87,
+          "tackles": 0,
+          "rating": 7.8,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 9,
+          "name": "Harry Kane",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 29,
+          "pass_accuracy": 92,
+          "tackles": 1,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 10,
+          "name": "Phil Foden",
+          "position": "ST",
+          "minutes": 88,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 49,
+          "pass_accuracy": 85,
+          "tackles": 1,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 11,
+          "name": "Jack Grealish",
+          "position": "ST",
+          "minutes": 78,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 33,
+          "pass_accuracy": 79,
+          "tackles": 0,
+          "rating": 6.9,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "15",
