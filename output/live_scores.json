@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T17:55:12.682627+00:00",
+  "updated_at": "2026-07-18T19:00:34.650711+00:00",
   "match_count": 104,
   "matches": [
     {
@@ -40002,8 +40002,8 @@
       "away_id": "45",
       "home_flag": "https://flagcdn.com/w80/fr.png",
       "away_flag": "https://flagcdn.com/w80/gb-eng.png",
-      "home_score": "0",
-      "away_score": "0",
+      "home_score": null,
+      "away_score": null,
       "status": "SCHEDULED",
       "minute": null,
       "date": "07/18/2026 17:00",
