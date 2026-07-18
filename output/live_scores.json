@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T20:07:36.705900+00:00",
+  "updated_at": "2026-07-18T21:05:52.325869+00:00",
   "match_count": 104,
   "matches": [
     {
@@ -40002,10 +40002,10 @@
       "away_id": "45",
       "home_flag": "https://flagcdn.com/w80/fr.png",
       "away_flag": "https://flagcdn.com/w80/gb-eng.png",
-      "home_score": null,
-      "away_score": null,
-      "status": "SCHEDULED",
-      "minute": null,
+      "home_score": "0",
+      "away_score": "1",
+      "status": "IN_PLAY",
+      "minute": "live",
       "date": "07/18/2026 17:00",
       "group": "3RD",
       "matchday": "8",
