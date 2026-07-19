@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-19T21:35:58.945360+00:00",
+  "updated_at": "2026-07-19T22:34:31.441945+00:00",
   "match_count": 104,
   "matches": [
     {
@@ -34708,17 +34708,435 @@
       "away_id": "37",
       "home_flag": "https://flagcdn.com/w80/es.png",
       "away_flag": "https://flagcdn.com/w80/ar.png",
-      "home_score": "0",
+      "home_score": "1",
       "away_score": "0",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "status": "FINISHED",
+      "minute": null,
       "date": "07/19/2026 15:00",
       "group": "FINAL",
       "matchday": "9",
       "type": "final",
       "stadium": "MetLife Stadium",
       "stadium_city": "New York/New Jersey (East Rutherford)",
-      "stadium_id": "11"
+      "stadium_id": "11",
+      "stats": {
+        "possession": {
+          "home": 61,
+          "away": 39
+        },
+        "shots": {
+          "home": 9,
+          "away": 3
+        },
+        "shots_on_target": {
+          "home": 4,
+          "away": 1
+        },
+        "passes": {
+          "home": 327,
+          "away": 200
+        },
+        "pass_accuracy": {
+          "home": 88,
+          "away": 86
+        },
+        "xG": {
+          "home": 0.97,
+          "away": 0.14
+        },
+        "yellow_cards": {
+          "home": 4,
+          "away": 2
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 10,
+          "away": 14
+        },
+        "corners": {
+          "home": 4,
+          "away": 5
+        },
+        "offsides": {
+          "home": 2,
+          "away": 2
+        },
+        "tackles": {
+          "home": 13,
+          "away": 15
+        },
+        "interceptions": {
+          "home": 16,
+          "away": 6
+        }
+      },
+      "events": [
+        {
+          "minute": 19,
+          "type": "goal",
+          "team": "Spain",
+          "player": "Ferran Torres"
+        },
+        {
+          "minute": 26,
+          "type": "yellow_card",
+          "team": "Spain",
+          "player": "Pedri"
+        },
+        {
+          "minute": 37,
+          "type": "yellow_card",
+          "team": "Spain",
+          "player": "César Azpilicueta"
+        },
+        {
+          "minute": 52,
+          "type": "yellow_card",
+          "team": "Argentina",
+          "player": "Cristian Romero"
+        },
+        {
+          "minute": 87,
+          "type": "yellow_card",
+          "team": "Spain",
+          "player": "Unai Simón"
+        }
+      ],
+      "players": [
+        {
+          "team": "Spain",
+          "number": 1,
+          "name": "Unai Simón",
+          "position": "GK",
+          "minutes": 84,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 18,
+          "pass_accuracy": 95,
+          "tackles": 1,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 2,
+          "name": "César Azpilicueta",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 56,
+          "pass_accuracy": 86,
+          "tackles": 4,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 3,
+          "name": "Pau Torres",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 32,
+          "pass_accuracy": 94,
+          "tackles": 5,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 4,
+          "name": "Aymeric Laporte",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 28,
+          "pass_accuracy": 83,
+          "tackles": 3,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 5,
+          "name": "Jordi Alba",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 36,
+          "pass_accuracy": 75,
+          "tackles": 1,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 6,
+          "name": "Pedri",
+          "position": "CM",
+          "minutes": 68,
+          "goals": 1,
+          "assists": 0,
+          "shots": 3,
+          "passes": 24,
+          "pass_accuracy": 74,
+          "tackles": 0,
+          "rating": 7.6,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 7,
+          "name": "Gavi",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 4,
+          "passes": 51,
+          "pass_accuracy": 92,
+          "tackles": 0,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 8,
+          "name": "Ferran Torres",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 4,
+          "passes": 34,
+          "pass_accuracy": 92,
+          "tackles": 0,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 9,
+          "name": "Álvaro Morata",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 24,
+          "pass_accuracy": 79,
+          "tackles": 1,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 10,
+          "name": "Marco Asensio",
+          "position": "ST",
+          "minutes": 60,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 54,
+          "pass_accuracy": 91,
+          "tackles": 1,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 11,
+          "name": "Dani Olmo",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 38,
+          "pass_accuracy": 81,
+          "tackles": 2,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 1,
+          "name": "Emiliano Martínez",
+          "position": "GK",
+          "minutes": 61,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 16,
+          "pass_accuracy": 86,
+          "tackles": 0,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 2,
+          "name": "Nicolás Tagliafico",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 31,
+          "pass_accuracy": 74,
+          "tackles": 5,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 3,
+          "name": "Nicolás Otamendi",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 34,
+          "pass_accuracy": 79,
+          "tackles": 0,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 4,
+          "name": "Cristian Romero",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 27,
+          "pass_accuracy": 84,
+          "tackles": 3,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 5,
+          "name": "Marcos Acuña",
+          "position": "RB",
+          "minutes": 60,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 37,
+          "pass_accuracy": 70,
+          "tackles": 3,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 6,
+          "name": "Rodrigo De Paul",
+          "position": "CM",
+          "minutes": 70,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 35,
+          "pass_accuracy": 93,
+          "tackles": 4,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 7,
+          "name": "Leandro Paredes",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 49,
+          "pass_accuracy": 86,
+          "tackles": 5,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 8,
+          "name": "Ángel Di María",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 2,
+          "passes": 33,
+          "pass_accuracy": 74,
+          "tackles": 2,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 9,
+          "name": "Lionel Messi",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 32,
+          "pass_accuracy": 86,
+          "tackles": 1,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 10,
+          "name": "Lautaro Martínez",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 48,
+          "pass_accuracy": 90,
+          "tackles": 2,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Argentina",
+          "number": 11,
+          "name": "Julián Álvarez",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 24,
+          "pass_accuracy": 90,
+          "tackles": 0,
+          "rating": 7.3,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "3",
@@ -45781,6 +46199,12 @@
       "assists": 0
     },
     {
+      "team": "Spain",
+      "name": "Pedri",
+      "goals": 3,
+      "assists": 0
+    },
+    {
       "team": "England",
       "name": "Jude Bellingham",
       "goals": 3,
@@ -45855,12 +46279,6 @@
     {
       "team": "United States",
       "name": "Giovanni Reyna",
-      "goals": 2,
-      "assists": 0
-    },
-    {
-      "team": "Germany",
-      "name": "Leon Goretzka",
       "goals": 2,
       "assists": 0
     }
